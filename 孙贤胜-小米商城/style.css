@@ -1,0 +1,267 @@
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+
+
+/******************样式初识化*********************/
+body>div{
+
+    height: 667px;
+    /*border: 1px solid #000;*/
+    
+    margin: 0px auto;
+    position: relative;
+
+}
+header{
+    width: 100%;
+    height: 43px;
+    padding: 8px 0px;
+    background-color: #e58335;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:100;
+}
+header div{
+    height: 27px;
+    width: 100%;
+     
+}
+
+header div img{
+    width: 26px;
+    height: 17px;
+    margin: 0px 13px;
+   
+}
+.header-top{
+    width: 271px;
+    height: 100%;
+    background-color: #fff;
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.header-top:nth-child(2) span{
+    color: #b3b3b3;
+    font-size: 14px; 
+}
+header a{
+    color: white;
+    font-size: 16px;
+    margin-left: 4px;
+    text-align: center;
+}
+.sczb{
+    height: 40px;
+}
+.sczb img {
+    height: 40px;
+    width: 90px;
+}
+.sczb span{
+    display: inline-block;
+    width: 280px;
+    height: 14px;
+    padding-left:14px;
+    font-size: 14px;
+    line-height: 14px; 
+    border-left: 1px solid #b2b2b2;
+
+}
+.redmi4x{
+    height: 647px;
+    background-color: #f5f5f5;
+    padding: 8px 0px 7px 0px;
+    box-sizing: border-box;
+}
+.redmi4x-top{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.redmi4x-top-left{
+    width: 50%;
+    height: 100%;
+}
+.redmi4x-top-left img{
+    width: 100%;
+    height: 100%;
+    padding-right:1.5px;
+    box-sizing: border-box; 
+}
+.redmi4x-top-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.redmi4x-top-right>section{
+    flex-grow: 1;
+    width: 100%;
+    height: 50%;
+    padding-left: 1.5px;
+    box-sizing: border-box;
+}
+.redmi4x-top-right>section:nth-child(1){
+    padding-bottom: 2px;
+}
+.redmi4x-top-right img{
+    width: 100%;
+    height: 100%;
+}
+.redmi4x-bottom{
+    width: 100%;
+    height: 50%;
+    padding-top: 7px;
+    box-sizing: border-box;
+
+}
+.redmi4x-bottom img{
+    width: 100%;
+    height: 100%;
+
+}
+.mxdp{
+    
+    height: 229px;
+}
+.mxdp img{
+    height: 100%;
+    width: 100%;
+}
+.redminote4x{
+    display: flex;
+    height: 269px;
+   
+}
+.redminote4x section{
+    flex-grow: 1;
+    width: 50%;
+    height: 100%;
+}
+.redminote4x section:nth-child(1) img{
+    width: 100%;
+    height: 188px;
+    padding-right: 2px;
+    box-sizing: border-box;
+}
+.redminote4x section:nth-child(2)>section{
+    width: 100%;
+    height: 188px;
+    position: relative;
+}
+.redminote4x section:nth-child(2) section span{
+    width: 42px;
+    height: 17px;
+    display: inline-block;
+    
+    background-color: #f2c03d;
+    font-size: 10px;
+    text-align: center;
+    line-height: 17px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.p1{
+    
+    margin-top: 13px;
+    margin-left:14px;
+    font-size: 15px;
+    color: black;
+
+}
+.p2{
+    margin-left: 14px;
+    font-size: 12px;
+    color: #757575
+}
+.p3{
+    margin-left: 14px;
+    color: #ff6d15
+}
+.linear-top{
+    height: 7px;
+    width: 100%;
+    background-color: #f5f5f5;
+}   
+.linear-bottom{
+    height: 6px;
+    width: 100%;
+    background-color: #f5f5f5;
+}   
+.xiaomihkj{
+    width: 375px;
+    height: 146px;
+}
+.xiaomihkj img{
+    width: 100%;
+    height: 100%;
+}
+.znledxdd{
+    width: 375px;
+    height: 229px;
+}
+.znledxdd img{
+    width: 100%;
+    height: 100%;
+}
+.mijia{
+    display: flex;
+    height: 268px;
+    margin-top: 1px;
+}
+.mijia>section{
+    flex-grow: 1;
+    width: 50%;
+    height: 100%;
+    
+}
+.mijia>section:nth-child(1) section {
+    position: relative;
+    width: 187px;
+    height: 188px;
+    margin-right: 1px;
+}
+.mijia>section:nth-child(1)>section img{
+    width: 100%;
+    height: 188px;
+    box-sizing: border-box;
+}
+.mijia>section:nth-child(1)>section span{
+    width: 42px;
+    height: 17px;
+    display: inline-block;
+    background-color: #89c14a;
+    font-size: 10px;
+    text-align: center;
+    line-height: 17px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.mijia>section:nth-child(2){
+    width: 100%;
+    height: 188px;
+    margin-left: 1px;
+}
+.mijia>section:nth-child(2) img{
+    width: 100%;
+    height: 188px;
+}
