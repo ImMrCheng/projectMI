@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    background: #f7f7f7;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+header{
+    width: 100%;  
+    height: 43px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+header img{
+    width: 26px;
+    height: 17px;
+    margin: 0 13px;
+}
+.search{
+    width: 271px;
+    height: 27px;
+    background: url(img/101.png);
+    background-size: 100%;
+}
+.search span{
+    line-height: 27px;
+    margin-left: 31px;
+    color: #b5b2b5;
+}
+.dengLu{
+    margin: 0 11px;
+    color: white;
+}
+/**************************/
+/*.carousel-indicators{
+    margin-left: 45px;
+    margin-bottom: -10px;
+}*/
+.img{
+    width: 100%;
+    height: 229px;
+    margin-top: 7px;
+}
+.firdiv{
+    height: 40px;
+    width: 100%;
+    background: #ffffff;
+    margin-bottom: 8px;
+}
+.firdiv>img{
+    height: 40px;
+}
+.firdiv span{
+    border-left: 1px solid #b5b2b5;
+    padding: 0 10px;
+}
+.secdiv{
+    width: 100%;
+    height: 264px;
+    background: #ffffff;
+    margin-bottom: 7px;
+}
+.secdiv section{
+    width: 186px;
+    height: 100%;
+    float: left;
+}
+.secdiv section:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+}
+.secdiv section:nth-child(2){
+    float: right;
+}
+.secdiv section:nth-child(2) img{
+    width: 100%;
+    height: 131px;
+}
+.secdiv section:nth-child(2) img:nth-child(1){
+    margin-bottom: 2px;
+}
+
+.fir-fig{
+    display: flex;
+    margin-bottom: 7px;
+}
+.fir-fig figure{
+    width: 188px;
+    height: 262px;
+}
+.fir-fig figure figcaption{
+    margin: 16px 0 0 14px;
+}
+.fir-fig figure figcaption p:nth-child(1){
+    font-size: 15px;
+    color: black;
+}
+.fir-fig figure figcaption p:nth-child(2){
+    font-size: 12px;
+    color: #737573;
+}
+.fir-fig figure span{
+    color: #ff9652;
+}
+.fir-fig figure span::before{
+    content: "¥";
+}
+.fir-fig figure:nth-of-type(1) img:nth-child(1){
+    width: 188px;
+    height: 188px;
+}
+.fir-fig figure:nth-of-type(2) img:nth-child(1){
+    width: 185px;
+    height: 188px;
+    margin-left: 2px;
+}
+.fir-fig figure:nth-of-type(2){
+    position: relative;
+}
+.baoy{
+    width: 42px;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+#ding {
+    position: relative;
+}
+.new{
+     width: 42px;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    left: 2px; 
+}
+#ding2{
+    position: relative;
+}

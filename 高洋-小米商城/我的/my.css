@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    background: #f7f7f7;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 83px;
+    box-sizing: border-box;
+    background: url(myimg/bg.png);
+    background-size:auto 100%;
+    background-color: rgb(247, 125, 8);
+    display: flex;
+    align-items: center;
+    padding: 0 17px;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    margin-right:8px;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header div span{
+    font-size: 14px;
+    color: white;
+}
+/**************************/
+.m-a1{
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dedbde;
+    background: #ffffff;
+}
+.m-a1 img{
+    height: 17px;
+    width: 10px;
+}
+.m-a1 div:nth-child(1){
+    margin-left: 17px;
+    color: black;
+    font-size: 15px;
+}
+.m-a1 div:nth-child(2){
+    margin-right: 17px;
+    display: flex;
+    align-items: center;
+    color: #737573;
+    font-size: 12px;
+}
+.m-a1 div:nth-child(2) img{
+     margin-left:6px;
+}
+/**********************/
+.m-div1{
+    height: 91px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffffff;
+}
+.m-div1 figure{
+    margin: 0;
+    width: 38px;
+    height: 44px;
+    /*border: 1px solid #000;*/
+    font-size: 12px;
+    text-align: center;
+}
+.m-div1 figure img{
+    width: 25px;
+    height: 25px;
+}
+.m-div1 figcaption{
+   margin-top: 4px;
+}
+/************/
+.m-a2{
+    height: 55px;
+    background: #ffffff;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 18px;
+}
+.m-a2>div{
+    height: 100%;
+    width: 317px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.m-a2 span{
+    font-size: 15px;
+    color: black;
+}
+.m-a2 img:nth-child(1){
+    width: 23px;
+    height: 19px;
+    margin-right: 17px;
+}
+.m-a2 >div img{
+    height: 17px;
+    width: 10px;
+}
+#secDiv a >img{
+    height: 23px;
+    width: 21px;
+    margin-right: 18px;
+}
+#secDiv a{
+    padding-right: 0;
+}
+#secDiv a>div{
+    border-bottom: 1px solid #dedbde;
+    padding-right: 15px;
+
+}
+#secDiv a{
+    margin: 0;
+}
+.m-a3{
+    margin: 0;
+}
+#shezhi a>img{
+    height: 21px;
+}
+/*********************/
+footer{
+    height: 46px;
+    background: #ffffff;
+    padding: 0 35px;
+    position: fixed;
+    bottom: 0;
+}
+p{
+    margin: 0;
+    font-size: 12px;
+    color: #9c9a9c;
+}
+footer section{
+    width: 24px;
+    height: 33px;
+    float: left;
+    margin: 6px 0;
+}
+footer section div{
+    margin: 0 auto;
+}
+#sec1 div{
+    width: 21px;
+    height: 21px;
+    background: url(myimg/10.png);
+    background-size: 100%;
+    background-position: 0 -147px;
+}
+#sec2{
+    margin-right:63px;
+    margin-left: 70px;
+}
+#sec2 div{
+    width: 21px;
+    height: 21px;
+    background: url(myimg/10.png);
+    background-size: 100%;
+    background-position: 0 -21px;  
+}
+#sec3{
+    width: 36px;
+    margin-right: 63px;
+}
+#sec3 div{
+    width: 21px;
+    height: 21px;
+    background: url(myimg/10.png);
+    background-size: 100%;
+    background-position: 0 -63px;
+}
+#sec4{
+    float: right;
+}
+#sec4 div{
+    width: 21px;
+    height: 21px;
+    background: url(myimg/10.png);
+    background-size: 100%;
+    background-position: 0 -84px;
+}
+#sec4 p{
+    color: #ff5521;
+}
