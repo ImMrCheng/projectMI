@@ -1,4 +1,4 @@
-body,input,a,p{
+body,input,a,p,ul,li{
     margin: 0;
     padding: 0;
     font-size: 12px;
@@ -32,21 +32,26 @@ nav{
  position:fixed;
  top: 8px;
  left: 0;
+ box-sizing: border-box;
+text-align: center;
 }
 .logo{
     height: 17px;
-    width: 52px;
-    
+    width: 13%;
 }
 .logo img{
     width: 26px;
     height: 17px;
-    margin-left: 13px;
     vertical-align: middle;
+    text-align: center;
+}
+.nav-input{
+    width: 74%; 
 }
 .nav-input input{
-    width: 271px;
+    width: 100%;
     height: 27px;
+    /*margin-left: 18px;*/
     border: none;
     background: transparent;
     background-image: url(../image/nav/nav-search.png);
@@ -56,24 +61,31 @@ nav{
 }
 
 .nav-user{
-    width: 16px;
+    width:15px ;
     height: 20px;
     background-image: url(../image/nav/nav-user.png);
     background-size: 100% 100%;
-    margin-left: 18px;
+    margin-left: 15px;
+}
+.sign-in{
+    width: 13%;
+    color: #fff;
+    font-size: 16px;
+   
 }
 
 header a{
-    height: 267px;
+    height: 73%;
     display: inline-block;
 }
 header img{
     height: 267px;
-    width: 375px;
+    width: 100%;
 }
 .box{
     background-color: #fff;
     margin-top: -2px;
+    width: 100%;
 }
 .box>a>img{
     width: 78px;
@@ -104,7 +116,7 @@ header img{
     display: inline-block;
 }
 .sec1-a1{
-    width: 186px;
+    width: 49.5%;
     height: 265px;
 
 }
@@ -113,7 +125,7 @@ header img{
     height: 100%;
 }
 .sec1>div{
-    width: 186px;
+    width: 49.5%;
     height: 265px;
     
 }
@@ -125,7 +137,7 @@ header img{
     background-color: #fff;
 }
 .sec2 a,.sec3 a{
-    width:187px;
+    width:49.5%;
     height: 269px;;
     display: inline-block;
     flex-wrap: wrap;
@@ -169,7 +181,7 @@ header img{
     height: 146px;
 }
 .sec2 .sec-7 img,.sec3 .sec-7 img{
-    width: 375px;
+    width: 100%;
     height: 146px;
 }
 
@@ -221,7 +233,7 @@ header img{
 }
 .sec5 a{
     display: inline-block;
-    width: 186px;
+    width: 49.5%;
     height: 250px;
 }
 .sec5 a img{
@@ -239,7 +251,7 @@ header img{
     justify-content: space-between;
 }
 .sec6 a{
-    width: 186px;
+    width: 49.5%;
     height: 207px;
     display: inline-block;
 }
@@ -252,7 +264,7 @@ header img{
     height: 43px;
 }
 .sec6>div img{
-    height: 100%;
+    width: 100%;
 }
 .sec6 a:nth-of-type(5){
     width: 100%;
@@ -262,9 +274,8 @@ header img{
     height: 100%;
 }
 .sec-6-div{
-    padding: 10px;
-    height: 59px;
-    
+    padding: 10px;    
+    box-sizing: border-box;
 }
 .sec-6-div>div{
     height: 20px;
@@ -290,15 +301,17 @@ header img{
     height: 43px;
 }
 .sec7>div img{
+    width: 100%;
     height: 100%;
 }
 .sec7 a:nth-of-type(1),.sec7 a:nth-of-type(4){
-    width: 248px;
+    width: 66%;
 }
 .sec7 a:nth-of-type(2),.sec7 a:nth-of-type(3){
-    width: 125px;
+    width: 33%;
 }
 .sec7 img{
+    width: 100%;
     height: 167px;
 }
 .sec7 a:last-of-type{
@@ -306,6 +319,7 @@ header img{
 }
 .sec7 a:last-of-type img{
     height: 250px;
+    width: 100%;
 }
 
 /*sec8*/
@@ -315,7 +329,7 @@ header img{
     justify-content: space-between;
 }
 .sec8 a{
-    width: 186px;
+    width: 49.5%;
     display: inline-block;
 }
 .sec8 a img{
@@ -327,6 +341,7 @@ header img{
     height: 43px;
 }
 .sec8>div img{
+    width: 100%;
     height: 100%;
 }
 .sec8 a:nth-of-type(1){
@@ -336,11 +351,7 @@ header img{
 .sec8 a:nth-of-type(1) img{
     height: 187px;
 }
-.sec-6-div{
-    padding: 10px;
-    height: 59px;
-    box-sizing: border-box;
-}
+
 .sec-6-div>div{
     height: 20px;
 }
@@ -349,4 +360,114 @@ header img{
 }
 .price span{
     font-size: 12px;
+}
+
+/*sec9 sec10 sec11,sec12,sec13,sec14*/
+.sec9,.sec10,.sec11,.sec12,.sec13,.sec14,.sec15,.sec16{
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.sec9-1{
+    height: 42px;
+}
+.sec9 img,.sec10 img,.sec13 img,.sec16 img{
+    width: 100%;
+    height: 167px;
+}
+.sec11 img{
+    width: 100%;
+    height: 125px;
+}
+.sec12 img,.sec14 img{
+    width: 100%;
+    height: 187px;
+}
+.sec15 img{
+    width: 100%;
+    height: 106px;
+}
+.sec9>div,.sec10>div,.sec11>div,.sec12>div,.sec13>div,.sec14>div,.sec15>div,.sec16>div{
+    width: 100%;
+}
+.sec9>div img,.sec10>div img,.sec11>div img,.sec12>div img,.sec13>div img,.sec14>div img,.sec15>div img,.sec16>div img{
+    width: 100%;
+    height: 42px;
+}
+.sec9 a:nth-of-type(2),.sec9 a:nth-of-type(5),.sec10 a:nth-of-type(1),.sec10 a:nth-of-type(4),
+.sec11 a:nth-of-type(1),.sec11 a:nth-of-type(4),.sec13 a:nth-of-type(1),.sec13 a:nth-of-type(4),
+.sec16 a:nth-of-type(2),.sec16 a:nth-of-type(4){
+    width: 66%;
+}
+.sec9 a:nth-of-type(3),.sec9 a:nth-of-type(4),.sec10 a:nth-of-type(2),.sec10 a:nth-of-type(3),
+.sec11 a:nth-of-type(2),.sec11 a:nth-of-type(3),.sec13 a:nth-of-type(2),.sec13 a:nth-of-type(3)
+,.sec16 a:nth-of-type(1),.sec16 a:nth-of-type(5){
+    width: 33%;
+}
+.sec12 a,.sec14 a,.sec15 a{
+    width: 49.5%;
+}
+.sec9 a:first-of-type,.sec11 a:last-of-type,.sec14 a:first-of-type,.sec15 a:first-of-type,.sec16 a:nth-of-type(3){
+    width: 100%;
+}
+.sec9 a:first-of-type img,.sec11 a:last-of-type img,.sec15 a:nth-of-type(1) img{
+    height: 375px;
+}
+.sec13 a:last-of-type img,.sec16 a:nth-of-type(3) img{
+    height: 250px;
+}
+
+.through{
+    text-decoration: line-through;
+    color: #000;
+    font-size: 12px;
+}
+
+
+/*footer*/
+li{
+    list-style: none;
+}
+.bottom{
+    height: 47px;
+}
+.footer{
+    height: 47px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+}
+.footer li a{
+    display: block;
+}
+.footer>ul{
+    height: 47px;
+    display: flex;
+    align-items: center;
+}
+.footer li{
+    width: 25%;
+    text-align: center;
+}
+.footer-div{
+    width: 21px;
+    height: 21px;
+    margin: 0 auto;
+    background-image: url(../image/footer/sprite.png);
+    background-size: 100% 800%;
+}
+.footer li:nth-of-type(1) .footer-div{
+    background-position: 0 -126px;
+}
+.footer li:nth-of-type(2) .footer-div{
+    background-position: 0 -21px;
+}
+.footer li:nth-of-type(3) .footer-div{
+    background-position: 0 -63px;
+}
+.footer li:nth-of-type(4) .footer-div{
+    background-position: 0 -105px;
 }

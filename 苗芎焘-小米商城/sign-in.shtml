@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/sign-in.css">
+</head>
+
+<body>
+    <header>
+        <img src="image/sign-in/mi-logo_518eb70.png" alt="logo">
+        <p>小米账号登录</p>
+    </header>
+    <main>
+        <section>
+            <input id="username" type="text" placeholder="邮箱/手机号码/小米账号">
+            <label for="psw"><input type="password" placeholder="密码"></label>
+            <a href="index-in.html"><input type="submit" value="立即登录"></a>
+        </section>
+        <section class="sec2">
+            <hr>
+            <p class="other">其他登录方式</p>
+            <div class="third">
+                <a class="qq" href="#"></a>
+                <a class="weibo" href="#"></a>
+                <a class="zfb" href="#"></a>
+            </div>
+            <p>
+                <a href="#">注册小米账号</a>
+                <span>|</span>
+                <a href="#">忘记密码？</a>
+            </p>
+        </section>
+
+    </main>
+
+    <div class="footer">
+        <ul>
+            <li><a href="#">简体</a></li>|
+            <li><a href="#">繁体</a></li>|
+            <li><a href="#">English</a></li>|
+            <li><a href="#">常见问题</a></li>
+        </ul>
+        <div>
+            <p>小米公司版权所有-京ICP备10046444-<span><img src="image/sign-in/ghs.png" alt="ghs"></span>京公网安备</p>
+            <p>11010802020134号-京ICP证110507号</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
