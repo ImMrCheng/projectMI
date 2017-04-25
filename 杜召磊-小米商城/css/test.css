@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    height: calc(100vh + 47px);
+    height: calc(500px + 47px);
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
