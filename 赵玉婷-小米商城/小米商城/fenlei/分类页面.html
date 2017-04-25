@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="author" content="charles">
+        <title>分类页面</title>
+        <style>
+           body{
+                height: 100vh;
+                margin: 0;
+            }
+            /*p{
+                margin: 0;
+            }*/
+            ul{
+                margin: 0px;
+                padding: 0px;
+            }
+            li{
+                margin: 0px;
+                list-style: none;
+            }
+            a{
+                text-decoration: none;
+            }
+            header{
+                width: 100%;
+                height: 47px;
+                background-color: #f2f2f2;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            header .i1{
+                height: 19px;
+                margin-left: 17px;
+            }
+            header .sp{
+                font-size: 16px;
+                color: #666;
+            }
+            header .sou{
+                width: 23px;                             
+                /*border: 1px solid #000;*/
+                margin-right: 13px;
+            }
+            nav{
+                width: 100%;
+                height: 41px;
+                /*border: 1px solid #000;*/
+            }
+             nav ul{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+               
+            }
+            nav li{
+                height: 16px;
+                /*border: 1px solid #f00;*/
+                text-align: center;
+                padding: 0px;
+            }
+            nav li a{
+                color: #666;
+                font-size: 13px;
+                /*border: 1px solid #000;*/
+                display: block;
+                margin: 0px;
+            }
+            nav li .num1{
+                color: #fb7d34;
+            }
+            main{
+                width: 100%;
+                margin: 0px;
+            }
+            main section{
+                width: 100%;
+                margin: 0px;
+            }
+            main section .top{
+                width: 100%;
+                height: 183px;
+                box-sizing: border-box;
+                border-top: 8px solid #f5f5f5;
+                border-bottom:8px solid #f5f5f5;
+            }
+            main section .top img{
+                /*height: 145px;*/
+                width: 100%;
+            }
+            main section .bottom .bt{
+                text-align: center;
+                font-size: 15px;
+                height: 62px;
+                line-height: 62px;
+            }
+            main section .bottom .bottom1{
+                box-sizing: border-box;
+                height: 118px;
+                display: flex;
+                justify-content: space-between;
+                /*align-items: center;*/
+                /*border: 1px solid #000;*/
+            }
+          
+            main section .bottom .bottom1 div{
+                margin-top: 9px;
+                width: 25%;
+                /*height: 62px;*/
+                /*border: 1px solid #f00;*/
+            }
+            main section .bottom .bottom1 div img{
+                display: block;
+                /*height: 100%;*/
+                width: 80%;
+                margin: 5px auto 0;
+                /*border: 1px solid #0f0;*/
+            }
+            main section .bottom .bottom1 div p{
+                margin:12px 0 14px;
+                
+                font-size: 15px;
+                /*border: 1px solid #000;*/
+                text-align: center;
+            }
+            /*main section .bottom .bottom1 div p span{
+                display: inline-block;
+                width: 80%;
+                color: red;
+            }*/
+            main section .bottom .bottom1 .b_left{
+                /*margin-left: 30px;*/
+                margin-left: 7%;
+            }
+            main section .bottom .bottom1 .b_right{
+                /*margin-right: 26px;*/
+                margin-right: 7%;
+            }
+            main section .bottom .bottom2{
+                box-sizing: border-box;
+                height: 118px;
+                display: flex;
+                justify-content: flex-start;
+                /*align-items: center;*/
+                /*border: 1px solid #000;*/
+            }
+             main section .bottom .bottom2 div{
+                margin-top: 9px;
+                width: 22%;
+                /*height: 62px;*/
+                /*border: 1px solid #f00;*/
+            }
+             main section .bottom .bottom2 div img{
+                display: block;
+                /*height: 100%;*/
+                width: 80%;
+                margin: 5px auto 0;
+            }
+            main section .bottom .bottom2 div p{
+                margin:12px 0 14px;
+                font-size: 15px;
+                /*border: 1px solid #000;*/
+                text-align: center;
+            }
+             main section .bottom .bottom2 .b_left{
+                margin-left: 8%;
+            }
+             main section .bottom .bottom2 .b_center{
+                margin-left: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img class="i1"src="img/icon_back_n.png" alt="icon">
+            <div class="sp">商品分类</div>
+            <div class="sou">
+                 <img class="i2"src="img/sou.png" alt="sou">
+             </div>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="num1">手机.电话卡</a>
+                 </li>
+                <li>
+                    <a href="#">笔记本.平板</a>
+                </li>
+                <li>
+                    <a href="#">电视.盒子</a>
+                </li>
+                <li>
+                    <a href="#">智能硬件</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <div class="top">
+                    <img src="img/zhinengshenghuo.webp" alt="zhineng">
+                </div>
+                <div class="bottom">
+                    <div class="bt">手机.电话卡</div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/mi6.webp" alt="mi6">
+                            <p><span>小米6</span></p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/mi5c.webp" alt="mi5c">
+                            <p>小米5c</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/minote2.webp" alt="minote2">
+                            <p>小米Note 2</p>
+                        </div>
+                    </div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/mix1.webp" alt="mix1">
+                            <p>小米MIX</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/mi5s.webp" alt="mi5s">
+                            <p>小米5S</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/mi5sp.webp" alt="mi5sp">
+                            <p>小米5S Plus</p>
+                        </div>
+                    </div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/mi5.webp" alt="mi5">
+                            <p>小米5</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/hongmin4x.webp" alt="hongmi4x">
+                            <p>红米Note 4x</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/hongmin4.webp" alt="hongmin4">
+                            <p>红米Note 4</p>
+                        </div>
+                    </div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/hongmi4x.webp" alt="hongmi4x">
+                            <p>红米4x</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/hongmi4.webp" alt="hongmi4">
+                            <p>红米4</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/hongmi4a.webp" alt="hongmi4a">
+                            <p>红米4a</p>
+                        </div>
+                    </div>
+                    <div class="bottom2">
+                        <div class="b_left">
+                            <img src="img/dianhuaka.webp" alt="dianhauka">
+                            <p>电话卡</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/yjhx.webp" alt="yjhx">
+                            <p>以旧换新</p>
+                        </div>                      
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="top">
+                    <img src="img/bianjiao.webp" alt="bianjiao">
+                </div>
+                <div class="bottom">
+                    <div class="bt">笔记本.平板</div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/bjb1.webp" alt="bjb1">
+                            <p>笔记本12.5"</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/bjb2.webp" alt="bjb2">
+                            <p>笔记本13.3"</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/peijian.webp" alt="peijian">
+                            <p>笔记本配件</p>
+                        </div>
+                    </div>
+                    <div class="bottom2">
+                        <div class="b_left">
+                            <img src="img/pingban2.webp" alt="pngban2">
+                            <p>平板2</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/pingban3.webp" alt="panban3">
+                            <p>平板3</p>
+                        </div>                      
+                    </div>
+                </div>
+            </section>
+            <section>
+               <div class="top">
+                    <img src="img/zhinengyuyin.webp" alt="zhinengyuyin">
+                </div>
+                <div class="bottom">
+                    <div class="bt">电视.盒子</div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/mi43.webp" alt="43">
+                            <p>小米电视43"</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/mi48.webp" alt="48">
+                            <p>小米电视48"</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/mi49.webp" alt="49">
+                            <p>小米电视49"</p>
+                        </div>
+                   </div>
+                   <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/mi55.webp" alt="55">
+                            <p>小米电视55"</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/mi60.webp" alt="60">
+                            <p>小米电视60"</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/mi65.webp" alt="65">
+                            <p>小米电视65"</p>
+                        </div>
+                   </div>
+                   <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/mi70.webp" alt="70">
+                            <p>分体电视70"</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/diyinpao.webp" alt="dyp">
+                            <p>主机/低音炮</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/jtyx.webp" alt="jtyx">
+                            <p>家庭音响</p>
+                        </div>
+                   </div>
+                   <div class="bottom2">
+                        <div class="b_left">
+                            <img src="img/hezi.webp" alt="hezi">
+                            <p>小米盒子</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/hezipeijian.webp" alt="hezipeijian">
+                            <p>电视/盒子配件</p>
+                        </div>                      
+                    </div>
+               </div>
+            </section>
+            <section>
+                <div class="top">
+                    <img src="img/air.webp" alt="air">
+                </div>
+                <div class="bottom">
+                    <div class="bt">智能硬件.路由器</div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/lvxin.webp" alt="lvxin">
+                            <p>小米电视43"</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/lvxin1.png" alt="lvxin1">
+                            <p>小米电视48"</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/pingheng.png" alt="pingheng">
+                            <p>小米电视49"</p>
+                        </div>
+                   </div>
+                   <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/chezai.webp" alt="chezai">
+                            <p>车载空气净化器</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/jiluyi.webp" alt="jiluyi">
+                            <p>行车记录仪</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/duijiangji.webp" alt="duijiangji">
+                            <p>对讲机</p>
+                        </div>
+                   </div>
+                   <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/zuhe.webp" alt="zuhe">
+                            <p>智能家庭组合</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/luyou.webp" alt="luyou">
+                            <p>小米路由器</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/shouhuan.webp" alt="shouhuan">
+                            <p>手环及配件</p>
+                        </div>
+                   </div>
+                   <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/dianfanbao.webp" alt="dfb">
+                            <p>智能电饭煲</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/dianshuihu.webp" alt="dsh">
+                            <p>电水壶</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/cheng.webp" alt="cheng">
+                            <p>体重秤</p>
+                        </div>
+                   </div>
+                   <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/xueya.webp" alt="xy">
+                            <p>血压计</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/shexiang.webp" alt="sx">
+                            <p>智能摄像机</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/jiqiren.webp" alt="jiqiren">
+                            <p>扫地机器人</p>
+                        </div>
+                   </div>
+                   <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/deng.webp" alt="deng">
+                            <p>智能灯</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/zixingche1.webp" alt="zixingche">
+                            <p>自行车</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/yaokong.webp" alt="yk">
+                            <p>万能遥控器</p>
+                        </div>
+                   </div>
+                   <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/chazuo.webp" alt="chazuo">
+                            <p>智能插座</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/wurenji.webp" alt="wurenji">
+                            <p>无人机及配件</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/hbc.webp" alt="hbc">
+                            <p>电动滑板车</p>
+                        </div>
+                   </div>
+                   <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/vr.webp" alt="vr">
+                            <p>VR眼镜</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/gushiji.webp" alt="gushiji">
+                            <p>故事机</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/dingwei.webp" alt="dingwei">
+                            <p>定位电话</p>
+                        </div>
+                   </div>
+                   <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/jimu.webp" alt="jimu">
+                            <p>积木机器人</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/shoubiao.webp" alt="shoubiao">
+                            <p>手表</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/jianceyi.webp" alt="jianceyi">
+                            <p>花花草草检测仪</p>
+                        </div>
+                   </div>
+                   <div class="bottom2">
+                        <div class="b_left">
+                            <img src="img/jiashi.webp" alt="jiashi">
+                            <p>加湿器</p>
+                        </div>                                          
+                   </div>               
+              </div>
+            </section>
+        </main>
+    </body>
+</html>
