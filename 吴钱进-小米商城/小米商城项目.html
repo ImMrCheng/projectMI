@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="autor" content="郜增斌">
+    <title>小米项目</title>
+    <link href="lib/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 377px;
+        }
+        
+        .zhengti {
+            width: 375px;
+            height: 667px;
+            border: 1px solid lightgrey;
+            margin: 0 auto;
+        }
+        
+        nav {
+            width: 375px;
+            height: 43px;
+            padding: 8px 0;
+            background-color: rgba(229.231, 53, 0);
+            /*border: 1px solid #000;*/
+            box-sizing: border-box;
+            /*background-color: #e2e2e2;*/
+            display: flex;
+            position: fixed;
+            z-index: 100;
+        }
+        
+        .toubu1 {
+            width: 26px;
+            height: 16px;
+            margin: 0 13px;
+        }
+        
+        .toubu1>img {
+            width: 100%;
+            vertical-align: middle;
+        }
+        
+        .toubu2 {
+            width: 270px;
+            height: 27px;
+            background-image: url(../img/search_bfba941.png);
+            background-color: #fff;
+        }
+        
+        .toubu2>a {
+            width: 270px;
+            height: 29px;
+            /*border: 1px solid #000;*/
+            display: inline-block;
+            padding: 6px 31px 5px 31px;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 12px;
+            color: lightgrey;
+        }
+        
+        .toubu3 {
+            display: inline-block;
+            width: 80px;
+            height: 15px;
+        }
+        
+        .toubu4 {
+            width: 52px;
+            height: 19px;
+            /*border: 1px solid #000;*/
+            box-sizing: border-box;
+            font-size: 13px;
+            margin-top: 3px;
+        }
+        
+        .toubu4>span {
+            display: inline-block;
+            width: 28px;
+            height: 19px;
+            margin: 0 12px;
+            color: white;
+        }
+        
+        #carousel-example-generic {
+            width: 375px;
+            height: 266px;
+            /*border: 1px solid #000;*/
+            /*margin-top: -43px;*/
+            background-color: gray;
+        }
+        
+        .carousel-inner img {
+            width: 100%;
+        }
+        
+        .shengti1 {
+            width: 375px;
+            height: 42px;
+            border: 1px solid lightgray;
+            background-color: #ffffff;
+            display: flex;
+        }
+        
+        .shengti2 {
+            width: 78px;
+            height: 39px;
+        }
+        
+        .shengti2 img {
+            width: 100%;
+            /*vertical-align: middle;*/
+        }
+        
+        .shengti3 {
+            width: 223px;
+            height: 14px;
+            margin: 12px 0 12px 10px;
+            padding-left: 10px;
+            border-left: 1px solid gray;
+            font-size: 13px;
+        }
+        
+        .tupain1 {
+            width: 375px;
+            height: 410px;
+            border: 1px solid lightgrey;
+        }
+        
+        footer {
+            width: 375px;
+            height: 46px;
+            border: 1px solid lightgrey;
+            box-sizing: border-box;
+            margin: 0;
+            position: fixed;
+            bottom: 0;
+        }
+        
+        ul {
+            width: 375px;
+            height: 46px;
+            /*border: 1px solid #000;*/
+            box-sizing: border-box;
+            margin: 0;
+            position: fixed;
+            bottom: 0;
+            padding: 0;
+        }
+        
+        ul>li {
+            list-style: none;
+            width: 93.75px;
+            height: 46px;
+            float: left;
+            /*line-height: 46px;*/
+            text-align: center;
+            font-size: 11px;
+        }
+        
+        section {
+            width: 21px;
+            height: 21px;
+            border: 1px solid #000;
+            margin: 0 auto;
+            margin-top: 4.5px;
+            background-image: url(../img/spr1_5b2e09c.png);
+            background-position:0 21px;
+            background-size:100% 800%;
+        }
+        
+        footer>ul>li>a {
+            color: #999999;
+            text-decoration: none;
+        }
+        
+        .yejiao1>section {
+            background-color: #f66a00;
+        }
+        
+        .yejiao1>a{
+           color:  #f66a00;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="zhengti">
+        <nav>
+            <div class="toubu1"><img src="img/logo_e6453b2.png" alt=""></div>
+            <div class="toubu2">
+                <a href="#">
+                    <span class="toubu3">搜索商品名称</span>
+                </a>
+            </div>
+            <div class="toubu4">
+                <span>登录</span>
+            </div>
+        </nav>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/滑动1.jpg" alt="...">
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/滑动2.jpg" alt="...">
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="shengti1">
+            <div class="shengti2"><img src="img/sczb_ed0a4af.png" alt=""></div>
+            <div class="shengti3">你不了接的小米6 好多人竟然不知道</div>
+        </div>
+
+        <div class="tupain1">
+            <div class="tupian2"></div>
+            <div class="tupian3"></div>
+            <div class="typian4"></div>
+            <div class="tupian5"></div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <footer>
+        <ul>
+            <li class="yejiao1">
+                <section></section>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <section></section>
+                <a href="#">分类</a>
+            </li>
+            <li>
+                <section></section>
+                <a href="#">购物车</a>
+            </li>
+            <li>
+                <section></section>
+                <a href="#">我的</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+</body>
+
+</html>
