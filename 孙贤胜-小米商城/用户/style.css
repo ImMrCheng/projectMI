@@ -33,6 +33,32 @@ header a{
 header a span{
     margin-left:8px; 
 }
+.dingdan{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 28px;
+    box-sizing: border-box;
+    height: 43px;
+    position: relative;
+}
+.dingdan span{
+    line-height: 43px;
+    font-size: 16px;
+    color: black;
+}
+.more::after{
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    border-left: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+    transform: translate3d(0,-50%,0) rotateZ(135deg);
+}
 
 
 
