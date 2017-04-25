@@ -1,0 +1,254 @@
+body{
+    width: 100%;
+    margin: 0px;
+    background: #f7f7f7;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    margin: 0;
+}
+header{
+    width: 100%;  
+    height: 43px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+header img{
+    width: 26px;
+    height: 17px;
+    margin: 0 13px;
+}
+.search{
+    width: 72.3%;
+    height: 27px;
+    background: url(img/101.png);
+    background-size: 100%;
+}
+.search span{
+    line-height: 27px;
+    margin-left: 31px;
+    color: #b5b2b5;
+}
+.dengLu{
+    margin: 0 11px;
+    color: white;
+}
+
+/**************************/
+.carousel-inner img{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    margin-top: 7px;
+}
+.img{
+   width: 100%;
+   height: 100%;
+}
+.firdiv{
+    height: 40px;
+    width: 100%;
+    background: #ffffff;
+    margin-bottom: 8px;
+}
+.firdiv>img{
+    height: 40px;
+}
+.firdiv span{
+    border-left: 1px solid #b5b2b5;
+    padding: 0 10px;
+}
+.secdiv{
+    width: 100%;
+    background: #ffffff;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content:space-between;
+}
+.secdiv section{
+    width: 49.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.secdiv section img{
+    width: 100%;
+    height: 100%;
+}
+.secdiv section:nth-child(2) div{
+    width: 100%;
+    height: 49.6%;
+}
+
+.p1{
+    font-size: 15px;
+    color: black;
+}
+.p2{
+    font-size: 12px;
+    color: #737573;
+}
+.span{
+    color:#ff8639;
+    font-size: 15px;
+}
+.span::before{
+    content: "¥ ";
+    font-size: 10px;
+}
+.baoy{
+    width: 42px;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#ding {
+    position: relative;
+}
+.new{
+     width: 42px;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+#ding2{
+    position: relative;
+}
+.more{
+    width: 100%;
+    height: 52px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+.more a{
+    line-height: 52px;
+    color: #636563;
+}
+.thrdiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background:#ffffff;
+}
+.thrdiv section{
+    width: 50%;
+}
+.innerDiv {
+    margin: 46px 0 0 16px;
+    padding-right: 12px;
+}
+.Div-img section{
+    width: 49.6%;
+}
+.innerSec{
+    height: 58px;
+    padding: 14px 15px 0;
+}
+.innerSec span{
+    float: right;
+}
+.innerdiv2{
+    width: 100%;
+    padding: 12px 15px;
+}
+.newdiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background:#ffffff;
+}
+.innerdiv1{
+    width: 100%;
+    height: 167px;
+    position: relative;
+}
+.newdiv-sec{
+    width: 33.3%;
+}
+.newdiv-sec2{
+    width: 66.1%;
+}
+.innerdiv3{
+    width: 100%;
+    position: relative;
+}
+.innerdiv4{
+    width: 100%;
+    height: 125px;
+    position: relative;
+}
+.bg{
+   margin-top: 7px;
+   background: #ffffff;
+}
+.dingwei{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*********************************/
+footer{
+    width: 100%;
+    height: 46px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+footer p{
+    margin: 0;
+    font-size: 12px;
+    color: #9c9a9c;
+}
+footer section{
+    width: 24px;
+    height: 33px;;
+}
+footer section div{
+    margin: 0 auto;
+}
+#foot-sec1 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+    background-position: 0 -126px;
+}
+
+#foot-sec2 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+    background-position: 0 -21px;  
+}
+
+#foot-sec3 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+    background-position: 0 -63px;
+}
+
+#foot-sec4 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+    background-position: 0 -105px;
+}
+#foot-sec1 p{
+    color: #ff5521;
+}

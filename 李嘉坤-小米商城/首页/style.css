@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f5f5f5;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+body>div{
+    width: 375px;
+    height: 667px;
+    margin: 0px auto;
+}
+nav{
+    padding: 8px 0;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    background-color: #e58335;
+}
+nav img{
+    float: left;
+    width: 26px;
+    height: 17px;
+    margin: 5px 13px;
+}
+nav input{
+    width: 271px;
+    height: 27px;
+    border-radius: 2px;
+    border: none;
+}
+nav a{
+    font-size: 16px;
+    color: white;
+    margin: 0px 10px;
+    float: right;
+    line-height: 27px;
+}
+.news{
+    height: 40px;
+    background-color: #fff;
+}
+.news img{
+    height: 100%;
+}
+.news span{
+    font-size: 13px;
+    margin-left: 9px;
+    padding: 0px 10px 1px;
+    border-left: 1px solid gray;
+}
+.one{
+    width: 375px;
+    height: 264px;
+    margin-top: 8px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.one section{
+    width: 186px;
+    height: 264px;
+}
+.img1{
+    height: 100%;
+}
+.img2,.img3{
+    width: 100%;
+}
+.img3{
+    margin-top: 2px;
+}
+.img4{
+    width: 100%;
+    margin-top: 7px;
+}
+.img5{
+    width: 100%;
+    margin-top: 7px;
+}
+.two{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.two .left{
+    width: 188px;
+    height: 269px;
+}
+.two .left img{
+    width: 188px;
+    height: 188px;
+}
+.two .right{
+    width: 185px;
+    height: 269px;
+    position: relative;
+}
+.two .right img{
+    width: 185px;
+    height: 188px;
+}
+.two section .baoyou{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 42px;
+    height: 17px;
+}
+.two p:nth-of-type(1){
+    font-size: 15px;
+    color: #212121;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+.two p:nth-of-type(2){
+    font-size: 12px;
+    color: #757575;
+    margin-top: 1px;
+    margin-left: 14px;
+}
+.two p:nth-of-type(3){
+    font-size: 12px;
+    color: #ff6102;
+    margin-top: 4px;
+    margin-left: 14px;
+}
+.img6{
+    width: 100%;
+    margin-top: 7px;
+}
+.img7{
+    width: 100%;
+    margin-top: 6px;
+}
+.three section{
+    margin-top: 1px;
+    position: relative;
+}
+.three section .xinpin{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 42px;
+    height: 17px;
+}
+.more{
+    width: 375px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background-color: #fff;
+}
+.img8{
+    width: 100%;
+    margin-top: 7px;
+}
+.img9{
+    width: 100%;
+    margin-top: 6px;
+}

@@ -13,6 +13,7 @@
             }
             ul{
                 margin: 0px;
+                padding: 0px;
             }
             li{
                 margin: 0px;
@@ -22,18 +23,19 @@
                 text-decoration: none;
             }
             header{
-                height: 161px;
-                width: 720px;
-                /*border: 1px solid #000;*/
+                height: 80px;
+                width: 100%;
+                border-bottom: 1px solid #f37d0f;
                 background-image: url(img/bg_dl.png);
+                
                 background-color: #f37d0f;
-                margin: 0 auto;
+                
                 
             }
             header img{
                 
-                height: 96px; 
-                margin: 34px 15px 32px 32px;
+                height: 49px; 
+                margin: 16px 8px 16px 16px;
                 float: left;
                 
             }
@@ -41,215 +43,235 @@
                 display: inline-block;
                 /*border: 1px solid #000;*/            
                 color: white;
-                font-size: 23px;
+                font-size: 13px;
                 float: left;
-                margin: 71px 473px 67px 0px;
+                margin-top: 35px;
+            }
+            header::after{
+                content: "";
+                clear: both;
+            }
+            main::before{
+                content: "";
+                clear: both;
             }
             main{
-                /*height: 898px;*/
-                width: 720px;
+                height: 540px;
+                width: 100%;
                 /*border: 1px solid #000;*/
                 
                 margin: 0 auto;
                 
             }
+           
             main .dingdan{
-                height: 81px;
+                height: 40px;
                 border-bottom: 1px solid #d9d9d9;
-            }
-            main .dingdan>span{
-                float: left;
-                margin-top: 18px;
-                margin-left: 32px;
-                font-size: 27px;
-                /*border: 1px solid #000;*/
-            }
-            main .dingdan div{
-                /*border: 1px solid #000;*/
-                float: right;
-                margin-top: 18px;
-                margin-right: 28px;
+                
                 
             }
-            main .dingdan div span{
-                font-size: 23px;
+            main .dingdan .dd{
+                float: left;
+                margin-top: 13px;
+                margin-left: 18px;
+                font-size: 14px;
+                /*border: 1px solid #000;*/
+            }
+            main .dingdan .da{
+                /*border: 1px solid #000;*/
+                float: right;
+                margin-top: 10px;
+                margin-right: 14px;
+                
+            }
+            main .dingdan .da span{
+                font-size: 13px;
                 color: #757575;
                 /*border: 1px solid #000;*/
                 float: left;
-                margin-right: 10px;
+                margin-right: 6px;
             }
             main .dingdan img{
-                height: 30px;
-                width: 15px;
+                height: 16px;
+                width: 10px;
                 
                 /*border: 1px solid #000;*/
                 float: right;
             }
             main .dai{
-                height: 191px;
-                border-bottom: 16px solid #f5f5f5;
+                height: 96px;
+                border-bottom: 9px solid #f5f5f5;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 40px;
+                padding-right: 40px;
             }
-            main .dai div{
-                /*border: 1px solid #000;*/
-                float: left;
-                
-            }
+
             main .dai img{
-                width: 43px;
+                width: 24px;
                 display: block;
                 margin:0 auto;
             }
             main .dai .left{
-                margin-top: 40px;
-                margin-left: 79px;
+                margin-top: 22px;
+             
             }
             main .dai .center{
-                margin-top: 40px;
-                margin-left: 172px;
+                margin-top: 22px;
+                
             }
             main .dai .right{
-                margin-top: 40px;
-                margin-left: 172px;
+                margin-top: 22px;
+              
             }
             main .dai p{
                 /*border: 1px solid #000;*/
                 text-align: center;
-                font-size: 24px;
-                margin-top: 20px;
+                font-size: 13px;
+                margin-top: 10px;
                 margin-bottom: 0px;
             }
             main .youhui{
-                height: 121px;
-                border-bottom: 16px solid #f5f5f5;
+                height: 62px;
+                border-bottom: 9px solid #f5f5f5;
             }
             main .youhui .i1{
-                width: 47px;
+                width: 23px;
                 float: left;
-                margin-top: 35px;
-                margin-left: 35px;
+                margin-top: 19px;
+                margin-left: 18px;
             }
             main .youhui span{
                 float: left;
-                font-size: 26px;
+                font-size: 14px;
                 /*border: 1px solid #000;*/
-                margin-left: 33px;
-                margin-top: 40px;
+                margin-left: 17px;
+                margin-top: 21px;
             }
             main .youhui .i2{
-                height: 30px;
-                width: 15px;
+                height: 16px;
+                width: 10px;
                 float: right;
-                margin-top: 41px;
-                margin-right: 28px;
+                margin-top: 19px;
+                margin-right: 14px;
             }
             main .fuwu{
-                height: 105px;
+                height: 53px;
                 /*border: 1px solid #000;*/
+                /*box-sizing: border-box;*/
             }
             main .fuwu .i3{
-                height: 45px;
+               width: 22px;
                 float: left;
-                margin-top: 33px;
-                margin-left: 35px;
+                margin-top: 18px;
+                margin-left: 18px;
             }
             main .fuwu span{
                 float: left;
-                font-size: 26px;
+                font-size: 14px;
                 /*border: 1px solid #000;*/
-                margin-left: 33px;
-                margin-top: 40px;
+                margin-left: 17px;
+                margin-top: 20px;
             }
             main .fuwu .i4{
-                height: 30px;
-                width: 15px;
+                height: 16px;
+                width: 10px;
                 float: right;
-                margin-top: 41px;
-                margin-right: 28px;
+                margin-top: 19px;
+                margin-right: 14px;
             }
             main hr{
                 float: right;
-                width: 609px;
-                margin-top: 32px;
-                margin-left: 110px;
-                color: #d9d9d9;
+                width: 85%;
+                height: 0px;
+                margin-top: 15px;
+                margin-left: 57px;
+                margin-bottom: 0px;
+                border: 0px;
+                border-bottom: 1px solid #d9d9d9;
             }
-            main .xiaomi{
-                
-                height: 121px;
-                border-bottom: 16px solid #f5f5f5;
+            main .xiaomi{               
+                height: 61px;
+                border-bottom: 9px solid #f5f5f5;
             }
             main .xiaomi .i5{
                 float: left;
-                height: 43px;
-                margin-top: 32px;
-                margin-left: 34px;
+                width: 22px;
+                margin-top: 17px;
+                margin-left: 18px;
             }
             main .xiaomi span{
                 float: left;
-                font-size: 26px;
+                font-size: 14px;
                 /*border: 1px solid #000;*/
-                margin-left: 33px;
-                margin-top: 36px;
+                margin-left: 17px;
+                margin-top: 19px;
             }
             main .xiaomi .i6{
-                height: 30px;
-                width: 15px;
+                height: 16px;
+                width: 10px;
                 float: right;
-                margin-top: 41px;
-                margin-right: 28px;
+                margin-top: 19px;
+                margin-right: 14px;
             }
             main .shezhi{
-                box-sizing: border-box;
-                height: 181px;
-                border-bottom: 76px solid #f5f5f5;
+               
+                height: 53px;
+               
             }
             main .shezhi .i7{
                 float: left;
-                height: 43px;
-                margin-top: 30px;
-                margin-left: 34px;
+                height: 22px;
+                margin-top: 17px;
+                margin-left: 18px;
             }
             main .shezhi span{
                 float: left;
-                font-size: 26px;
+                font-size: 14px;
                 /*border: 1px solid #000;*/
-                margin-left: 33px;
-                margin-top: 34px;
+                margin-left: 17px;
+                margin-top: 19px;
             }
             main .shezhi .i8{
-                height: 30px;
-                width: 15px;
+                height: 16px;
+                width: 10px;
                 float: right;
-                margin-top: 40px;
-                margin-right: 28px;
+                margin-top: 19px;
+                margin-right: 14px;
+            }
+            main .bottom{
+                height: 230px;
+                background-color: #f5f5f5;
+                /*border: 1px solid #000;*/
             }
             footer{
-                height:91px;
+                height:48px;
                 width: 100%;
                 position: fixed;
                 margin: 0px;
-                top: 826px;
+                bottom: 0px;
                 border-top: 1px solid #d9d9d9; 
                 background-color: #fff;
                 
             }
             footer ul{
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-between;
                 align-items: center;
+                margin: 0px 35px 5px;
             }
             footer li{
-                margin-top: 10px;
+                margin-top: 7px;
                 /*border: 1px solid #000;*/
-                height: 68px;
+                height: 35px;
             }
             footer a{
                 /*border: 1px solid #f00;*/
                 display: block;
                 height: 100%;
-                width: 62px;
+                width: 27px;
                 color: #999;
-                font-size: 23px;
+                font-size: 11px;
             }
             footer span{
                 display: block;
@@ -258,40 +280,43 @@
                 text-align: center;
             }
             footer .sy div{
-                height: 37px;
-                width: 40px;
+                height: 21px;
+                width: 20px;
                 margin: 0 auto;
                 background-image: url(img/nav.png) ;
                 background-size:100% 800% ;
-                background-position: 0px -556px;
+                background-position: 0px -147px;
             }
             footer .fl div{
-                height: 37px;
-                width: 40px;
+                height: 22px;
+                width: 20px;
                 margin: 0 auto;
                 background-image: url(img/nav.png) ;
                 background-size:100% 800% ;
-                background-position: 0px -37px;
+                background-position: 0px -23px;
             }
             footer .gwc a{
-                width: 80px;
+                width: 38px;
                 height: 100%;
             }
             footer .gwc div{
-                height: 37px;
-                width: 40px;
+                height: 20px;
+                width: 22px;
                 margin: 0 auto;
                 background-image: url(img/nav.png) ;
                 background-size:100% 800% ;
-                background-position: 0px -111px;
+                background-position: 0px -60px;
+            }
+            footer .wd a{
+                color: #ff6600;
             }
             footer .wd div{
-                height: 37px;
-                width: 40px;
+                height: 21px;
+                width: 19px;
                 margin: 0 auto;
                 background-image: url(img/nav.png) ;
                 background-size:100% 800% ;
-                background-position: 0px -148px;
+                background-position: 0px -84px;
             }
         </style>
     </head>
@@ -300,10 +325,11 @@
             <img src="img/touxiang.png" alt="touxing">
             <span>登录/注册</span>
         </header>
+
         <main>
             <section class="dingdan">
-                <span>我的订单</span>
-                <div><span>全部订单</span><img src="img/arrow.png" alt="arrow"></div>
+                <div class="dd">我的订单</div>
+                <div class="da"><span>全部订单</span><img src="img/arrow.png" alt="arrow"></div>
             </section>           
             <section class="dai">
                 <div class="left">
@@ -340,6 +366,7 @@
                 <span>设置</span>
                 <img  class="i8" src="img/arrow.png" alt="arrow">
             </section>
+            <section class="bottom"></section>
         </main>
         <footer>
             <ul>

@@ -1,0 +1,261 @@
+body{
+    margin:0;
+    font-size:14px !important;
+    font-family: Arial;
+    background: #f5f5f5;
+}
+p{
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:focus{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+    height: 43px;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+}
+.logo>img{
+    width: 26px;
+    height: 17px;
+}
+nav>a{
+    display: block;
+}
+nav>a:nth-of-type(1){
+    color: rgba(0,0,0,.3);
+    border-radius: 2px;
+    width: 271px;
+    height: 27px;
+    background: url(../img/shouye/shouye-02.png);
+    background-size: 100% 100%;
+    padding: 4px 0 0 31px;
+    margin:0 12px 0 13px;
+}
+nav>a:nth-of-type(2){
+    color: #fff;
+}
+/***********************header***********************************/
+header{
+    height: 307px;
+    background: #fff;
+}
+header>section{
+    height: 40px;
+    display: flex;
+    font-size: 12px;
+}
+header>section>a{
+    display: block;
+    height: 100%;
+}
+header>section>a:nth-of-type(1){
+    width: 21.333333333%;
+}
+header>section>a:nth-of-type(1)>img{
+    width: 100%;
+    height: 100%;
+}
+header>section>a:nth-of-type(2){
+    width: 78.66666666666666666666%;
+    padding: 10px 0 10px 11px;
+}
+header>section>a:nth-of-type(2)>div{
+    padding-left:11px;
+    border-left:1px solid #b2b2b2;
+}
+
+/***************************main**********************************/
+main>section{
+    margin-top:8px;
+    background: #fff;
+}
+.main-1{
+    height: 264px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-1>div,.main-1>a{
+    height: 100%;
+    width: 49.6%;
+}
+.main-1 img{
+    width: 100%;
+    height: 100%;
+}
+.main-1>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-1>div>a{
+    width: 100%;
+    height: 49.621212121%;
+}
+/**/
+.datu>a{
+    display: block;
+}
+.datu img{
+    width: 100%;
+}
+/**/
+.wupin{
+    display: flex;
+    justify-content: space-between;
+}
+.wupin>a{
+    display: block;
+    width: 49.3333333333%;
+    height: 267px;
+}
+.wupin>a:nth-of-type(2){
+    margin-left: 5px;
+}
+.wupin>a>img{
+    width: 100%;
+    height: 188px;
+}
+.wupin>a>div{
+    width: 100%;
+    height: 61px;
+}
+.wupin>a>div>p{
+    margin: 0;
+    font-size: 14px;
+    margin-left:15px;
+}
+.wupin>a>div>p:nth-of-type(1){
+    margin-top: 9px;
+}
+.wupin>a>div>p:nth-of-type(2){
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+    margin-top: 1px;
+}
+.wupin>a>div>p:nth-of-type(3){
+    font-size: 9px;
+    color: #ff6000;
+    margin-top: 1px;
+}
+.wupin>a>div>p:nth-of-type(3)>span{
+    font-size: 16px;
+    margin-left: 4px;
+}
+/**/
+.genduo{
+    height: 52px;
+}
+.gengduo>a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 52px;
+    text-align: center;
+    color: rgba(0,0,0,.6);
+    font-size: 13px;
+    border-radius: 3px;
+}
+/**/
+.main-7>section{
+    height: 188px;
+}
+.main-7>section>a{
+    height: 100%;
+    display: flex;
+}
+.main-7>section>a>div{
+    width: 100%;
+    height: 100%;
+}
+.main-7>section>a>div>img{
+    width: 100%;
+    height: 100%;
+}
+.main-7>section>a>div>section{
+    width: 100%;
+    height: 100%;
+    padding: 31px 10px 0 16px;
+}
+.main-7>section>a>div>section>p:nth-of-type(2){
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+    margin-top: 3px;
+}
+.main-7>section>a>div>section>p:nth-of-type(3){
+    margin-top:8px;
+    font-size: 16px;
+    color: #ff6000;
+}
+/**/
+.main-8>section{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-8>section>a{
+    width: 49.6%;
+}
+.main-8>section>a>img{
+    width: 100%;
+    height: 100%;
+}
+.pz{
+    height: 228px;
+    display: flex;
+    justify-content: space-between;
+}
+.pz>a{
+    display: block;
+}
+.pz>a>img{
+    width: 100%;
+    height: 167px;
+}
+.pz-left{
+    height: 100%;
+    width: 66.66666666%;
+}
+.pz-right{
+    height: 100%;
+    width: 32.8%;
+}
+.pz p:nth-of-type(1){
+    margin:9px 0 0 15px;
+}
+.pz p:nth-of-type(2){
+    font-size: 16px;
+    margin: 1px 0 0 15px;
+    color: #ff6000;
+}
+.main-9>a{
+    display: block;
+}
+.zipaigan>div{
+    height: 58px;
+    padding: 11px 14px;
+}
+.zipaigan>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.zipaigan>div>p:nth-of-type(1)>span{
+    float: right;
+    font-size: 16px;
+    color:#ff6000;
+}
+.zipaigan>div>p:nth-of-type(2){
+    color: rgba(0,0,0,.54);
+    font-size: 12px;
+}

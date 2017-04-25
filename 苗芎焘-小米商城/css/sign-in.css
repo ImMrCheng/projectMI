@@ -1,0 +1,145 @@
+body{
+margin:0px;
+}
+ul,dl,dd,ol,hr{
+margin:0px;
+padding:0px;
+}
+li{
+list-style:none;
+}
+p,h1,h2,h3,h4{
+margin:0;
+font-size:16px;
+}
+
+header,main input{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+header{
+    height: 158px;
+    width: 100%;
+    padding: 40px 0 22px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header img{
+    width: 50px;
+    height: 50px;
+}
+header p{
+    font-size: 20px;
+} 
+main{
+    width: 100%;
+    text-align: center;
+}
+
+main input{
+    width: 90%;
+    height: 38px;
+    border: none;
+    padding: 0 10px;
+    font-size: 16px;
+}
+input[type=text]{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+input[type=password]{
+    margin-top: 2px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+input[type=submit]{
+    margin-top: 52px;
+    margin-bottom: 14px;
+    height: 43px;
+    border-radius: 18px;
+    color: #fff;
+    background-color: rgb(51, 180, 255);
+}
+
+/*sec2*/
+.sec2{
+    padding-top: 30px;
+}
+.sec2 hr{
+    border-top: 1px dashed #999;
+}
+.other{
+    width: 94px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #999;
+    margin-top: -12px;
+    background-color: rgb(238, 238, 238);
+}
+
+.third{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.third a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url(../image/sign-in/third.png);
+    background-repeat: no-repeat;
+    background-size: 160px 30px;
+    margin: 0 10px;
+}
+.qq{ 
+    background-position: 2px 6px;
+    background-color: #0288d1;
+}
+.weibo{
+    background-position: -36px 6px;
+    background-color: #d32f2f;
+}
+.zfb{
+    background-position: -76px 6px;
+    background-color: #00aaee;
+}
+.sec2 p:nth-of-type(2){
+    padding: 20px 0 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.sec2 p a{
+    padding: 0 9px;
+    color: #999;
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+    color: #999;
+    padding-top: 60px;
+    font-size: 14px;
+}
+.footer li{
+    display: inline-block;
+    height: 21px;
+    padding: 0 10px;
+}
+.footer a{
+    color: #999;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+}
+.footer p{
+    color: #999;
+    font-size: 14px;
+}
+.footer>div{
+    padding: 10px;
+}
