@@ -1,0 +1,574 @@
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+
+
+/******************样式初识化*********************/
+body>div{
+
+    height: 667px;
+    /*border: 1px solid #000;*/
+    
+    margin: 0px auto;
+    position: relative;
+
+}
+header{
+    width: 100%;
+    height: 43px;
+    padding: 8px 0px;
+    background-color: #e58335;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:100;
+}
+header div{
+    height: 27px;
+    width: 100%;
+     
+}
+
+header div img{
+    width: 26px;
+    height: 17px;
+    margin: 0px 13px;
+   
+}
+.header-top{
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+
+.header-top:nth-child(2) span{
+    color: #b3b3b3;
+    font-size: 14px; 
+}
+header a{
+    color: white;
+    font-size: 16px;
+    margin-left: 4px;
+    text-align: center;
+}
+.sczb{
+    height: 40px;
+}
+.sczb img {
+    height: 40px;
+    width: 90px;
+}
+.sczb span{
+    display: inline-block;
+    width: 60%;
+    height: 14px;
+    padding-left:14px;
+    font-size: 14px;
+    line-height: 14px; 
+    border-left: 1px solid #b2b2b2;
+
+}
+.redmi4x{
+   
+    background-color: #f5f5f5;
+    padding: 8px 0px 7px 0px;
+    box-sizing: border-box;
+}
+.redmi4x-top{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.redmi4x-top-left{
+    width: 50%;
+    height: 100%;
+}
+.redmi4x-top-left img{
+    width: 100%;
+    height: 100%;
+    padding-right:1.5px;
+    box-sizing: border-box; 
+}
+.redmi4x-top-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.redmi4x-top-right>section{
+    flex-grow: 1;
+    width: 100%;
+    height: 50%;
+    padding-left: 1.5px;
+    box-sizing: border-box;
+}
+.redmi4x-top-right>section:nth-child(1){
+    padding-bottom: 2px;
+}
+.redmi4x-top-right img{
+    width: 100%;
+    height: 100%;
+}
+.redmi4x-bottom{
+    width: 100%;
+    padding-top: 7px;
+    box-sizing: border-box;
+
+}
+.redmi4x-bottom img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.mxdp img{
+    height: 100%;
+    width: 100%;
+}
+.redminote4x{
+    display: flex;
+    width: 100%;
+    height: 100%;
+   
+}
+.redminote4x>section{
+    flex-grow: 1;
+    width: 50%;
+    height: 100%;
+}
+.redminote4x>section:nth-child(1) img{
+    width: 100%;
+    padding-right: 1px;
+    box-sizing: border-box;
+}
+.redminote4x>section:nth-child(2)>section{
+    width: 100%;
+    position: relative;
+}
+.redminote4x>section:nth-child(2)>section img{
+    width: 100%;
+    padding-left: 1px;
+    box-sizing: border-box;
+}
+.redminote4x>section:nth-child(2)>section span{
+    width: 42px;
+    height: 17px;
+    display: inline-block;
+    background-color: #f2c03d;
+    font-size: 10px;
+    text-align: center;
+    line-height: 17px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.p1{
+    
+    margin-top: 13px;
+    margin-left:14px;
+    font-size: 15px;
+    color: black;
+
+}
+.p2{
+    margin-left: 14px;
+    font-size: 12px;
+    color: #757575;
+}
+.p3{
+    margin-left: 14px;
+    color: #ff6d15;
+    margin-bottom: 8px;
+}
+.linear-top{
+    height: 7px;
+    width: 100%;
+    background-color: #f5f5f5;
+}   
+.linear-bottom{
+    height: 52px;
+    width: 100%;
+    background-color: #f5f5f5;
+
+}   
+.xiaomihkj{
+   width: 100%;     
+}
+.xiaomihkj img{
+    width: 100%;
+
+}
+.znledxdd{
+    width: 100%;
+}
+.znledxdd img{
+    width: 100%;
+
+}
+.mijia{
+    display: flex;
+    margin-top: 1px;
+}
+.mijia>section{
+    flex-grow: 1;
+    width: 50%;
+}
+.mijia>section:nth-child(1)>section {
+    position: relative;
+    width: 100%;
+    padding-right: 1px;
+    box-sizing: border-box;
+    height: 100%;
+}
+.mijia>section:nth-child(1)>section img{
+    width: 100%;
+}
+.mijia>section:nth-child(1)>section span{
+    width: 42px;
+    height: 17px;
+    display: inline-block;
+    background-color: #89c14a;
+    font-size: 10px;
+    text-align: center;
+    line-height: 17px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.mijia-right{
+    width: 100%;
+    padding-left: 1px;
+    box-sizing: border-box;
+    position: relative;
+}
+.mijia>section:nth-child(2) img{
+    width: 100%;
+}
+
+.mijia-right-new{
+    width: 42px;
+    height: 17px;
+    display: inline-block;
+    background-color: #89c14a;
+    font-size: 10px;
+    text-align: center;
+    line-height: 17px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.ti{
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+}
+.yjhx img{
+    width: 100%;
+}
+.mjzn img{
+    width: 100%;
+}
+.mjzncp{
+    display: flex;
+    width: 100%;
+}
+.mjzncp>section{
+    width: 50%;
+}
+.mjzncp-img img{
+    width: 100%;
+}
+.p4{
+    font-size: 14px;
+    
+}
+.p5{
+    font-size: 11px;
+    color: #757575;
+    margin-top:8px;
+
+}
+.p6{
+    color: #ff6d15;
+    margin-top: 8px;
+}
+.p-bottom{
+    padding-top:33px;
+    padding-left: 16px;
+    box-sizing: border-box; 
+}
+.mjzncp-img-1{
+    display: flex;
+    
+}
+.mjzncp-img-1>section{
+    flex-grow: 1;
+    width: 50%;
+}
+.mjzncp-img-left{
+    padding-right:1.5px;
+    box-sizing: border-box; 
+}
+.mjzncp-img-right{
+    padding-left:1.5px;
+    box-sizing: border-box; 
+}
+.mjzncp-img-1>section img{
+    width: 100%;
+}
+.cnxh{
+    margin-bottom: 10px;
+}
+.cnxh img{
+    width: 100%;
+}
+.p7{
+    margin-left: 14px;
+    margin-top: 12px;
+    font-size: 14px;
+    margin-right: 14px;
+    
+}
+.p7 span{
+    display: inline-block;
+    float: right;
+    color: #ff6d15;
+}
+.xmsh{
+    position: relative;
+}
+.mijia-1{
+    display: flex
+
+}
+.mijia-1>section{
+    flex-grow: 1;
+    width: 50%;
+}
+.mijia-left{
+    width: 100%;
+    padding-right: 1px;
+    box-sizing: border-box;
+    position: relative;
+}
+.mijia-left img{
+    width: 100%;
+}
+.mijia-left span{
+    width: 42px;
+    height: 17px;
+    display: inline-block;
+    background-color: #f2c03d;
+    font-size: 10px;
+    text-align: center;
+    line-height: 17px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.mijia-right-1 img{
+    width:100%;
+    padding-left: 1px;
+    box-sizing: border-box;
+
+}
+.cyq img{
+    width: 100%;
+}
+.xiaomilx{
+    display: flex;
+}   
+.xiaomilx-f{
+    display: flex;
+}
+.xiaomilx-left{
+    flex-grow: 1;
+    padding-right: 1px;
+    box-sizing: border-box;
+}
+.xiaomilx-left img{
+    width: 100%;
+    height: 166.6px;
+    
+}
+.xiaomilx-right{
+    flex-grow: 2;
+    padding-left: 1px;
+    box-sizing: border-box;
+}
+.xiaomilx-right img{
+    width: 100%;
+    height: 166.6px;
+}
+.xiaomilx-left-f{
+    flex-grow: 66%;
+    
+    padding-right:1px;
+    box-sizing: border-box; 
+}
+.xiaomilx-left-f img{
+    width: 100%;
+    height: 166.6px;
+}
+.xiaomilx-right-f{
+    flex-grow: 33%;
+    padding-left: 1px;
+    box-sizing: border-box;
+}
+
+.xiaomilx-right-f img{
+    width: 100%;
+    height: 166.6px;
+    
+}
+.xiaomitp .p2{
+    margin-bottom: 6px;
+
+    
+}
+
+.xiaomitp img{
+    width: 100%;
+}
+.xiaomitp span{
+    float: right;
+    margin-right: 14px;
+}
+.mijia-right-1{
+    position: relative;
+
+}
+#m1{
+    width: 63px;
+    height: 17px;
+}
+.mijia-right-1 #m1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.xiaomilx-right-f{
+    margin-bottom: 1px;
+}
+.xiaomilx-left-f{
+    position: relative;
+
+}
+.xiaomilx-left-f #m2{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 42px;
+    height: 17px;
+}
+.xiaomijd{
+    display: flex;
+}
+.xiaomijd-left{
+    flex-grow: 1;
+    padding-right:1px;
+    box-sizing: border-box; 
+}
+.xiaomijd-left img{
+    width: 100%;
+}
+.xiaomijd-right img{
+    width: 100%;
+    
+}
+.xiaomijd-right{
+    flex-grow: 1;
+    padding-left:1px;
+    box-sizing: border-box; 
+}
+.xiaomitp{
+    position: relative;
+    
+}
+.xiaomitp #m2{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 42px;
+    height: 17px;
+}
+.xiaomijd-right{
+    position: relative;
+
+}
+.xiaomijd-right #m2{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 42px;
+    height: 17px;
+}
+footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #fff;
+    display: flex;
+    height: 47px;
+    width: 100%;
+}
+footer>div{
+    text-align: center;
+    width: 25%;
+    height: 100%;
+}
+footer>div a{
+    width: 50%;
+    height: 100%;
+    color: gray;
+}
+footer>div:nth-child(1) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -120px;
+}
+footer>div:nth-child(2) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -20px;
+}
+footer>div:nth-child(4) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -100px;
+}
+footer>div:nth-child(3) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -60px;
+}
