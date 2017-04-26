@@ -6,6 +6,10 @@ body{
 a{
     text-decoration: none;
     color: black;
+    display: block;
+}
+a:focus{
+    text-decoration: none;
 }
 p{
     margin: 0;
@@ -200,6 +204,7 @@ footer{
     width: 100%;
     height: 46px;
     background: #ffffff;
+    border-top: 1px solid #e7e3e7;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -233,7 +238,9 @@ footer section div{
     background-size: 100%;
     background-position: 0 -21px;  
 }
-
+#foot-sec3{
+    width: 40px;
+}
 #foot-sec3 div{
     width: 21px;
     height: 21px;

@@ -228,7 +228,7 @@
             </div>
         </a>
         <a class="sec6-6" href="#"><img src="image/section6/sec6-a6.jpg" alt="sec6-a6">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <div>
                     <p class="black left">小米体脂称</p>
                     <p class="price right">199</p>
@@ -266,7 +266,7 @@
             </div>
         </a>
         <a href="#"><img src="image/section7/sec7-a6.webp" alt="sec7-a6">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <div>
                     <p class="black left">小米小钢炮蓝牙音箱2</p>
                     <p class="price right">169</p>
@@ -311,7 +311,7 @@
             </div>
         </a>
         <a class="sec6-6" href="#"><img src="image/section8/sec8-a6.webp" alt="sec8-a6">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <p class="black">90分旅行箱 20寸</p>
                 <p class="brief">静音轮胎，内饰纺织布料</p>
                 <p class="price">299</p>
@@ -334,7 +334,7 @@
             </div>
         </a>
         <a href="#"><img src="image/section9/sec9-a3.webp" alt="sec9-a2">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <p class="black">小米鼠标垫加大号</p>
                 <p class="price">19</p>
             </div>
@@ -364,7 +364,7 @@
         <div class="sec9-1"><img src="image/section10/sec10-a1.png" alt="sec9-a1">
         </div>
         <a href="#"><img src="image/section10/sec10-a2.webp" alt="sec9-a2">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <p class="black">小米5s Plus</p>
                 <p class="price">2299<span>起</span></p>
             </div>
@@ -418,7 +418,7 @@
             </div>
         </a>
         <a class="sec6-6" href="#"><img src="image/section11/sec11-a6.webp" alt="sec9-a2">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <div>
                     <p class="black left">学院风简约双肩包</p>
                     <p class="price right">59</p>
@@ -433,7 +433,7 @@
         <div class="sec9-1"><img src="image/section12/sec12-a1.png" alt="sec9-a1">
         </div>
         <a href="#"><img src="image/section12/sec12-a2.webp" alt="sec9-a2">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <p class="black">小米鼠标垫加大号</p>
                 <p class="price">19</p>
             </div>
@@ -487,7 +487,7 @@
             </div>
         </a>
         <a class="sec6-6" href="#"><img src="image/section13/sec13-a6.webp" alt="sec9-a2">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <div class="clearfix">
                     <p class="black left">8H标准乳胶枕 Z1</p>
                     <p class="price right">149</p>
@@ -514,7 +514,7 @@
             </div>
         </a>
         <a href="#"><img src="image/section14/sec14-a3.webp" alt="sec9-a2">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <p class="black">小米鼠标垫加大号</p>
                 <p class="price">19</p>
             </div>
@@ -532,7 +532,7 @@
         <div class="sec9-1"><img src="image/section15/sec15-a1.png" alt="sec9-a1">
         </div>
         <a class="sec6-6" href="#"><img src="image/section15/sec15-a2.webp" alt="sec9-a2">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <div>
                     <p class="black left">学院风简约双肩包</p>
                     <p class="price right">59</p>
@@ -547,7 +547,7 @@
             </div>
         </a>
         <a href="#"><img src="image/section15/sec15-a4.webp" alt="sec8-a3">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <p class="black">随身蓝牙音箱</p>
                 <p class="price">69</p>
             </div>
@@ -559,19 +559,19 @@
         <div class="sec9-1"><img src="image/section16/sec16-a1.png" alt="sec9-a1">
         </div>
         <a class="sec6-6" href="#"><img src="image/section16/sec16-a2.webp" alt="sec9-a2">
-            <div class="sec-6-div">
-                <p class="black">小米鼠标垫加大号</p>
+            <div class="sec-6-div clearfix">
+                <p class="black">小米鼠标垫</p>
                 <p class="price">19</p>
             </div>
         </a>
         <a href="#"><img src="image/section16/sec16-a3.jpg" alt="sec9-a2">
-            <div class="sec-6-div">
-                <p class="black">小米鼠标垫加大号</p>
+            <div class="sec-6-div clearfix">
+                <p class="black">小米鼠标垫</p>
                 <p class="price">19</p>
             </div>
         </a>
         <a href="#"><img src="image/section16/sec16-a4.webp" alt="sec8-a3">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <div>
                     <p class="black left">学院风简约双肩包</p>
                     <p class="price right">59</p>
@@ -580,18 +580,17 @@
             </div>
         </a>
         <a href="#"><img src="image/section16/sec16-a5.webp" alt="sec9-a2">
-            <div class="sec-6-div">
+            <div class="sec-6-div clearfix">
                 <p class="black">小米鼠标垫加大号</p>
                 <p class="price">19</p>
             </div>
         </a>
         <a href="#"><img src="image/section16/sec16-a6.webp" alt="sec9-a2">
-            <div class="sec-6-div">
-                <p class="black">pijiake</p>
+            <div class="sec-6-div clearfix">
+                <p class="black">小米钱包</p>
                 <p class="price">19</p>
             </div>
         </a>
-        <div class="divider"></div>
     </section>
     <div class="divider"></div>
 
@@ -599,25 +598,25 @@
     <div class="footer">
         <ul>
             <li>
-                <a href="#">
+                <a href="index.shtml">
                     <div class="footer-div"></div>
                     <p>首页</p>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="fenlei.html">
                     <div class="footer-div"></div>
                     <p>分类</p>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="buycar.html">
                     <div class="footer-div"></div>
                     <p>购物车</p>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="mine.html">
                     <div class="footer-div"></div>
                     <p>我的</p>
                 </a>

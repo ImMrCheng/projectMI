@@ -1,0 +1,70 @@
+
+body{
+    margin: 0px;
+}
+ul,li{
+    margin: 0px;
+    padding: 0px;
+
+}
+li{
+    list-style: none;
+}
+/****************样式初始化*****************/
+
+header{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10.4px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+header input{
+    width: 80%;
+}
+header span{
+    color: #999999;
+}
+.txt{
+    height: 41px;
+    padding: 0 10.4px;
+    line-height: 41px;
+}
+.ss1 img{
+    width: 100%;    
+}
+.cp{
+    width: 90%;
+    margin: 5.2px 10.4px;
+}
+.cp li{
+    float: left;
+    
+}
+.cp li:nth-child(1){
+    padding: 7.3px 10.4px;
+    border: 1px solid #fac288;
+    margin: 5.2px;
+    background-color: #f8f2ec;
+}
+.cp li:nth-child(2){
+    padding: 7.3px 10.4px;
+    border: 1px solid #8cdade;
+    margin: 5.2px;
+    background-color: #e8f6f6;
+}
+.cp li:nth-child(3){
+    padding: 7.3px 10.4px;
+    border: 1px solid #bbd090;
+    margin: 5.2px;
+    background-color: #f2f6e9;
+}
+.cp li:nth-child(4){
+    padding: 7.3px 10.4px;
+    border: 1px solid #fca0a7;
+    margin: 5.2px;
+    background-color: #f9eaea;
+}

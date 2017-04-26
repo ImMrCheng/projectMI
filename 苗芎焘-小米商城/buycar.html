@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-size: 14px;
+        }
+        
+        ul,
+        li,
+        figure,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #000;
+        }
+        
+        header {
+            height: 44px;
+            padding: 0 10px;
+            /*margin-bottom: 41px;*/
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        header a {
+            vertical-align: middle;
+        }
+        
+        .back {
+            width: 23px;
+            height: 23px;
+        }
+        
+        .back img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        header span {
+            font-size: 16px;
+            color: #666;
+        }
+        /*sign-in*/
+        .sign-in{
+            height: 54px;
+            padding: 0 15px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .discount{
+            font-size: 16px;
+        }
+        #go{
+            color: #999;
+            font-size: 12px;
+        }
+       #go span{
+           background-image: url(image/buycar/gt.png);
+           background-size: 100% 100%;
+       }
+       /*back-home*/
+       .back-home{
+           height: 54px;
+           text-align: center;
+           background-color: #ebebeb;
+           font-size: 12px;
+       }
+       .back-home span{
+           display: inline-block;
+       }
+       .empty{
+           box-sizing: border-box;
+           color: #ababab;
+           height:54px;
+           padding: 7px 10px 7px 50px;
+           line-height: 40px;
+           background: url(image/buycar/empty.png) no-repeat;
+           background-size: 40px;
+           background-position: 0 center;
+       }
+       .guang{
+           padding: 0 12px;
+           border: #cfcfcf 1px solid;
+           height: 20px;
+           line-height: 20px;
+       }
+       /*main*/
+       .recommend{
+           padding: 0 17px;
+           height: 42px;
+           line-height: 42px;
+           font-size: 16px;
+       }
+       main {
+           display: flex;
+           justify-content: space-between;
+           flex-wrap: wrap;
+       }
+       main a{
+           width: 49.2%;
+       }
+       main a>img{
+           height: 185px;
+           width: 100%;
+       }
+       .info{
+           padding: 9px 14px;
+       }
+       .price{
+           margin-top: 5px;
+           color: #fb6b15;
+       }
+       .price:before{
+           content:"￥";
+       }
+       /*footer*/
+li{
+    list-style: none;
+}
+.bottom{
+    height: 47px;
+}
+.footer{
+    height: 47px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+}
+.footer li a{
+    display: block;
+}
+.footer>ul{
+    height: 47px;
+    display: flex;
+    align-items: center;
+}
+.footer li{
+    width: 25%;
+    text-align: center;
+}
+.footer-div{
+    width: 21px;
+    height: 21px;
+    margin: 0 auto;
+    background-image: url(image/footer/sprite.png);
+    background-size: 100% 800%;
+}
+.footer li:nth-of-type(1) .footer-div{
+    background-position: 0 -147px;
+}
+.footer li:nth-of-type(2) .footer-div{
+    background-position: 0 -21px;
+}
+.footer li:nth-of-type(3) .footer-div{
+    background-position: 0 -42px;
+}
+.footer li:nth-of-type(4) .footer-div{
+    background-position: 0 -105px;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a class="back" href="index.shtml"><img src="image/fenlei/icon_back_n.png" alt="home"></a>
+        <span>购物车</span>
+        <a class="search" href="#"><img src="image/search/search.png" alt="search"></a>
+    </header>
+    <div class="sign-in">
+        <a class="discount" href="sign-in.html">登录后享受更多优惠</a>
+        <a id="go" href="sign-in.html">去登录&nbsp; <span>&nbsp;&nbsp;&nbsp;</span></a>
+    </div>
+
+    <div class="back-home">
+        <span class="empty">购物车还是空的</span>
+        <span class="guang">去逛逛</span>
+    </div>
+
+    <div class="recommend">为你推荐</div>
+    <main>
+         <a href="#"><img src="image/buycar/a1.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a2.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a3.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a4.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a5.jpg" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+         <a href="#"><img src="image/buycar/a6.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a7.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a8.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a9.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a10.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a11.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a12.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a13.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a14.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a15.jpg" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+         <a href="#"><img src="image/buycar/a16.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a17.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a18.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a19.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+        <a href="#"><img src="image/buycar/a20.webp" alt="a1">
+            <div class="info">
+                <p class="name">小米5 64G版</p>
+                <p class="price">1799</p>
+            </div>
+        </a>
+    </main>
+
+
+    <div class="bottom"></div>
+    <div class="footer">
+        <ul>
+            <li>
+                <a href="index.shtml">
+                    <div class="footer-div"></div>
+                    <p>首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="fenlei.html">
+                    <div class="footer-div"></div>
+                    <p>分类</p>
+                </a>
+            </li>
+            <li>
+                <a href="buycar.html">
+                    <div class="footer-div"></div>
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="mine.html">
+                    <div class="footer-div"></div>
+                    <p>我的</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
