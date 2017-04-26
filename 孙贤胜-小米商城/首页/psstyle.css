@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    background-color: #eeeeee;
+    
+}
+
+
+/************样式初始化************/
+
+.zt{
+    width: 89.333%;
+    margin: 0 auto;
+}
+.wm2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.header{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 22px;
+
+}
+.header img{
+    width: 100%;
+    
+}
