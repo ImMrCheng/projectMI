@@ -7,11 +7,7 @@ body{
 p{
     margin:0;
 }
-a{
-    text-decoration: none;
-    color: inherit;
-}
-a:focus{
+a,a:link,a:visited,a:focus,a:active{
     text-decoration: none;
     color: inherit;
 }
@@ -76,6 +72,9 @@ header>section>a:nth-of-type(2)>div{
 }
 
 /***************************main**********************************/
+main{
+    margin-bottom:57px;
+}
 main>section{
     margin-top:8px;
     background: #fff;
@@ -238,9 +237,6 @@ main>section{
     margin: 1px 0 0 15px;
     color: #ff6000;
 }
-.main-9>a{
-    display: block;
-}
 .zipaigan>div{
     height: 58px;
     padding: 11px 14px;
@@ -259,3 +255,72 @@ main>section{
     color: rgba(0,0,0,.54);
     font-size: 12px;
 }
+.main-11 .pz{
+    height: 186px;
+}
+.main-11 .pz img{
+    height: 125px;
+}
+/**********************hddb********************************/
+.hddb{
+    width: 37px;
+    height: 37px;
+    position: fixed;
+    right: 14px;
+    bottom: 73px;
+}
+.hddb>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.hddb img{
+    width: 100%;
+    height: 100%;
+}
+/**********************footer*****************************/
+footer{
+    width: 100%;
+    height: 47px;
+    border-top: 1px solid rgba(0,0,0,.15);
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+footer>a{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>a>section>div{
+    width: 21px;
+    height: 21px;
+    background: url(../img/footer.png);
+    background-size: 100% 800%;
+    margin:0 auto;
+}
+footer>a>section>span{
+    display: block;
+    font-size: 12px;
+    color:#999;
+    margin-top:2px;
+}
+footer>a:nth-of-type(1)>section>div{
+    background-position: 0 -126px;
+}
+footer>a:nth-of-type(2)>section>div{
+    background-position: 0 -21px;
+}
+footer>a:nth-of-type(3)>section>div{
+    background-position: 0 -62px;
+}
+footer>a:nth-of-type(4)>section>div{
+    background-position: 0 -105px;
+}
+
+

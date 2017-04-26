@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    font-family: Arial;
+}
+a,a:link,a:visited,a:focus,a:active{
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    margin:0;
+}
+header{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 16px;
+    margin: 16px auto 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header a{
+    display: block;
+    width: 23px;
+    height: 23px;
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+/*******************main******************************/
+/*main-1*/
+.main-1 img{
+    width: 100%;
+    display: block;
+}
+.main-1>div{
+    height: 183px;
+    padding: 0 18px;
+}
+.main-1>div>div:nth-child(1){
+    height: 110px;
+    box-sizing: border-box;
+    border-bottom:1px solid #efeff0;
+    padding-top:20px;
+}
+.main-1>div>div:nth-child(1)>p:nth-child(1){
+    font-size: 17px;
+}
+.main-1>div>div:nth-child(1)>p:nth-child(2){
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+    margin-top:6px;
+}
+.main-1>div>div:nth-child(1)>p:nth-child(3){
+    font-size: 25px;
+    color: #f56600;
+    margin-top:11px;
+}
+.main-1>div>div:nth-child(1)>p:nth-child(3)::before{
+    content: "¥ ";
+    font-size:16px;
+    position: relative;
+    top: -5px;
+}
+.main-1>div>div:nth-child(2){
+    font-size: 12px;
+}
+.main-1>div>div:nth-child(2)>p:nth-of-type(1){
+    color: rgba(0,0,0,.54);
+    margin-top: 17px;
+}
+.main-1>div>div:nth-child(2)>p:nth-of-type(2){
+    margin-top: 8px;
+}
+/*main-2*/
+.main-2{
+    height: 59px;
+    
+}
+
+
+
+

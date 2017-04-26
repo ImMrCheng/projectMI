@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    font-size: 14px;
+}
+ul,li,figure,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{  
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+header {
+    height: 44px;
+    padding: 0 10px;
+    /*margin-bottom: 41px;*/
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    vertical-align: middle;
+}
+.back{
+    width: 23px;
+    height: 23px;
+}
+.back img{
+    width: 100%;
+    height: 100%;
+}
+header span{
+    font-size: 16px;
+    color: #666;
+}
+/*nav*/
+nav{
+    height: 41px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    overflow: hidden;
+    /*position: fixed;
+    top: 44px;
+    left: 0;*/
+}
+nav ul{
+    
+    width: 300%;
+    display: flex;
+    /*justify-content: center;*/
+    flex-wrap: nowrap;
+}
+.active{
+    color: #fb7d34;
+}
+nav li{
+    height: 41px;
+    padding: 0 15px;
+}
+nav li a{
+    line-height: 41px;
+}
+
+.divider{
+    height: 8px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.banner{
+    height: 146px;
+}
+body .banner img{
+    height: 146px;
+    width: 100%;
+}
+
+/*sec1*/
+section{
+    font-size: 14px;
+    text-align: center;
+}
+.caption{
+    line-height: 67px;
+}
+section img{
+    height: 62px;
+}
+.sec-main{
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.figure{
+    margin-top: 20px;
+    width: 33.3%;
+}
+.figure>div{
+    /*width: 125px;*/
+    margin-top: 15px;
+}
+.big img{
+    height: 146px;
+    white-space: 100%;
+}
+.sec-footer{
+    height: 104px;
+}
+.sec-footer img{
+    width: 100%;
+    height: 100%;
+}
+
+/*footer*/
+/*footer*/
+li{
+    list-style: none;
+}
+.bottom{
+    height: 47px;
+}
+.footer{
+    height: 47px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+}
+.footer li a{
+    display: block;
+}
+.footer>ul{
+    height: 47px;
+    display: flex;
+    align-items: center;
+}
+.footer li{
+    width: 25%;
+    text-align: center;
+}
+.footer-div{
+    width: 21px;
+    height: 21px;
+    margin: 0 auto;
+    background-image: url(../image/footer/sprite.png);
+    background-size: 100% 800%;
+}
+.footer li:nth-of-type(1) .footer-div{
+    background-position: 0 -147px;
+}
+.footer li:nth-of-type(2) .footer-div{
+    background-position: 0 0;
+}
+.footer li:nth-of-type(3) .footer-div{
+    background-position: 0 -63px;
+}
+.footer li:nth-of-type(4) .footer-div{
+    background-position: 0 -105px;
+}
