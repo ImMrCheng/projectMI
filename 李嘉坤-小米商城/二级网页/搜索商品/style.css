@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 47px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #eeeeee;
+}
+nav>div{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .left{
+    width: 10%;
+    height: 50%;
+    margin-left: 10px;
+}
+nav .left img{
+    height: 100%;
+}
+
+nav input{
+    width: 70%;
+}
+nav .right{
+    width: 10%;
+    height: 50%;
+    margin-right: 0px;
+}
+nav .right span{
+    font-size: 20px;
+    color: #999999;
+}
+main .top{
+    width: 100%;
+    height: 39px;
+    line-height: 39px;
+    background-color: #fff;
+    font-size: 13px;
+    padding-left: 16px;
+}
+main img{
+    width: 100%;
+}
+main .bottom{
+    width: 100%;
+}
+main .bottom>div{
+    margin: 5px 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+main .bottom>div a{
+    margin: 5px 6px;
+    padding: 6px 10px 7px;
+    color: #484848;
+}
+main .bottom>div a:nth-of-type(1){
+    background-color: #f8f2ec;
+    border: 1px solid #fac288;
+}
+main .bottom>div a:nth-of-type(2){
+    background-color: #e8f6f6;
+    border: 1px solid #8cdade;
+}
+main .bottom>div a:nth-of-type(3){
+    background-color: #f2f6e9;
+    border: 1px solid #bbd090;
+}
+main .bottom>div a:nth-of-type(4){
+    background-color: #f9eaea;
+    border: 1px solid #fca0a7;
+}
+/*main .bottom>div>div a{
+    font-size: 14px;
+    color: #484848;
+    border: 1px solid #000;
+}*/

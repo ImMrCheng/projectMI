@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #f5f5f5;
+    background-color: white;
 }
 p{
     margin: 0px;
@@ -15,11 +15,158 @@ ul{
 a{
     text-decoration: none;
 }
+nav{
+    width: 100%;
+    height: 44px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #eeeeee;
+}
+nav>div{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .left{
+    width: 10%;
+    height: 50%;
+    margin-left: 10px;
+}
+nav .left img{
+    height: 100%;
+}
+nav .mid{
+    width: 80%;
+    height: 100%;
+    line-height: 44px;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+}
+nav .right{
+    width: 10%;
+    height: 50%;
+    margin-right: 0px;
+}
+nav .right span{
+    font-size: 20px;
+    color: #999999;
+}
+header .denglu{
+    width: 100%;
+    height: 54px;
+    background-color: #fff;
+}
+header .denglu a{
+    
+    display: flex;
+    justify-content: space-between;
+}
+header .denglu a span:nth-of-type(1){
+    font-size: 18px;
+    color: #212121;
+    line-height: 54px;
+    margin-left: 15px;
+}
+header .denglu a span:nth-of-type(2){
+    font-size: 14px;
+    color: #777777;
+    line-height: 54px;
+    margin-right: 30px;
+    position: relative;
+}
+header .denglu a span:nth-of-type(2)::after{
+    content: "";
+    position: absolute;
+    top: 21px;
+    width: 12px;
+    height: 12px;
+    border-right: 1px solid #757575;
+    border-top: 1px solid #757575;
+    transform: rotate(45deg);
+}
+header .kong{
+    width: 100%;
+    height: 54px;
+    background-color: #ebebeb;
+    display: flex;
+}
+header .kong a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .kong img{
+    height: 90%;
+}
+header .kong span:nth-of-type(1){
+    margin-left: 9px;
+    font-size: 14px;
+    color: #ababab;
+}
+header .kong span:nth-of-type(2){
+    margin-left: 8px;
+    font-size: 14px;
+    color: #1f1f1f;
+    padding: 3px 12px;
+    border: 1px solid #c8c8c8;
+}
+main .top{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    background-color: #fff;
+    font-size: 16px;
+    padding-left: 17px;
+}
+.two{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+.two section{
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+}
+.two .left{
+    padding-right: 2px;
+}
+.two img{
+    width: 100%;
+}
+.two .right{
+    padding-left: 2px;
+}
+.two section .baoyou{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 42px;
+    height: 17px;
+}
+.two p:nth-of-type(1){
+    font-size: 15px;
+    color: #212121;
+    margin-top: 10px;
+    margin-left: 14px;
+}
 
-
-
-
-
+.two p:nth-of-type(2){
+    font-size: 12px;
+    color: #ff6102;
+    margin-top: 4px;
+    margin-left: 14px;
+    margin-bottom: 8px;
+}
+main .bottom{
+    width: 100%;
+    height: 78px;
+}
 
 footer{
     width: 100%;
@@ -29,6 +176,7 @@ footer{
     position: fixed;
     left: 0px;
     bottom: 0px;
+    border-top: 1px solid #e0e0e0;
 }
 footer>div{
     display: flex;

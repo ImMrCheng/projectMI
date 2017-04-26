@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #eeeeee;
+}
+body>a{
+    float: right;
+}
