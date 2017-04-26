@@ -4,6 +4,10 @@ body{
 }
 a{
     text-decoration: none;
+    display: block;
+}
+a:focus{
+    text-decoration: none;
 }
 header{
     width: 100%;
@@ -140,6 +144,7 @@ footer{
     width: 100%;
     height: 46px;
     background: #ffffff;
+    border-top: 1px solid #e7e3e7;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -173,7 +178,9 @@ footer section div{
     background-size: 100%;
     background-position: 0 -21px;  
 }
-
+#sec3{
+    width: 40px;
+}
 #sec3 div{
     width: 21px;
     height: 21px;
