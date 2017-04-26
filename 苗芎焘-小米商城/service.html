@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-size: 16px;
+        }
+        
+        ul,
+        li,
+        figure,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .divider {
+            height: 8px;
+            width: 100%;
+            background-color: #f5f5f5;
+        }
+        
+        .gt::after {
+            content: "";
+            display: block;
+            width: 12px;
+            height: 12px;
+            border-top: 1px solid #e1e1e1;
+            border-right: 1px solid #e1e1e1;
+            transform: rotate(45deg);
+            position: absolute;
+            top: calc(50% - 6px);
+            right: 20px;
+        }
+        /*header*/
+        
+        .header:before {
+            content: "";
+            display: block;
+            width: 12px;
+            height: 12px;
+            border-top: 1px solid #999;
+            border-right: 1px solid #999;
+            transform: rotate(-135deg);
+            position: absolute;
+            left: 15px;
+            top: 16px;
+        }
+        
+        
+        .header {
+            height: 44px;
+            position: relative;
+            text-align: center;
+            line-height: 44px;
+            color: #666;
+            display: block;
+            background: url(image/search/search.png) no-repeat;
+            background-position: calc(100% - 15px) center;
+            background-color: #f2f2f2;
+        }
+        
+        .banner {
+            height: 104px;
+            width: 100%;
+        }
+        
+        .banner img {
+            width: 100%;
+            height: 100%;
+        }
+        /*main*/
+        
+        ul {
+            background-color: #f2f2f2;
+        }
+        
+        li {
+            padding: 10px;
+            position: relative;
+            margin-top: 1px;
+            background-color: #fff;
+        }
+        .footer p{
+            line-height: 40px;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <a class="header" href="mine.html">
+        服务
+    </a>
+
+    <a class="banner" href="#"><img src="image/service-banner.jpg" alt="banner"></a>
+
+    <main>
+        <ul>
+            <li class="gt"><a href="#">小米之家</a></li>
+            <li class="gt"><a href="#">零售网点</a></li>
+            <li class="gt"><a href="#">服务网点</a></li>
+            <li class="gt"><a href="#">售后服务单</a></li>
+            <li class="gt"><a href="#">售后服务政策</a></li>
+            <li class="gt"><a href="#">防伪查询</a></li>
+            <div class="divider"></div>
+            <li class="gt"><a href="#">在线客服</a></li>
+            <div class="divider"></div>
+        </ul>
+    </main>
+    <div class="footer">
+        <p>致电客服专家 400-100-5678</p>
+    </div>
+</body>
+
+</html>

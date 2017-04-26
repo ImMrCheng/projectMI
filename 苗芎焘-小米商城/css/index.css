@@ -156,7 +156,6 @@ header img{
 }
 .sec-div{
     padding: 10px 14px 11px 14px;
-    height: 82px;
     box-sizing: border-box;
     margin-top: -3px;
     background-color: #fff;
@@ -439,6 +438,7 @@ li{
     bottom: 0;
     left: 0;
     background-color: #fff;
+     border: 1px solid #e0e0e0;
 }
 .footer li a{
     display: block;
