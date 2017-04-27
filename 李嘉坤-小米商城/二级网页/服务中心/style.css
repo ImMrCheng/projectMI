@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: white;
+    background-color: #fff;
 }
 p{
     margin: 0px;
@@ -54,122 +54,86 @@ nav .right span{
     font-size: 20px;
     color: #999999;
 }
-header .denglu{
+.fenge1{
     width: 100%;
-    height: 54px;
-    background-color: #fff;
+    height: 1px;
+    background-color: #f5f5f5;
 }
-header .denglu a{
-    
-    display: flex;
-    justify-content: space-between;
-}
-header .denglu a span:nth-of-type(1){
-    font-size: 18px;
-    color: #212121;
-    line-height: 54px;
-    margin-left: 15px;
-}
-header .denglu a span:nth-of-type(2){
-    font-size: 14px;
-    color: #777777;
-    line-height: 54px;
-    margin-right: 30px;
-    position: relative;
-}
-header .denglu a span:nth-of-type(2)::after{
-    content: "";
-    position: absolute;
-    top: 21px;
-    width: 12px;
-    height: 12px;
-    border-right: 1px solid #757575;
-    border-top: 1px solid #757575;
-    transform: rotate(45deg);
-}
-header .kong{
+.fenge2{
     width: 100%;
-    height: 54px;
-    background-color: #ebebeb;
-    display: flex;
+    height: 11px;
+    background-color: #f5f5f5;
 }
-header .kong a{
+body>img{
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-header .kong img{
-    height: 90%;
-}
-header .kong span:nth-of-type(1){
-    margin-left: 9px;
-    font-size: 14px;
-    color: #ababab;
-}
-header .kong span:nth-of-type(2){
-    margin-left: 8px;
-    font-size: 14px;
-    color: #1f1f1f;
-    padding: 3px 12px;
-    border: 1px solid #c8c8c8;
-}
-main .top{
+.fuwu{
     width: 100%;
     height: 42px;
-    line-height: 42px;
-    background-color: #fff;
-    font-size: 16px;
-    padding-left: 17px;
-}
-.two{
-    width: 100%;
     background-color: #fff;
     display: flex;
 }
-.two a{
-    width: 50%;
-}
-.two section{
+.fuwu a{
     width: 100%;
-    box-sizing: border-box;
+    height: 100%;
     position: relative;
 }
-.two .left{
-    padding-right: 2px;
+.fuwu a span{
+    font-size: 16px;
+    color: #333333;
+    line-height: 42px;
+    margin-left: 10px;
 }
-.two img{
-    width: 100%;
-}
-.two .right{
-    padding-left: 2px;
-}
-.two section .baoyou{
+.fuwu a span::after{
+    content: "";
     position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 42px;
-    height: 17px;
+    top: 15px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    transform: rotate(45deg);
 }
-.two p:nth-of-type(1){
-    font-size: 15px;
-    color: #212121;
-    margin-top: 10px;
-    margin-left: 14px;
+.kefu{
+    width: 100%;
+    height: 42px;
+    background-color: #fff;
+    display: flex;
+}
+.kefu a{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.kefu a span{
+    font-size: 16px;
+    color: #333333;
+    line-height: 42px;
+    margin-left: 10px;
+}
+.kefu a span::after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    transform: rotate(45deg);
+}
+.dianhua{
+    font-size: 12px;
+    color: #999999;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
 }
 
-.two p:nth-of-type(2){
-    font-size: 12px;
-    color: #ff6102;
-    margin-top: 4px;
-    margin-left: 14px;
-    margin-bottom: 8px;
-}
-main .bottom{
-    width: 100%;
-    height: 78px;
-}
+
+
+
 
 footer{
     width: 100%;
@@ -198,10 +162,10 @@ footer>div:nth-of-type(2) a{
     color: #979797;
 }
 footer>div:nth-of-type(3) a{
-    color: #ff6102;
+    color: #979797;
 }
 footer>div:nth-of-type(4) a{
-    color: #979797;
+    color: #ff6102;
 }
 footer>div:nth-of-type(1) a div{
     width: 20px;
@@ -222,12 +186,12 @@ footer>div:nth-of-type(3) a div{
     height: 20px;
     background-size: 100%;
     background-image: url(img/last.png);
-    background-position: 0px -40px;
+    background-position: 0px -60px;
 }
 footer>div:nth-of-type(4) a div{
     width: 20px;
     height: 20px;
     background-size: 100%;
     background-image: url(img/last.png);
-    background-position: 0px -100px;
+    background-position: 0px -80px;
 }
