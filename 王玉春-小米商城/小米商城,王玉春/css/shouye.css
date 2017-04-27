@@ -12,6 +12,7 @@ a,a:link,a:visited,a:focus,a:active{
     color: inherit;
 }
 nav{
+    width: 100%;
     height: 43px;
     display: flex;
     align-items: center;
@@ -31,7 +32,7 @@ nav>a{
 nav>a:nth-of-type(1){
     color: rgba(0,0,0,.3);
     border-radius: 2px;
-    width: 271px;
+    width: 72.2666666%;
     height: 27px;
     background: url(../img/shouye/shouye-02.png);
     background-size: 100% 100%;
@@ -107,6 +108,7 @@ main>section{
 }
 .datu img{
     width: 100%;
+    display: block;
 }
 /**/
 .wupin{
@@ -245,6 +247,7 @@ main>section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 .zipaigan>div>p:nth-of-type(1)>span{
     float: right;

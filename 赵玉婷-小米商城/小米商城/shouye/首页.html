@@ -129,6 +129,10 @@
 
              .mx1{
                  width: 100%;
+                 position: relative;
+             }
+             .mx1 .tubiao{
+                 width: 11%;
              }
              .mx1 img{
                  width: 100%;
@@ -138,15 +142,18 @@
                  display: flex;
                  justify-content: space-between;
                  margin-bottom: 12px;
+                 
              }
              .mx2l{
                  width: 49.7%;
+                 position: relative;
              }
              .mx2l img{
                  width: 100%;
              }
              .mx2r{
                  width: 49.7%;
+                 position: relative;
              }
              .mx2r img{
                  width: 100%;
@@ -187,7 +194,30 @@
              .mx4 img{
                  width: 100%;
              }
-                         footer{
+
+            main .top_1{
+                width: 10%;
+                position:fixed;
+                right: 5%;
+                bottom: 10%;
+                z-index: 1000;
+            }
+            main .top_1 img{
+                width: 100%;
+            }
+            main .tubiao{
+                width: 22%;
+                position: absolute;
+                left: 0px;
+                top:-2px;
+                /*border: 1px solid #000;*/
+               
+            }
+            main .tubiao img{
+                width: 100%;
+            }
+            /**************footer***********************/
+            footer{
                 height:48px;
                 width: 100%;
                 position: fixed;
@@ -197,7 +227,6 @@
                 background-color: #fff;
                 
             }
-            /**************footer***********************/
             footer ul{
                 display: flex;
                 justify-content: space-between;
@@ -269,7 +298,7 @@
        <nav id="nav">
            <div class="container-fluid" id="nav1">
                <img src="img/mi.png" alt="logo">
-               <a href="#" id="sou">搜索商品名称</a>
+               <a href="../sousuoshangpin/热门搜索.html" id="sou">搜索商品名称</a>
                <a href="#" id="dl">登录</a>
            </div>        
        </nav>
@@ -285,7 +314,7 @@
                    <img src="img/lunbotu1.webp" alt="1">  
                 </div>
                 <div class="item">
-                  <img src="img/lunbotu2.webp" alt="2">
+                  <a href="../shangpin1/商品1.html"><img src="img/lunbotu2.webp" alt="2"></a>
                 </div>             
              </div>
          </div>
@@ -316,7 +345,7 @@
              </div>
              <div class="mx2">
                  <div class="mx2l">
-                     <img src="img/hongmi4x.webp" alt="9">
+                     <a href="../shangpin1/商品1.html"><img src="img/hongmi4x.webp" alt="9"></a>
                      <div class="l1">红米4x 16GB</div>
                      <div class="l2">超长续航,5"舒适单手握感</div>
                      <div class="l3">&yen;699</div>
@@ -330,10 +359,14 @@
              </div>
              <div class="mx2">
                  <div class="mx2l">
+                     <div class="tubiao">
+                         <img src="img/baoyoutubiao.webp" alt="tb">
+                     </div>
                      <img src="img/shouhuan.webp" alt="11">
                      <div class="l1">小米手环2</div>
                      <div class="l2">OLED显示屏,触摸操作</div>
                      <div class="l3">&yen;149</div>
+
                  </div>
                  <div class="mx2r">
                      <img src="img/5c.webp" alt="12">
@@ -372,6 +405,9 @@
                      <div class="l3">&yen;199</div>
                  </div>
                  <div class="mx2r">
+                     <div class="tubiao">
+                         <img src="img/xinpintubiao.webp" alt="tb">
+                     </div>
                      <img src="img/yundongxie.webp" alt="18">
                      <div class="l1">米家运动鞋智能版</div>
                      <div class="l2">新时尚,"芯"改变</div>
@@ -386,6 +422,9 @@
                      <div class="l3">&yen;199</div>
                  </div>
                  <div class="mx2r">
+                    <div class="tubiao">
+                         <img src="img/xinpintubiao.webp" alt="tb">
+                     </div>
                      <img src="img/jiluyi.webp" alt="20">
                      <div class="l1">米家行车记录仪</div>
                      <div class="l2">晚上也可以拍清车牌</div>
@@ -394,6 +433,9 @@
              </div>
             <div class="mx2">
                  <div class="mx2l">
+                    <div class="tubiao">
+                         <img src="img/xinpintubiao.webp" alt="tb">
+                     </div>
                      <img src="img/tizhicheng.webp" alt="21">
                      <div class="l1">小米体脂称</div>
                      <div class="l2">简约纤薄精准掌握身体数据</div>
@@ -484,6 +526,9 @@
                  <img src="img/pinzhi.png" alt="33">
              </div>
              <div class="mx1" style="margin-bottom:8px">
+                 <div class="tubiao">
+                    <img src="img/baoyoutubiao.webp" alt="tb">
+                 </div>
                  <img src="img/hongmin4x1.webp" alt="34">
                  <div class="l1">红米Note 4x 全网通版
                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -563,7 +608,7 @@
                      <div class="l3">&yen;299</div>
                  </div>
              </div>
-             <div class="mx1" ">
+             <div class="mx1" style="margin-bottom:8px">
                  <img src="img/duijiangji.webp" alt="47">
                  <div class="l1">小米米家对讲机 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -588,7 +633,7 @@
                      <div class="l3">&yen;59</div>
                  </div>
              </div> 
-              <div class="mx1" ">
+              <div class="mx1" style="margin-bottom:8px">
                  <img src="img/shuangjianbao.webp" alt="51">
                  <div class="l1">小米极简都市双肩包   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -613,7 +658,7 @@
              <div class="mx1" style="border-top:9px solid #f5f5f5;">
                  <img src="img/zhichang.png" alt="54">
              </div> 
-             <div class="mx1" ">
+             <div class="mx1" style="margin-bottom:8px">
                  <img src="img/mi5s.webp" alt="54">
                  <div class="l1">小米5s       &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
@@ -647,6 +692,9 @@
                      <div class="l3">&yen;149</div>
                  </div>
                  <div class="mx2r">
+                     <div class="tubiao">
+                         <img src="img/xinpintubiao.webp" alt="tb">
+                     </div>
                      <img src="img/hezi3s.webp" alt="58">
                      <div class="l1">小米盒子3s</div>
                      <div class="l2">人工智能机顶盒机</div>
@@ -680,6 +728,9 @@
                      <div class="l3">&yen;2099</div>
                  </div>
                  <div class="mx2r">
+                     <div class="tubiao" style="width:26%; top:-4px;">
+                         <img src="img/xianliangtubiao.webp" alt="tb">
+                     </div>
                      <img src="img/48.webp" alt="63">
                      <div class="l1">小米电视3s 48英寸</div>
                      <div class="l2">黄金尺寸 高端旗舰</div>
@@ -701,6 +752,132 @@
                  </div>
              </div>
          </section>
+         <section>
+             <div class="mx1" style="border-top:9px solid #f5f5f5;">
+                 <img src="img/xiaojin.png" alt="66">
+             </div> 
+             <div class="mx2">
+                 <div class="mx2l" style="width:66%">
+                     <img src="img/hongmin43.webp" alt="67">
+                     <div class="l1">红米Note 4</div>
+                     <div class="l3">&yen;999起</div>
+                 </div>
+                 <div class="mx2r" style="width:33%">
+                     <img src="img/dingwei3.webp" alt="68">
+                     <div class="l1">定位电话</div>
+                     <div class="l3">&yen;169</div>
+                 </div>
+             </div> 
+             <div class="mx2">
+                 <div class="mx2l" style="width:33%">
+                     <img src="img/jingshuiqi.webp" alt="69">
+                     <div class="l1">小米净水器</div>
+                     <div class="l3">&yen;1999</div>
+                 </div>
+                 <div class="mx2r" style="width:66%">
+                     <img src="img/jinghuaqi2.webp" alt="70">
+                     <div class="l1">小米空气净化器2</div>
+                     <div class="l3">&yen;699</div>
+                 </div>
+             </div>
+             <div class="mx2">
+                 <div class="mx2l" style="width:66%">
+                     <img src="img/dianfanbao.webp" alt="71">
+                     <div class="l1">米家电饭煲3L</div>
+                     <div class="l3">&yen;399</div>
+                 </div>
+                 <div class="mx2r" style="width:33%">
+                     <img src="img/xueyaji.webp" alt="72">
+                     <div class="l1">米家血压计</div>
+                     <div class="l3">&yen;399</div>
+                 </div>
+             </div> 
+         </section>
+         <section>
+             <div class="mx1" style="border-top:9px solid #f5f5f5;">
+                 <img src="img/xinjia.png" alt="73">
+             </div> 
+              <div class="mx1" style="margin-bottom:8px">
+                 <img src="img/chazuo.webp" alt="74">
+                 <div class="l1">小米智能插座 基础版       &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <span style="color:#ff6000">&yen;49</span></div>
+                 <div class="l2">手机远程遥控,让普通电器变智能</div>
+             </div>
+             <div class="mx2">
+                 <div class="mx2l" style="width:66%">
+                     <img src="img/luyouqi4.webp" alt="75">
+                     <div class="l1">小米路由器3L</div>
+                     <div class="l3">&yen;149</div>
+                 </div>
+                 <div class="mx2r" style="width:33%">
+                     <img src="img/dianshuihu4.webp" alt="76">
+                     <div class="l1">恒温电水壶</div>
+                     <div class="l3">&yen;199</div>
+                 </div>
+             </div> 
+         </section>
+         <section>
+             <div class="mx1" style="border-top:9px solid #f5f5f5;">
+                 <img src="img/deguo.png" alt="77">
+             </div> 
+             <div class="mx1" style="margin-bottom:8px">
+                 <img src="img/fangdaqi2.webp" alt="78">
+                 <div class="l1">小米wifi放大器2版       &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <span style="color:#ff6000">&yen;49</span></div>
+                 <div class="l2">手机远程遥控,让普通电器变智能</div>
+             </div>
+             <div class="mx2">
+                 <div class="mx2l">
+                     <img src="img/jiancebi.webp" alt="79">
+                     <div class="l1">小米水质检测笔</div>
+                     <div class="l2">精确检测家中水质纯度</div>
+                     <div class="l3">&yen;39</div>
+                 </div>
+                 <div class="mx2r">
+                     <img src="img/1more.webp" alt="80">
+                     <div class="l1">1more头戴式耳机</div>
+                     <div class="l2">格莱美音乐大师定调</div>
+                     <div class="l3">&yen;299</div>
+                 </div>
+             </div>
+         </section>
+         <section style="margin-bottom:50px;border-bottom:9px solid #f5f5f5;">
+             <div class="mx1" style="border-top:9px solid #f5f5f5;">
+                 <img src="img/erduo.png" alt="81">
+             </div> 
+             <div class="mx1" style="margin-bottom:8px">
+                 <img src="img/lanya.webp" alt="82">
+                 <div class="l1">小米运动蓝牙耳机       &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <span style="color:#ff6000">&yen;149</span></div>
+                 <div class="l2">生活级防水防寒,超长播放,防脱落式耳挂设计</div>
+             </div>
+             <div class="mx2">
+                 <div class="mx2l">
+                     <img src="img/yinxiang1.webp" alt="83">
+                     <div class="l1">小米网络音响</div>
+                     <div class="l2">自己会上网的音箱</div>
+                     <div class="l3">&yen;399</div>
+                 </div>
+                 <div class="mx2r">
+                     <img src="img/toudaishi1.webp" alt="80">
+                     <div class="l1">头戴式耳机 升级版</div>
+                     <div class="l2">一样的音乐,不一样的享受</div>
+                     <div class="l3">&yen;499</div>
+                 </div>
+             </div>
+         </section>
+         <div class="top_1">
+             <a href="#toubu"><img src="img/top_1.png" alt="81"></a>
+         </div>
      </main>
      <footer>
            <ul>

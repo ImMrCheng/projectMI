@@ -106,10 +106,6 @@ a:focus{
     margin: 46px 0 0 16px;
     padding-right: 12px;
 }
-/*.Div-img section{
-    width: 49.6%;
-}*/
-
 .innerdiv2{
     width: 100%;
     padding: 12px 15px;
@@ -129,10 +125,15 @@ a:focus{
 .span{
     color:#ff8639;
     font-size: 15px;
+    margin-left: 10px;
+    position: relative;
 }
 .span::before{
-    content: "¥ ";
-    font-size: 10px;
+    content: "¥";
+    font-size: 14px;
+    position: absolute;
+    top: -3px;
+    left: -10px;
 }
 .img{
    width: 100%;
