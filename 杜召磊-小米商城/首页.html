@@ -12,15 +12,16 @@
 </head>
 
 <body>
-    <nav id="nav">
-        <div class="logo">
-            <img src="img/logo_e6453b2.png" alt="logo" id="mi">
-        </div>
-        <a href="搜索.html" class="search">
-            <span>搜索商品名称</span>
-        </a>
-        <a href="帐号登录.html" role="button" class="sign">登录</a>
-    </nav>
+        <nav id="na">
+            <div class="logo">
+                <img src="img/logo_e6453b2.png" alt="logo" id="mi">
+            </div>
+            <a href="搜索.html" class="search">
+                <span>搜索商品名称</span>
+            </a>
+            <a href="帐号登录.html" role="button" class="sign">登录</a>
+        </nav>
+
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -761,14 +762,32 @@
         </footer>
     </footer>
 
-    <aside>
-        <a href="#">
+    
+        <a href="#" id="scrollup" style="display:none;">
             <img src="img/top_1a2bcd9.png" alt="">
         </a>
-    </aside>
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script  type="text/javascript">
+        window.onscroll= function(){
+                //变量t是滚动条滚动时，距离顶部的距离
+                var t = document.documentElement.scrollTop||document.body.scrollTop;
+                var scrollup = document.getElementById('scrollup');
+                //当滚动到距离顶部200px时，返回顶部的锚点显示
+                var na = document.getElementById('na');
+                if(t>=600){
+                    scrollup.style.display ="block";
+                }else{          //恢复正常
+                    scrollup.style. display="none";
+                }
+                if(t>=150){
+                    na.style.background ="#e58335";
+                }else{          //恢复正常
+                    na.style. background="none";
+                }
+            }
+    </script>
 </body>
 
 </html>
