@@ -172,3 +172,14 @@ p{
 .spr-3{
     background-position: 0 -105px;
 }
+aside{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 73px;
+    right: 18px;
+}
+aside img{
+    width: 100%;
+}
