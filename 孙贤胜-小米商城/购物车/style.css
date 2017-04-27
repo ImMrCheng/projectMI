@@ -40,7 +40,7 @@ header div span{
      justify-content: space-between;
      align-items: center;
 }
-.qudl div span{
+.qudl div a:nth-child(1){
     font-size: 17px;
 }
 .qudl div a{
@@ -174,7 +174,7 @@ footer>div:nth-child(2) a div{
     height: 20px;
     margin: 5px auto 0;
     background-size: 100%;
-    background-position: 0 -20px;
+    background-position: 0 0px;
 }
 footer>div:nth-child(4) a div{
     background-image: url(小米图片/jinglingtu.png);
@@ -190,5 +190,35 @@ footer>div:nth-child(3) a div{
     height: 20px;
     margin: 5px auto 0;
     background-size: 100%;
+    background-position: 0 -60px;
+}
+footer>div:nth-child(1) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -120px;
+    text-decoration:none;
+    color:  #ff6d15;
+}
+footer>div:nth-child(3) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
     background-position: 0 -40px;
+    text-decoration:none;
+    color:  #ff6d15;
+}
+footer>div:nth-child(4) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -80px;
+    text-decoration:none;
+    color:  #ff6d15;
 }
