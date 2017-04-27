@@ -66,6 +66,18 @@ input[type=submit]{
     background-color: rgb(51, 180, 255);
 }
 
+/*eye*/
+section label{
+    position: relative;
+}
+.eye{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+
+
 /*sec2*/
 .sec2{
     padding-top: 30px;
@@ -142,4 +154,17 @@ input[type=submit]{
 }
 .footer>div{
     padding: 10px;
+}
+.footer .active{
+    color: black;
+}
+
+/*ercode*/
+.ercode{
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    position:fixed;
+    right: 0;
+    top: 0;
 }

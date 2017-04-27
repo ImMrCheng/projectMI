@@ -21,9 +21,9 @@
         </a>
         <a class="sign-in" href="sign-in.shtml">登录</a>
     </nav>
-    <a href="#nav"></a>
+    
     <!--header-->
-    <header>
+    <header id="header">
         <a href="#"><img src="image/nav/banner1.jpg" alt="banner1"></a>
     </header>
     <!--box-->
@@ -84,13 +84,14 @@
                 <p class="price">299</p>
             </div>
         </a>
-        <a href="#">
+        <a class="position" href="#">
             <img src="image/section2/sec2-a6.jpg" alt="sec2-a6">
             <div class="sec-div">
                 <p class="black">小米盒子3 增强版</p>
                 <p class="brief">高端 4k 网络机顶盒</p>
                 <p class="price">399</p>
             </div>
+            <img class="baoyou" src="image/baoyou.jpg" alt="baoyou">
         </a>
 
         <div class="divider"></div>
@@ -206,12 +207,13 @@
                 <p class="price">699 <span>起</span></p>
             </div>
         </a>
-        <a href="#"><img src="image/section6/sec6-a3.webp" alt="sec6-a3">
+        <a class="position" href="#"><img src="image/section6/sec6-a3.webp" alt="sec6-a3">
             <div class="sec-div">
                 <p class="black">红米4X</p>
                 <p class="brief">超长续航，5'舒适单手握感</p>
                 <p class="price">699 <span>起</span></p>
             </div>
+            <img class="baoyou" src="image/baoyou.jpg" alt="baoyou">
         </a>
         <a href="#"><img src="image/section6/sec6-a4.webp" alt="sec6-a4">
             <div class="sec-div">
@@ -253,11 +255,12 @@
                 <p class="price">49</p>
             </div>
         </a>
-        <a href="#"><img src="image/section7/sec7-a4.webp" alt="sec7-a4">
+        <a class="position" href="#"><img src="image/section7/sec7-a4.webp" alt="sec7-a4">
             <div class="sec-div">
                 <p class="black">支架式自拍杆</p>
                 <p class="price">89</p>
             </div>
+            <img class="new" src="image/new.jpg" alt="">
         </a>
         <a href="#"><img src="image/section7/sec7-a5.webp" alt="sec7-a5">
             <div class="sec-div">
@@ -288,6 +291,7 @@
                 </div>
                 <p class="brief left">长续航金属千元旗舰手机</p>
             </div>
+            
         </a>
         <a href="#"><img src="image/section8/sec8-a3.webp" alt="sec8-a3">
             <div class="sec-div">
@@ -524,6 +528,7 @@
                 <p class="black">随身蓝牙音箱</p>
                 <p class="price">69</p>
             </div>
+            
         </a>
     </section>
     <div class="divider"></div>
@@ -578,12 +583,14 @@
                 </div>
                 <p class="brief left">经典百搭颜色，结实耐用，2MM厚度弹性背垫</p>
             </div>
+            
         </a>
-        <a href="#"><img src="image/section16/sec16-a5.webp" alt="sec9-a2">
+        <a  class="position" href="#"><img src="image/section16/sec16-a5.webp" alt="sec9-a2">
             <div class="sec-6-div clearfix">
                 <p class="black">小米鼠标垫加大号</p>
                 <p class="price">19</p>
             </div>
+            <img class="new" src="image/new.jpg" alt="new">
         </a>
         <a href="#"><img src="image/section16/sec16-a6.webp" alt="sec9-a2">
             <div class="sec-6-div clearfix">
@@ -623,6 +630,8 @@
             </li>
         </ul>
     </div>
+
+    <a class="top" href="#header"><img src="image/top.png" alt=""></a>
 </body>
 
 </html>
