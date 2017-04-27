@@ -102,10 +102,15 @@ header img{
 .span{
     color:#ff8639;
     font-size: 15px;
+    margin-left: 10px;
+    position: relative;
 }
 .span::before{
-    content: "¥ ";
-    font-size: 10px;
+    content: "¥";
+    font-size: 14px;
+    position: absolute;
+    top: -3px;
+    left: -10px;
 }
 .baoy{
     width: 42px;
@@ -259,3 +264,18 @@ footer section div{
 #foot-sec1 p{
     color: #ff5521;
 }
+.top{
+ position: fixed;
+ bottom: 73px;
+ right: 14px;
+ z-index: 1000;
+}
+.top a img{
+    width: 36px;
+    height: 36px;
+}
+.scrolledDown{
+  background: #e78231;
+  transition: 1s;
+}
+

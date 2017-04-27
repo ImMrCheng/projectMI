@@ -12,13 +12,16 @@
 </head>
 
 <body>
-    <header>
+    <header id="Firhead">
         <img src="img/logo.png" alt="">
         <a href="#" class="search">
             <span>搜索商品名称</span>
         </a>
         <a href="../登录/登录.html" class="dengLu">登录</a>
     </header>
+ <div class="top">
+     <a href="#myCarousel"><img src="img/top.png" alt=""></a>
+ </div>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -27,10 +30,14 @@
         </ol>
         <div class="carousel-inner">
             <div class="item active">
+                <a href="#">
                 <img src="img/06.jpg" alt="First slide">
+                </a>
             </div>
             <div class="item">
+                <a href="../红米4X/红米.html">
                 <img src="img/lunbo.jpg" alt="Second slide">
+                </a>
             </div>
         </div>
     </div>
@@ -963,6 +970,26 @@
     </footer>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script>
+
+(function(){
+  pos = 0;
+  ticking = false;
+  var header = document.querySelector("#Firhead");
+  window.addEventListener("scroll", function(e){
+    pos = window.scrollY;
+    if(pos > 150 &&!ticking){
+      header.classList.add("scrolledDown");
+      ticking = true;
+    }
+    if(pos < 150 && ticking){
+      header.classList.remove("scrolledDown");
+      ticking = false;
+    }
+  });
+})();
+ 
+</script>
 
 
 </body>

@@ -133,17 +133,16 @@ a:focus{
 .bottom a{
     width: 50%;
     height: 100%;
-    /*border: 1px solid #000;*/
     text-align: center;
     line-height: 47px;
 }
-.bottom span:nth-of-type(1){
+.bottom a:nth-of-type(1) span{
     border-right: 1px solid #e7e7e7;
     padding: 0 76px;
      font-size:14px;
     color: #f76500;
 }
-.bottom span:nth-of-type(2){
+.bottom a:nth-of-type(2) span{
     padding: 0 76px;
     font-size:14px;
     color: black;
@@ -195,7 +194,6 @@ a:focus{
 }
 .prod-d2 span{
     font-size: 16px;
-    /*margin-left: 10px;*/
     position: relative;
 }
 .prod-d2 span::before{
@@ -233,7 +231,7 @@ footer{
     color: black;
  }
 .a3{
-     width: 120px;
+     width: 32%;
      height: 100%;
  }
  .a3 input{
@@ -245,7 +243,7 @@ footer{
     font-size: 18px;
  }
 .a4{
-     width: 104px;
+     width: 27.73%;
      height: 100%;
  }
 .a4 input{
