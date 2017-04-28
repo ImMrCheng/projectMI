@@ -1,0 +1,371 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #efeff0;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 44px;
+    padding: 0 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+nav>div{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .left{
+    width: 10%;
+    height: 50%;
+    margin-left: 10px;
+}
+nav img{
+    height: 100%;
+}
+
+nav .right{
+    width: 10%;
+    height: 50%;
+    margin-right: 0px;
+}
+.jieshao{
+    padding: 17px;
+    background-color: #fff;
+}
+.jieshao div:nth-of-type(1){
+    font-size: 19px;
+    color: #212121;
+}
+.jieshao div:nth-of-type(2) span{
+    font-size: 13px;
+    color: #ff4a00;
+}
+.jieshao div:nth-of-type(2){
+    font-size: 13px;
+    color: #757575;
+    margin-top: 2px;
+}
+.jieshao div:nth-of-type(3){
+    font-size: 18px;
+    color: #f56600;
+    padding: 9px 0px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.yixuan{
+    padding: 0px 17px 16px;
+    background-color: #fff;
+    margin-bottom: 8px;
+    position: relative;
+}
+.yixuan p:nth-of-type(1){
+    font-size: 13px;
+    color: #757575;
+}
+.yixuan p:nth-of-type(2){
+    font-size: 13px;
+    color: #212121;
+}
+.yixuan::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    transform: rotate(45deg);
+}
+.cuxiao{
+    padding: 9px 17px;
+}
+
+.cuxiao span{
+    color: #f56600;
+    padding: 1px 5px;
+    border: 1px solid #f56600;
+}
+.cuxiao::after{
+    top: 25px;
+}
+.address{
+    padding: 17px;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+.address img{
+    height: 13px;
+    margin-right: 5px;
+}
+.address span{
+    font-size: 14px;
+    color: #212121;
+}
+.address::after{
+    top: 25px;
+}
+.xuangou{
+    padding: 17px;
+}
+.xuangou::after{
+    top: 30px;
+}
+.pingjia{
+    padding: 17px;
+    background-color: #fff;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #f4f4f4;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.pingjia span:nth-of-type(1){
+    font-size: 15px;
+    color: #212121;
+}
+.pingjia span:nth-of-type(2){
+    font-size: 14px;
+    color: #474747;
+    margin-right: 20px;
+}
+.pingjia span:nth-of-type(2)::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    transform: rotate(45deg);
+}
+.yonghu{
+    padding: 0px 17px 20px;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+.yonghu .name{
+    padding: 17px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yonghu .name div:nth-of-type(1){
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.yonghu .name div:nth-of-type(1) img{
+    width: 100%;
+}
+.yonghu .name div:nth-of-type(2){
+    width: 65%;
+}
+.yonghu .name div:nth-of-type(2) p:nth-of-type(1){
+    font-size: 15px;
+    color: #333333;
+}
+.yonghu .name div:nth-of-type(2) p:nth-of-type(2){
+    font-size: 9px;
+    color: #999999;
+}
+.yonghu .name div:nth-of-type(3) img{
+    width: 17px;
+}
+.yonghu .name div:nth-of-type(3) span{
+    font-size: 12px;
+    color: #ff6b00;
+}
+.yonghu>div:nth-of-type(2){
+    font-size: 16px;
+    color: #232323;
+}
+.yonghu .shaitu{
+    width: 100%;
+    display: flex;
+}
+.yonghu .shaitu div{
+    width: 30%;
+    height: 25vw;
+    overflow: hidden;
+    padding: 2px;
+}
+.yonghu .shaitu img{
+    width: 100%;
+}
+.gaishu{
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 8px;
+}
+.gaishu .tou{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.gaishu .tou div{
+    text-align: center;
+    width: 25%;
+    border-right: 1px solid #e5e5e5;
+}
+.gaishu .tou div:last-of-type{
+    border-right: none;
+}
+.gaishu img{
+    width: 100%;
+}
+.gaishu .all{
+    text-align: center;
+}
+.gaishu .all a{
+    color: #f56600;
+}
+.weini{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    background-color: #fff;
+    font-size: 16px;
+    padding-left: 17px;
+}
+.two{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+.two a{
+    width: 50%;
+}
+.two section{
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.two .left{
+    padding-right: 2px;
+}
+.two img{
+    width: 100%;
+}
+.two .right{
+    padding-left: 2px;
+}
+.two section .baoyou{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 42px;
+    height: 17px;
+}
+.two p:nth-of-type(1){
+    font-size: 15px;
+    color: #212121;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+.two p:nth-of-type(2){
+    font-size: 12px;
+    color: #ff6102;
+    margin-top: 4px;
+    margin-left: 14px;
+    margin-bottom: 8px;
+}
+.dibu{
+    width: 100%;
+    height: 49px;
+}
+
+
+footer{
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+footer>div:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+footer>div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+footer>div:nth-of-type(3){
+    background-color: #ff9900;
+    width: 32%;
+}
+footer>div:nth-of-type(4){
+    background-color: #f95b07;
+    width: 28%;
+}
+footer>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>div a div{
+    margin: 0 auto;
+}
+footer>div:nth-of-type(1) a{
+    color: #474747;
+}
+footer>div:nth-of-type(2) a{
+    color: #474747;
+}
+footer>div:nth-of-type(3) a{
+    color: #fff;
+}
+footer>div:nth-of-type(4) a{
+    color: #fff;
+}
+footer>div:nth-of-type(1) a div{
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+    background-image: url(img/last.png);
+    background-position: 0px -140px;
+}
+footer>div:nth-of-type(2) a div{
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+    background-image: url(img/last.png);
+    background-position: 0px -60px;
+}
