@@ -12,13 +12,16 @@
 </head>
 
 <body>
-    <header>
+    <header id="Firhead">
         <img src="img/logo.png" alt="">
         <a href="#" class="search">
             <span>搜索商品名称</span>
         </a>
-        <a href="#" class="dengLu">登录</a>
+        <a href="../二级-登录/登录.html" class="dengLu">登录</a>
     </header>
+ <div id="top">
+     <a href="#myCarousel"><img src="img/top.png" alt=""></a>
+ </div>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -27,19 +30,27 @@
         </ol>
         <div class="carousel-inner">
             <div class="item active">
+                <a href="#">
                 <img src="img/06.jpg" alt="First slide">
+                </a>
             </div>
             <div class="item">
+                <a href="../红米4X/红米.html">
                 <img src="img/lunbo.jpg" alt="Second slide">
+                </a>
             </div>
         </div>
     </div>
-     <a href="#">
+
       <div class="firdiv">
-        <img src="img/shang.png" alt="">
-        <span>小米商城本周热卖 (4.24-4.30)</span>
+         <a href="#"><img src="img/shang.png" alt=""></a>
+        <div id="contain">
+           <div class="contain-d"><a href="#">小米商城本周热卖 (4.24-4.30)</a></div>
+           <div class="contain-d1"><a href="#">小米6 现货疯狂抢购 …………</a></div>
+           <div class="contain-d2"><a href="#">小米咪咪咪咪咪商城本周热卖 (4.24-4.30)</a></div>
+        </div>
       </div>
-     </a>
+
 
  <div class="secdiv">
         <section>
@@ -906,7 +917,7 @@
         </div>
  </div>
 
-    <div class="bg">
+    <div class="bg" style="margin-bottom:46px;">
         <img src="img/c92cb9244291009011e6e2cc5ee85cad.png" alt="" class="img">
         <a href="#">
             <img src="img/1dd6c737-28ff-8e48-63c5-56249d58f40b.webp" alt="" class="img">
@@ -935,6 +946,11 @@
         </div>
  </div>
 
+<div id="Gg">
+         <a href="http://s1.mi.com/m/appdownload/?mfull_ad&enter=1"><img src="img/baf392bb0c5c9d3c25f60f5fe04f0705.png" alt=""></a>
+         <a href="#" onclick="Close()"></a>
+</div>
+
  <footer>
         <section id="foot-sec1">
             <a href="#">
@@ -943,13 +959,13 @@
             </a>
         </section>
         <section id="foot-sec2">
-            <a href="#">
+            <a href="../分类/分类.html">
             <div></div>
             <p>分类</p>
             </a>
         </section>
         <section id="foot-sec3">
-            <a href="#">
+            <a href="../购物车/购物车.html">
             <div></div>
             <p>购物车</p>
             </a>
@@ -963,6 +979,56 @@
     </footer>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script>
+
+(function(){
+  pos = 0;
+  ticking = false;
+  var header = document.querySelector("#Firhead");
+  var top =document.querySelector('#top');
+  window.addEventListener("scroll", function(e){
+    pos = window.scrollY;
+    if(pos > 150 &&!ticking){
+      header.classList.add("scrolledDown");
+      ticking = true;
+    }
+    if(pos < 150 && ticking){
+      header.classList.remove("scrolledDown");
+      ticking = false;
+    }
+  });
+})();
+
+      window.onscroll= function(){
+                var t = document.documentElement.scrollTop||document.body.scrollTop;
+                var scrollup = document.getElementById('top');
+                if(t>=550){
+                    scrollup.style.display ="block";
+                }else{       
+                    scrollup.style. display="none";
+                }
+      }
+
+ 
+ function Close(){
+     var Cdiv = document.getElementById('Gg');
+     Cdiv.style.display="none";
+ }
+
+
+    function setTime(){
+        var contain=document.getElementById("contain");
+        contain.appendChild(contain.firstChild);
+    }
+    //                   $(document).ready(function(){
+    //           $(".contain-d").fadeOut("");
+    //           $(".contain-d1").fadeOut("500");
+    //           $(".contain-d2").fadeOut("800");
+    //   });
+    setInterval("setTime()",800);
+
+</script>
+
 
 
 </body>

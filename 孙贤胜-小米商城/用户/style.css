@@ -10,6 +10,14 @@ p{
     padding: 0px;
 
 }
+ul,li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+cite{
+    font-style: normal;
+}
 /*******************样式初始化********************/
 header{
     width: 100%;
@@ -42,6 +50,8 @@ header a span{
     box-sizing: border-box;
     height: 43px;
     position: relative;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #fff;
 }
 .dingdan span{
     line-height: 43px;
@@ -59,8 +69,107 @@ header a span{
     border-top: 1px solid currentColor;
     transform: translate3d(0,-50%,0) rotateZ(135deg);
 }
+.more{
+    color: gray !important;
+}
+.top{
+
+    background-color: #fff;
+}
+.top-u1{
+    height: 88px;
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    text-align:   center;
+    
+}
+.top-u1 li{
+    flex-grow: 1;
+    margin: 20px auto;
+   
+}
+.top-u1 li a img{
+    width: 20px;
+    height: 20px;
+}
+.top-u1 li a p{
+    color: #333333;
+    font-size: 12px;
+    margin-top:11px; 
+}
+.mid li{
+    height: 53px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+.mid li:nth-child(1){
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 53px;
+    width: 100%;
+    background-color: #fff;
+    /*border: 1px solid #000;*/
+    position: relative;
+    background-image: url(小米图片/lansesb.png);
+    background-size: 21px 17px;
+    background-repeat: no-repeat;
+    background-position: 18px 17px;
+}
+.mid li:nth-child(2){
+    background-image: url(小米图片/i-service_7b9f412.png);
+    background-size: 21px 17px;
+    background-repeat: no-repeat;
+    background-position: 18px 17px;
+}
+.mid li:nth-child(3){
+    background-image: url(小米图片/i-mihome_c836072.png);
+    background-size: 21px 17px;
+    background-repeat: no-repeat;
+    background-position: 18px 17px;
+}
+.mid li:nth-child(4){
+     margin-top: 8px;
+    background-image: url(小米图片/i-setting_4ddebe5.png);
+    background-size: 21px 17px;
+    background-repeat: no-repeat;
+    background-position: 18px 17px;
+}
+.mid li::after{
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    border-left: 1px solid #9f9f9f;
+    border-top: 1px solid #9f9f9f;
+    transform: translate3d(0,-50%,0) rotateZ(135deg);
+}
+.mid li a{
+    width: 86%;
+    transform: translate(50px);
+    height: 100%;
+    display: block;
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+.mid li:nth-child(2) a{
+    
+    border-bottom: 1px solid #d9d9d9;
+}
 
 
+.mid li a img{
+    width: 21px;    
+    height: 17px;
+    margin-right: 17px;
+}
+.mid cite{
+    font-size: 14px;
+    color: rgba(0,0,0,.87);
+}
 
 
 
@@ -98,7 +207,7 @@ footer>div:nth-child(1) a div{
     height: 20px;
     margin: 5px auto 0;
     background-size: 100%;
-    background-position: 0 -120px;
+    background-position: 0 -140px;
 }
 footer>div:nth-child(2) a div{
     background-image: url(小米图片/jinglingtu.png);
@@ -114,7 +223,7 @@ footer>div:nth-child(4) a div{
     height: 20px;
     margin: 5px auto 0;
     background-size: 100%;
-    background-position: 0 -100px;
+    background-position: 0 -80px;
 }
 footer>div:nth-child(3) a div{
     background-image: url(小米图片/jinglingtu.png);
@@ -123,4 +232,34 @@ footer>div:nth-child(3) a div{
     margin: 5px auto 0;
     background-size: 100%;
     background-position: 0 -60px;
+}
+footer>div:nth-child(2) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 0px;
+    text-decoration:none;
+    color:  #ff6d15;
+}
+footer>div:nth-child(3) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -40px;
+    text-decoration:none;
+    color:  #ff6d15;
+}
+footer>div:nth-child(1) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -100px;
+    text-decoration:none;
+    color:  #ff6d15;
 }

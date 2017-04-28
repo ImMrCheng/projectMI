@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+    background-color: #eeeeee;
+    
+}
+ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+/************样式初始化************/
+
+.zt{
+    width: 89.333%;
+    margin: 0 auto;
+}
+.wm2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.header{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 22px;
+}
+.header span{
+    font-size: 20px;
+}
+.linear-p{
+    padding-top: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.ip-1{
+    height: 38px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dcdcdc ;
+    background-color: #fff;
+}
+.ip-2{
+    height: 38px;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.id-1{
+    line-height: 17px;
+    width: 100%;
+    border: none;
+    padding: 10px 0px;
+
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+.pw-1{
+    line-height: 18px;
+    width: 100%;
+   border: none;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.id-1:focus{
+   outline: none;
+}
+.pw-1:focus{
+   outline: none;
+}
+.linear-mid{
+    height: 28px;
+    width: 100%;
+}
+.btn-bg{
+    height: 96px;
+    padding-top: 24px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.btn-bg input{
+    width: 100%;
+    height: 43px;
+    margin-bottom: 14px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #33b4ff;
+    color: white;
+    font-size: 16px;
+}
+.oth-type{
+    color: #b0b0b0;
+    font-size: 15px;
+}
+legend{
+    margin: 0px;
+    padding: 0;
+    display: block;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+fieldset{
+    display: block;
+   
+}
+.n_link{
+    padding-top: 20px;
+    height: 88px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:20px; 
+    
+}
+
+.n_link  a{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 0 10px;
+} 
+.n_link a:nth-child(1){
+    background-repeat: no-repeat;
+    background-image: url(小米图片/iconstype_wap.png);
+    background-size: 400%;
+    background-position: 0 5px;
+    background-color: #0288d1;
+}
+.n_link a:nth-child(2){
+    background-repeat: no-repeat;
+    background-image: url(小米图片/iconstype_wap.png);
+    background-size: 400%;
+    background-position: -45px 5px;
+    background-color: #d32f2f;
+}
+.n_link a:nth-child(3){
+    background-repeat: no-repeat;
+    background-image: url(小米图片/iconstype_wap.png);
+    background-size: 400%;
+    background-position: -90px 5px;
+    background-color: #00aaee;
+}
+.n-link-1{
+    height: 49px;
+    padding: 20px 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.n-link-2{
+    padding: 0 9px;
+    color: #757575;
+    font-size: 14px;
+    border-right:1px solid #e0e0e0; 
+}
+.n-link-3{
+    padding: 0 9px;
+    font-size: 14px;
+    color: #757575;
+}
+footer{
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+footer div{
+    width: 100%;
+}
+footer div ul{
+    width: 100%;
+    height: 21px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div ul li a{
+    padding: 0 10px;
+    height: 100%;
+    color: #757575;
+}
+footer div ul li:nth-child(1) a{
+    border-right: 1px solid #757575;
+}
+footer div ul li:nth-child(2) a{
+    border-right: 1px solid #757575;
+}
+footer div ul li:nth-child(3) a{
+    border-right: 1px solid #757575;
+}
+footer>p{
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #757575;
+}
+footer p span a{
+    color: #757575;
+}

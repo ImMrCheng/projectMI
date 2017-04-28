@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background: #f7f7f7;
+}
+p{
+    margin: 0;
+}
+a{
+    display: block;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    margin-top: 7px;
+}
+.top{
+    height: 100%;
+    height: 42px;
+    background: #f7f3f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top a:nth-of-type(1) img{
+    width: 23px;
+    height: 23px;
+    margin: 0 10px;
+}
+.top p{
+    font-size: 15px;
+    color: #636563;
+}
+.top a:nth-of-type(2) img{
+    margin:0 12px;
+}
+/***********/
+.item{
+    width: 100%;
+    height: 67px;
+    text-align: center;
+    margin-top: 7px;
+    background: #ffffff;
+}
+.item p{
+    line-height: 67px;
+}
+
+.item-div1{
+    display: flex;
+    justify-content: space-around;
+}
+.item-div1 section{
+    width: 33.3%;
+    text-align: center;
+}
+.item-div1 section p{
+    height: 50px;
+    line-height: 50px;
+    color: black;
+    font-size: 15px;
+}
+.item-div2{
+    width: 51%;
+    margin: 0 auto;
+}
+.item-div3{
+    background: #ffffff;
+    margin-top: 7px;
+}
+/***********************/
+footer{
+    width: 100%;
+    height: 46px;
+    background: #ffffff;
+    border-top: 1px solid #e7e3e7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+footer p{
+    margin: 0;
+    font-size: 12px;
+    color: #9c9a9c;
+}
+footer section{
+    width: 24px;
+    height: 33px;;
+}
+footer section div{
+    margin: 0 auto;
+}
+#foot-sec1 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+    background-position: 0 -147px;
+}
+
+#foot-sec2 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+}
+#foot-sec3{
+    width: 40px;
+}
+#foot-sec3 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+    background-position: 0 -63px;
+}
+
+#foot-sec4 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+    background-position: 0 -105px;
+}
+#foot-sec2 p{
+    color: #ff5521;
+}

@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 body{
+    margin: 0;
     background-color: #f5f5f5 !important;
+    position: relative;
 }
 a{
     height: 100%;
@@ -14,13 +16,12 @@ input{
     outline: none;
     border: none;
 }
-p,ul,li,h4,h5,h6{
+p,ul,h4,h5,h6{
     margin: 0 !important;
     padding: 0;
 }
 img{
     width: 100%;
-    margin: 0;
     display: inline-block;
 }
 li{
@@ -33,16 +34,17 @@ span{
 main{
     margin-bottom: 60px;
 }
-#nav{
+#na{
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 0.65rem 0;
-    background-color: #e58335;
+    transition: 1s;
     position: fixed;
     top: 0;
     z-index: 1;
+     border: none;
 }
 .sign,.logo{
     width: 14%;
@@ -77,6 +79,7 @@ main{
 #sczb{
     height: 3.46rem;
     background-color: #fff;
+    margin-bottom: 8px;
 }
 #sczb img{
     width: 6.5rem;
@@ -194,10 +197,10 @@ main{
     top: 14px;
     right: 14px;
 }
-.left{
+.left-a{
     width: 66.5% !important;
 }
-.right{
+.right-a{
     width: 33.5% !important;
     position: relative;
 }
@@ -260,12 +263,13 @@ p{
 .spr-3{
     background-position: 0 -105px;
 }
-aside{
+#scrollup{
     width: 36px;
     height: 36px;
     border-radius: 50%;
     position: fixed;
     bottom: 73px;
     right: 18px;
-
+    overflow: hidden;
+    transition: 0.618s
 }

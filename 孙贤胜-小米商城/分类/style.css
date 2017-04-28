@@ -1,0 +1,182 @@
+body{
+    margin: 0px;
+
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+/************样式初始化***************/
+header{
+    height: 45px;
+    width: 100%;
+    background-color: #f2f2f2;
+
+}
+header div{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div img{
+    width: 11px;
+    height: 19px;
+}
+header div span{
+    font-size: 16px;
+}
+.gdjt{
+    height: 41px;
+    width: 100%;
+    background-color: #fff;
+}
+.linear-top{
+    height: 7px;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+.fenlei1 img{
+    width: 100%;
+}
+.ntitle{
+    height: 77px;
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: flex-end;
+}
+.ntitle div{
+    height: 66.66px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100%;
+}
+.clearfixed::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.box>div{
+    width: 33.33%;
+    float: left;
+    text-align:  center;
+    margin: 10.4px 0px 15.6px;
+    
+}
+.box>div a{
+    color: #4f2727;
+}
+.box>div a img{
+    width: 62.5px;
+    height: 62.5px;
+    margin: 0 auto;
+}
+.box>div a p{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+.linear-bottom{
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+}
+
+footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #fff;
+    display: flex;
+    height: 47px;
+    width: 100%;
+}
+footer>div{
+    text-align: center;
+    width: 25%;
+    height: 100%;
+}
+footer>div a{
+    width: 50%;
+    height: 100%;
+    color: gray;
+}
+footer>div:nth-child(1) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -140px;
+}
+footer>div:nth-child(2) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -40px;
+}
+footer>div:nth-child(4) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -100px;
+}
+footer>div:nth-child(3) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -60px;
+}
+footer>div:nth-child(1) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -120px;
+    text-decoration:none;
+    color:  #ff6d15;
+}
+footer>div:nth-child(3) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -40px;
+    text-decoration:none;
+    color:  #ff6d15;
+}
+footer>div:nth-child(4) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -80px;
+    text-decoration:none;
+    color:  #ff6d15;
+}

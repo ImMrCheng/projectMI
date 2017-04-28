@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+
+}
+
+/*************样式初始化**************/
+header{
+    height: 45px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+header div{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div img{
+    width: 11px;
+    height: 19px;
+}
+header div span{
+    font-size: 16px;
+}
+.qudl{
+    height: 54px;
+    width: 100%;
+}
+.qudl div{
+     display: flex;
+     margin: 0 auto;
+     /*border: 1px solid #000;*/
+     width: 90%;
+     height: 100%;
+     justify-content: space-between;
+     align-items: center;
+}
+.qudl div a:nth-child(1){
+    font-size: 17px;
+}
+.qudl div a{
+    color: #777777;
+    font-size: 14px;
+}
+.qudl div a img{
+    width: 8px;
+    height: 14px;
+}
+.qgg{
+    background-color: #f2f2f2;
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qgg img{
+    width: 40px;
+    height: 40px;
+}
+.sp{
+    color: #b0b0b0;
+    margin-left: 9px;
+    margin-right: 8px;
+}
+.sp1{
+    color: #242424;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    border: 1px solid #c8c8c8;
+    font-size: 14px;
+}
+.wntj{
+    height: 42px;
+    width: 100%;
+    padding-top: 13px;
+    padding-left: 17px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+.mijia{
+    display: flex;
+    margin-top: 1px;
+}
+.mijia>section{
+    flex-grow: 1;
+    width: 50%;
+}
+.mijia>section:nth-child(1)>section {
+    position: relative;
+    width: 100%;
+    padding-right: 1px;
+    box-sizing: border-box;
+    height: 100%;
+}
+.mijia>section:nth-child(1)>section img{
+    width: 100%;
+}
+.mijia-right{
+    width: 100%;
+    padding-left: 1px;
+    box-sizing: border-box;
+    position: relative;
+}
+.mijia>section:nth-child(2) img{
+    width: 100%;
+}
+
+.p1{
+    
+    margin-top: 13px;
+    margin-left:14px;
+    font-size: 15px;
+    color: black;
+
+}
+
+.p3{
+    margin-left: 14px;
+    color: #ff6d15;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+.linear-bottom{
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+
+} 
+footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #fff;
+    display: flex;
+    height: 47px;
+    width: 100%;
+}
+footer>div{
+    text-align: center;
+    width: 25%;
+    height: 100%;
+}
+footer>div a{
+    width: 50%;
+    height: 100%;
+    color: gray;
+}
+footer>div:nth-child(1) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -140px;
+}
+footer>div:nth-child(2) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 0px;
+}
+footer>div:nth-child(4) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -100px;
+}
+footer>div:nth-child(3) a div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -60px;
+}
+footer>div:nth-child(1) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -120px;
+    text-decoration:none;
+    color:  #ff6d15;
+}
+footer>div:nth-child(3) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -40px;
+    text-decoration:none;
+    color:  #ff6d15;
+}
+footer>div:nth-child(4) a:hover div{
+    background-image: url(小米图片/jinglingtu.png);
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 0;
+    background-size: 100%;
+    background-position: 0 -80px;
+    text-decoration:none;
+    color:  #ff6d15;
+}

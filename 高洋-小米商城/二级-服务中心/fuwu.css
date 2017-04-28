@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    background: #f7f7f7;
+}
+p{
+    margin: 0;
+    color: #313031;
+}
+a{
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a:focus{
+    text-decoration: none;
+}
+.top{
+    height: 100%;
+    height: 42px;
+    background: #f7f3f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top a:nth-of-type(1) img{
+    width: 23px;
+    height: 23px;
+    margin: 0 10px;
+}
+.top p{
+    font-size: 15px;
+    color: #636563;
+}
+.top a:nth-of-type(2) img{
+    margin:0 12px;
+}
+/***********************/
+.m-div1 a{
+   width: 100%;
+height: 104px;
+}
+.m-div1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.m-div2{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 0 10px;
+    margin-bottom: 1px;
+}
+.m-div2 img{
+    width: 6px;
+    height: 12px;
+}
+.online{
+    margin: 11px 0;
+}
+.phone{
+    width: 100%;
+    height: 149px;
+    text-align: center;
+    background: #ffffff;
+    padding-top: 18px;
+}
+.phone p{
+    font-size: 12px;
+    color: #9c9a9c;
+}
+/********************/
+footer{
+    width: 100%;
+    height: 46px;
+    background: #ffffff;
+    border-top: 1px solid #e7e3e7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+footer p{
+    margin: 0;
+    font-size: 12px;
+    color: #9c9a9c;
+}
+footer section{
+    width: 24px;
+    height: 33px;;
+}
+footer section div{
+    margin: 0 auto;
+}
+#sec1 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+    background-position: 0 -147px;
+}
+
+#sec2 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+    background-position: 0 -21px;  
+}
+#sec3{
+    width: 40px;
+}
+#sec3 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+    background-position: 0 -63px;
+}
+
+#sec4 div{
+    width: 21px;
+    height: 21px;
+    background: url(img/10.png);
+    background-size: 100%;
+    background-position: 0 -84px;
+}
+#sec4 p{
+    color: #ff5521;
+}

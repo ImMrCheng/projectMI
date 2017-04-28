@@ -22,15 +22,20 @@ header{
     background-image: url(img/bg.png);
     background-size: 100%;
     display: flex;
+}
+header a{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: white;
+    display: flex;
     align-items: center;
 }
 header img{
     height: 60%;
     margin-left: 17px;
 }
-header a{
-    font-size: 14px;
-    color: white;
+header span{
     margin-left: 8px;
 }
 .dingdan{
@@ -158,11 +163,73 @@ header a{
     border-top: 1px solid #757575;
     transform: rotate(45deg);
 }
-
-
-
-
-
+.xiaomi{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    background-image: url(img/7.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 15px center;
+    display: flex;
+    margin-bottom: 9px;
+}
+.xiaomi a{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.xiaomi a span{
+    font-size: 15px;
+    color: #212121;
+    line-height: 55px;
+    margin-left: 55px;
+}
+.xiaomi a span::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    width: 14px;
+    height: 14px;
+    border-right: 1px solid #757575;
+    border-top: 1px solid #757575;
+    transform: rotate(45deg);
+}
+.shezhi{
+    margin-top: 8px;
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    background-image: url(img/8.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 15px center;
+    display: flex;
+    margin-bottom: 9px;
+}
+.shezhi a{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.shezhi a span{
+    font-size: 15px;
+    color: #212121;
+    line-height: 55px;
+    margin-left: 55px;
+}
+.shezhi a span::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    width: 14px;
+    height: 14px;
+    border-right: 1px solid #757575;
+    border-top: 1px solid #757575;
+    transform: rotate(45deg);
+}
 
 footer{
     width: 100%;
@@ -172,6 +239,7 @@ footer{
     position: fixed;
     left: 0px;
     bottom: 0px;
+    border-top: 1px solid #e0e0e0;
 }
 footer>div{
     display: flex;

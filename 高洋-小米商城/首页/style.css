@@ -6,6 +6,10 @@ body{
 a{
     text-decoration: none;
     color: black;
+    display: block;
+}
+a:focus{
+    text-decoration: none;
 }
 p{
     margin: 0;
@@ -38,6 +42,7 @@ header img{
 .dengLu{
     margin: 0 11px;
     color: white;
+    white-space: nowrap;
 }
 
 /**************************/
@@ -57,13 +62,28 @@ header img{
     width: 100%;
     background: #ffffff;
     margin-bottom: 8px;
+    display: flex;
+    justify-content: space-around;
 }
-.firdiv>img{
+.firdiv>a img{
     height: 40px;
 }
-.firdiv span{
-    border-left: 1px solid #b5b2b5;
-    padding: 0 10px;
+#contain {
+    width: 100%;
+    overflow: hidden;
+}
+#contain div a{
+display: inline-block;
+height: 20px;
+padding: 0 10px;
+border-left: 1px solid #b5b2b5;
+}
+#contain div{
+    height:30px;
+    padding:10px 0;
+    white-space:nowrap;
+    overflow:hidden;
+
 }
 .secdiv{
     width: 100%;
@@ -98,10 +118,15 @@ header img{
 .span{
     color:#ff8639;
     font-size: 15px;
+    margin-left: 10px;
+    position: relative;
 }
 .span::before{
-    content: "¥ ";
-    font-size: 10px;
+    content: "¥";
+    font-size: 14px;
+    position: absolute;
+    top: -3px;
+    left: -10px;
 }
 .baoy{
     width: 42px;
@@ -200,6 +225,7 @@ footer{
     width: 100%;
     height: 46px;
     background: #ffffff;
+    border-top: 1px solid #e7e3e7;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -233,7 +259,9 @@ footer section div{
     background-size: 100%;
     background-position: 0 -21px;  
 }
-
+#foot-sec3{
+    width: 40px;
+}
 #foot-sec3 div{
     width: 21px;
     height: 21px;
@@ -251,4 +279,41 @@ footer section div{
 }
 #foot-sec1 p{
     color: #ff5521;
+}
+#top{
+ position: fixed;
+ bottom: 73px;
+ right: 20px;
+ z-index: 500;
+ display: none;
+}
+#top a img{
+    width: 36px;
+    height: 36px;
+}
+.thrSec a img{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/*************************/
+#Gg a:nth-child(1) img{
+    width: 100%;
+    position: fixed;
+    bottom: 45px;
+    z-index: 2000;
+    display:block;
+}
+#Gg a:nth-child(2) {
+    width: 26px;
+    height: 68px;
+    position: fixed;
+    bottom: 46px;
+    right: 0;
+    z-index: 3000;
+}
+.scrolledDown{
+  background: #e78231;
+  transition: 1s;
 }

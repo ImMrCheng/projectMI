@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #eeeeee;
+}
+body>a{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+header section{
+    width: 13%;
+    margin: 40px auto 0px;
+}
+header section img{
+    width: 100%;
+}
+header div{
+    width: 100%;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    margin-top: 22px;
+}
+main .input{
+    width: 90%;
+    height: 77px;
+    margin: 30px auto 51px;
+    /*display: flex;*/
+    /*border: 1px solid #000;*/
+}
+main .input input{
+    width: 100%;
+    height: 38px;
+    background-color: #fff;
+    border: none;
+    padding: 0 10px;
+    margin: 0px;
+    outline: none;
+}
+main .input input:nth-of-type(1){
+    margin-bottom: 1px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+main .input input:nth-of-type(2){
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+main .button{
+    width: 90%;
+    height: 43px;
+    border-radius: 22px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+main .button button{
+    width: 100%;
+    height: 100%;
+    background-color: #33b4ff;
+    border-color: #33b4ff;
+    font-size: 16px;
+}
+main .other{
+    width: 90%;
+    margin: 40px auto 0px;;
+}
+main .other .otherstyle{
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px dashed #bdbdbd;
+    display: flex;
+    justify-content: center;
+}
+main .other .otherstyle span{
+    color: #b0b0b0;
+    font-size: 15px;
+    margin-top: -11px;
+    background-color: #eeeeee;
+}
+main .other .styles{
+    width: 100%;
+    margin: 20px auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .other .styles a{
+    width: 45px;
+    height: 45px;
+    background-size: 400%;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+main .other .styles a:nth-of-type(1){
+    background-color: #0288d1;
+    background-image: url(img/iconstype.png);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+}
+main .other .styles a:nth-of-type(2){
+    background-color: #d32f2f;
+    background-image: url(img/iconstype.png);
+    background-repeat: no-repeat;
+    background-position: -45px 5px;
+}
+main .other .styles a:nth-of-type(3){
+    background-color: #00aaee;
+    background-image: url(img/iconstype.png);
+    background-repeat: no-repeat;
+    background-position: -90px 5px;
+}
+main .wangji{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+main .wangji a{
+    margin: 0px 9px;
+    font-size: 15px;
+    color: #757575;
+}
+main .wangji span{
+    color: #e3e0e0;
+}
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+footer .ziti{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+footer .ziti a{
+    margin: 0px 9px;
+    font-size: 15px;
+    color: #757575;
+}
+footer .ziti a:nth-of-type(1){
+    margin: 0px 9px;
+    color: #333333;
+}
+footer .ziti span{
+    color: #757575;
+}
+footer p{
+    padding: 10px;
+}
+footer p span{
+    color: #757575;
+}
+footer p span a{
+    color: #757575;
+}

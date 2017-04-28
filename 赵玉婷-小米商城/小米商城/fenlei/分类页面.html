@@ -24,6 +24,7 @@
             }
             a{
                 text-decoration: none;
+               
             }
             header{
                 width: 100%;
@@ -82,6 +83,9 @@
             main section{
                 width: 100%;
                 margin: 0px;
+                /*border: 1px solid #000;*/
+                /*box-sizing: border-box;*/
+                margin-bottom: 15px;
             }
             main section .top{
                 width: 100%;
@@ -123,17 +127,14 @@
                 /*border: 1px solid #0f0;*/
             }
             main section .bottom .bottom1 div p{
-                margin:12px 0 14px;
-                
-                font-size: 15px;
+                margin:12px 0 14px;  
+                font-size: 14px;
                 /*border: 1px solid #000;*/
                 text-align: center;
+                width: 120%;
+                /*text-indent: 0.8em;*/
             }
-            /*main section .bottom .bottom1 div p span{
-                display: inline-block;
-                width: 80%;
-                color: red;
-            }*/
+
             main section .bottom .bottom1 .b_left{
                 /*margin-left: 30px;*/
                 margin-left: 7%;
@@ -164,9 +165,11 @@
             }
             main section .bottom .bottom2 div p{
                 margin:12px 0 14px;
-                font-size: 15px;
+                font-size: 14px;
                 /*border: 1px solid #000;*/
                 text-align: center;
+                width: 120%;
+                /*text-indent: 0.5em;*/
             }
              main section .bottom .bottom2 .b_left{
                 margin-left: 8%;
@@ -174,6 +177,82 @@
              main section .bottom .bottom2 .b_center{
                 margin-left: 10%;
             }
+            footer{
+                height:48px;
+                width: 100%;
+                position: fixed;
+                margin: 0px;
+                bottom: 0px;
+                border-top: 1px solid #d9d9d9; 
+                background-color: #fff;
+                
+            }
+            footer ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0px 35px 5px;
+            }
+            footer li{
+                margin-top: 7px;
+                /*border: 1px solid #000;*/
+                height: 35px;
+            }
+            footer a{
+                /*border: 1px solid #f00;*/
+                display: block;
+                height: 100%;
+                width: 27px;
+                color: #999;
+                font-size: 11px;
+            }
+            footer span{
+                display: block;
+                margin: 0 auto;
+                /*border: 1px solid #000;*/
+                text-align: center;
+            }
+            footer .sy div{
+                height: 21px;
+                width: 20px;
+                margin: 0 auto;
+                background-image: url(img/nav.png) ;
+                background-size:100% 800% ;
+                background-position: 0px -147px;
+            }
+            footer .fl a{
+                color: #ff6600;
+            }
+            footer .fl div{
+                height: 22px;
+                width: 20px;
+                margin: 0 auto;
+                background-image: url(img/nav.png) ;
+                background-size:100% 800% ;
+                background-position: 0px 0px;
+            }
+            footer .gwc a{
+                width: 38px;
+                height: 100%;
+            }
+            footer .gwc div{
+                height: 20px;
+                width: 22px;
+                margin: 0 auto;
+                background-image: url(img/nav.png) ;
+                background-size:100% 800% ;
+                background-position: 0px -60px;
+            }
+
+            footer .wd div{
+                height: 21px;
+                width: 19px;
+                margin: 0 auto;
+                background-image: url(img/nav.png) ;
+                background-size:100% 800% ;
+                background-position: 0px -105px;
+            }
+
         </style>
     </head>
     <body>
@@ -181,7 +260,7 @@
             <img class="i1"src="img/icon_back_n.png" alt="icon">
             <div class="sp">商品分类</div>
             <div class="sou">
-                 <img class="i2"src="img/sou.png" alt="sou">
+                <a href="../sousuoshangpin/热门搜索.html"><img class="i2"src="img/sou.png" alt="sou"></a> 
              </div>
         </header>
         <nav>
@@ -209,9 +288,10 @@
                     <div class="bt">手机.电话卡</div>
                     <div class="bottom1">
                         <div class="b_left">
-                            <img src="img/mi6.webp" alt="mi6">
-                            <p><span>小米6</span></p>
+                            <a href="../liebiao/商品列表.html"><img src="img/mi6.webp" alt="mi6"></a>
+                            <a href="../liebiao/商品列表.html"><p>小米6</p></a>
                         </div>
+                      
                         <div class="b_center">
                              <img src="img/mi5c.webp" alt="mi5c">
                             <p>小米5c</p>
@@ -507,6 +587,226 @@
                    </div>               
               </div>
             </section>
+            <section>
+                <div class="top">
+                    <img src="img/keji.webp" alt="keji">
+                </div>
+                <div class="bottom">
+                    <div class="bt">移动电源.插线板.电池</div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/dianyuan.webp" alt="dy">
+                            <p>小米移动电源</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/chaxianban.webp" alt="cxb">
+                            <p>插线板</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/dianchi.webp" alt="dc">
+                            <p>电池</p>
+                        </div>
+                   </div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/chongdianqi.webp" alt="cd">
+                            <p>充电器</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/xiancai.webp" alt="xc">
+                            <p>线材</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/pinpai.webp" alt="pp">
+                            <p>品牌移动电源</p>
+                        </div>
+                   </div>
+                </div>
+            </section>
+            <section>
+                <div class="top">
+                    <img src="img/dianyuan2.webp" alt="dy2">
+                </div>
+                <div class="bottom">
+                    <div class="bt">耳机.音箱.存储卡</div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/jiaonang.webp" alt="jn">
+                            <p>胶囊耳机</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/lanya.webp" alt="ly">
+                            <p>蓝牙耳机</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/tiequan.webp" alt="tq">
+                            <p>铁圈耳机</p>
+                        </div>
+                   </div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/huosai.webp" alt="hs">
+                            <p>活塞耳机</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/toudaishi.png" alt="tds">
+                            <p>头戴式耳机</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/pinpaierji.webp" alt="ppej">
+                            <p>品牌耳机</p>
+                        </div>
+                   </div>
+                   <div class="bottom2">
+                        <div class="b_left">
+                            <img src="img/yinxiang2.webp" alt="yinxiang2">
+                            <p>音箱</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/cunchuka.png" alt="cck">
+                            <p>存储卡</p>
+                        </div>                      
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="top">
+                    <img src="img/chaxianban6.webp" alt="ccb6">
+                </div>
+                <div class="bottom">
+                    <div class="bt">小米生活方式</div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/fuzhuang.webp" alt="fz">
+                            <p>服装</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/yundong.webp" alt="yd">
+                            <p>运动鞋</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/mitu.webp" alt="mt">
+                            <p>米兔</p>
+                        </div>
+                   </div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/beibao.webp" alt="bb">
+                            <p>背包</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/lvxing.webp" alt="lx">
+                            <p>旅行箱</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/zipai.webp" alt="zp">
+                            <p>自拍杆</p>
+                        </div>
+                   </div>
+                   <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/suishen.webp" alt="ss">
+                            <p>随身WIFI</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/shenghuo.webp" alt="sh">
+                            <p>生活周边</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/jingzhen.webp" alt="jz">
+                            <p>颈枕</p>
+                        </div>
+                   </div>
+                    <div class="bottom1">
+                        <div class="b_left">
+                            <img src="img/zhijia.webp" alt="zj">
+                            <p>支架</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/bianxing.webp" alt="bx">
+                            <p>变形金刚</p>
+                        </div>
+                        <div class="b_right">
+                             <img src="img/maojin.webp" alt="mj">
+                            <p>毛巾/浴巾</p>
+                        </div>
+                   </div>
+                   <div class="bottom2">
+                        <div class="b_left">
+                            <img src="img/tiezhi.webp" alt="tiezhi">
+                            <p>贴纸</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/jiaju.webp" alt="jj">
+                            <p>家居生活</p>
+                        </div>                      
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="top">
+                    <img src="img/haoting.webp" alt="ht">
+                </div>
+                <div class="bottom">
+                    <div class="bt">保护类配件</div>
+                    <div class="bottom2">
+                        <div class="b_left">
+                            <img src="img/baohutao.webp" alt="bht">
+                            <p>保护套/保护壳</p>
+                        </div>
+                        <div class="b_center">
+                             <img src="img/tiemo.png" alt="tm">
+                            <p>贴膜</p>
+                        </div>                      
+                    </div>
+                </div>                
+            </section>
+            <section style="margin-bottom:48px;">
+                <div class="bottom" style="margin-bottom:7px;">
+                    <div class="bt" style="border-top:8px solid #f5f5f5;">优惠套装</div>
+                    <div class="bottom2">
+                        <div class="b_left" style="margin-top:0px">
+                            <img src="img/dytz.webp" alt="dytz">
+                            <p>电源套装</p>
+                        </div>
+                        <div class="b_center" style="margin-top:0px">
+                             <img src="img/yjtz.webp" alt="yjtz">
+                            <p>智能硬件套装</p>
+                        </div>                      
+                    </div>
+                </div> 
+                <div class="top" style="height:135px;border-bottom:23px solid #f5f5f5;">
+                    <img src="img/liwu.webp" alt="liwu">
+                </div> 
+            </section>
         </main>
+        <footer>
+            <ul>
+                <li class="sy">
+                    <a href="../shouye/首页.html">
+                        <div></div>
+                        <span>首页</span>
+                    </a>
+                </li>
+                <li class="fl">
+                    <a href="#">
+                        <div></div>
+                        <span>分类</span>
+                    </a>
+                </li>
+                <li class="gwc">
+                    <a href="../gouwuche/购物车页面.html">
+                        <div></div>
+                        <span>购物车</span>
+                    </a>
+                </li>
+                <li class="wd">
+                    <a href="../wode/我的登录页面.html">
+                        <div></div>
+                        <span>我的</span>
+                    </a>
+                </li>
+            </ul>
+        </footer>
     </body>
 </html>
