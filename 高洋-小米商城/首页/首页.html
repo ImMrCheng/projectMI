@@ -17,9 +17,9 @@
         <a href="#" class="search">
             <span>搜索商品名称</span>
         </a>
-        <a href="../登录/登录.html" class="dengLu">登录</a>
+        <a href="../二级-登录/登录.html" class="dengLu">登录</a>
     </header>
- <div class="top">
+ <div id="top">
      <a href="#myCarousel"><img src="img/top.png" alt=""></a>
  </div>
 
@@ -41,12 +41,16 @@
             </div>
         </div>
     </div>
-     <a href="#">
+
       <div class="firdiv">
-        <img src="img/shang.png" alt="">
-        <span>小米商城本周热卖 (4.24-4.30)</span>
+         <a href="#"><img src="img/shang.png" alt=""></a>
+        <div id="contain">
+           <div class="contain-d"><a href="#">小米商城本周热卖 (4.24-4.30)</a></div>
+           <div class="contain-d1"><a href="#">小米6 现货疯狂抢购 …………</a></div>
+           <div class="contain-d2"><a href="#">小米咪咪咪咪咪商城本周热卖 (4.24-4.30)</a></div>
+        </div>
       </div>
-     </a>
+
 
  <div class="secdiv">
         <section>
@@ -942,6 +946,11 @@
         </div>
  </div>
 
+<div id="Gg">
+         <a href="http://s1.mi.com/m/appdownload/?mfull_ad&enter=1"><img src="img/baf392bb0c5c9d3c25f60f5fe04f0705.png" alt=""></a>
+         <a href="#" onclick="Close()"></a>
+</div>
+
  <footer>
         <section id="foot-sec1">
             <a href="#">
@@ -976,6 +985,7 @@
   pos = 0;
   ticking = false;
   var header = document.querySelector("#Firhead");
+  var top =document.querySelector('#top');
   window.addEventListener("scroll", function(e){
     pos = window.scrollY;
     if(pos > 150 &&!ticking){
@@ -988,8 +998,37 @@
     }
   });
 })();
+
+      window.onscroll= function(){
+                var t = document.documentElement.scrollTop||document.body.scrollTop;
+                var scrollup = document.getElementById('top');
+                if(t>=550){
+                    scrollup.style.display ="block";
+                }else{       
+                    scrollup.style. display="none";
+                }
+      }
+
  
+ function Close(){
+     var Cdiv = document.getElementById('Gg');
+     Cdiv.style.display="none";
+ }
+
+
+    function setTime(){
+        var contain=document.getElementById("contain");
+        contain.appendChild(contain.firstChild);
+    }
+    //                   $(document).ready(function(){
+    //           $(".contain-d").fadeOut("");
+    //           $(".contain-d1").fadeOut("500");
+    //           $(".contain-d2").fadeOut("800");
+    //   });
+    setInterval("setTime()",800);
+
 </script>
+
 
 
 </body>
