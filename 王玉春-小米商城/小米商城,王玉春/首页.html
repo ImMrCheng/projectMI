@@ -10,7 +10,7 @@
     <link rel="icon" href="img/logo.png">
 </head>
 <body>
-    <nav>
+    <nav id="Firhead">
         <div class="logo">
             <img src="img/shouye/shouye-01.png" alt="">
         </div>
@@ -723,7 +723,7 @@
             </div>
         </section>
     </main>
-    <div class="hddb">
+    <div class="hddb" id="scrollup">
         <a href="#dingbu">
             <img src="img/shouye/100.png" alt="">
         </a>
@@ -754,24 +754,49 @@
             </section>
         </a>
     </footer>
-
-
-
-
-
-
-
+<!--<script>
+        (function(){
+        pos = 0;
+        ticking = false;
+        var header = document.querySelector("#Firhead");
+        window.addEventListener("scroll", function(e){
+            pos = window.scrollY;
+            if(pos > 150 &&!ticking){
+                header.classList.add("scrolledDown");
+                ticking = true;
+            }
+            if(pos < 150 && ticking){
+                header.classList.remove("scrolledDown");
+                ticking = false;
+            }
+        });
+        })();
+</script>-->
 <script>
-    var winPos = $(window).scrollTop("670px");
-    $(val).offset("0px").top;
-    $(window).scroll(function(event){
-        
-        $(this).scrolllTop();
-
-    });
-    $(window).scrollTop(offset);
-
+        window.onscroll= function(){
+            //变量t是滚动条滚动时，距离顶部的距离
+            var t = document.documentElement.scrollTop||document.body.scrollTop;
+            var scrollup = document.getElementById('scrollup');
+            //当滚动到距离顶部200px时，返回顶部的锚点显示
+            var na = document.getElementById('Firhead');
+            if(t>=600){
+                scrollup.style.display ="block";
+            }else{          //恢复正常
+                scrollup.style. display="none";
+            }
+            if(t>=150){
+                // na.style.background ="#e58335";
+                na.classList.add("scrolledDown");
+            }else{          //恢复正常
+                // na.style.background="none";
+                na.classList.remove("scrolledDown");
+            }
+        }
 </script>
+
+
+
+
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>

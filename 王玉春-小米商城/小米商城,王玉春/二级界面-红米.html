@@ -9,11 +9,18 @@
     <link rel="icon" href="img/logo.png">
 </head>
 <body>
+    <section id="huiping">
+        <div id="huise"></div>
+        <a href="http://weibo.com/">
+            <div></div>
+            <p>新浪微博</p>
+        </a>
+    </section>
     <header>
         <a href="首页.html">
             <img src="img/erji-01/01.png" alt="">
         </a>
-        <a href="#">
+        <a href="#" id="fx">
             <img src="img/erji-01/02.png" alt="">
         </a>
     </header>
@@ -177,5 +184,17 @@
         <div>加入购物车</div>
         <div>立即购买</div>
     </footer>
+    
+    <script>
+        var fx = document.getElementById('fx');
+        var hp = document.getElementById('huiping');
+        var hs = document.getElementById('huise');
+        fx.onclick = function () {
+            hp.classList.add('aa')
+        }
+        hs.onclick = function (){
+          hp.classList.remove('aa');
+        }
+    </script>
 </body>
 </html>
