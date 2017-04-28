@@ -471,3 +471,29 @@ li{
 .footer li:nth-of-type(4) .footer-div{
     background-position: 0 -105px;
 }
+
+/*top*/
+.top{
+    display:inline-block;
+    width: 36px;
+    height: 36px;
+    position: fixed;
+    bottom: 73px;
+    right: 14px;
+}
+.top img{
+    width: 100%;
+    height: 100%;
+}
+
+/*new*/
+.position{
+    position: relative;
+}
+body section .new,body section .baoyou{
+    width: 41px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

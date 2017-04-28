@@ -72,6 +72,9 @@ header>section>a:nth-of-type(2)>div{
     border-left:1px solid #b2b2b2;
 }
 
+
+
+
 /***************************main**********************************/
 main{
     margin-bottom:57px;
@@ -271,6 +274,7 @@ main>section{
     position: fixed;
     right: 14px;
     bottom: 73px;
+    display: none;
 }
 .hddb>a{
     display: block;
@@ -326,4 +330,8 @@ footer>a:nth-of-type(4)>section>div{
     background-position: 0 -105px;
 }
 
-
+/**/
+.scrolledDown{
+    background: orange;
+    transition: 1.5s;
+}

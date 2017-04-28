@@ -348,3 +348,42 @@ footer>div:nth-of-type(2){
     width: 28%;
     background-color: #f95b07;
 }
+
+
+
+/************************************************/
+.aa{
+    width: 100%;
+    height: 667px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.aa>div{
+    height: 89.505%;
+    background-color: rgba(9, 9, 9,0.5);
+}
+.aa>a{
+    height:10.495%;
+    display: block;
+    background: #fff;
+}
+.aa>a>div{
+    width: 31px;
+    height: 31px;
+    background: url(../img/erji-01/21.png);
+    background-size: 100% 400%;
+    background-position: 0 -62px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+body>section p{
+    display: none;
+}
+.aa p{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}

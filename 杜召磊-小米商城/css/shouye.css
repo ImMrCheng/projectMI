@@ -4,6 +4,7 @@
 body{
     margin: 0;
     background-color: #f5f5f5 !important;
+    position: relative;
 }
 a{
     height: 100%;
@@ -33,16 +34,17 @@ span{
 main{
     margin-bottom: 60px;
 }
-#nav{
+#na{
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 0.65rem 0;
-    background-color: #e58335;
+    transition: 1s;
     position: fixed;
     top: 0;
     z-index: 1;
+     border: none;
 }
 .sign,.logo{
     width: 14%;
@@ -261,12 +263,13 @@ p{
 .spr-3{
     background-position: 0 -105px;
 }
-aside{
+#scrollup{
     width: 36px;
     height: 36px;
     border-radius: 50%;
     position: fixed;
     bottom: 73px;
     right: 18px;
-
+    overflow: hidden;
+    transition: 0.618s
 }

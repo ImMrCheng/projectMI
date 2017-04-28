@@ -1,0 +1,192 @@
+body,input,a,p,ul,li{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+input{
+    box-sizing: border-box;
+}
+.clearfix:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.divider{
+    margin-bottom: 8px solid #889;
+    height: 8px;
+}
+a{
+    display: inline-block;
+}
+
+
+/*初始化*/
+header {
+    padding: 8px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+header a {
+    vertical-align: middle;
+}
+.back{
+    width: 18px;
+    height: 18px;
+}
+header input{
+    padding: 6px 31px 5px 31px;
+    border: none;
+    width: 77%;
+    background: url(../image/zhineng/search3.png) no-repeat;
+    background-size: cover;
+    border-radius:4px;
+}
+header input::-webkit-input-placeholder {
+    color: #9C9C9C;
+    text-indent: 5px;
+    font-size: 13.5px;
+}
+.cart{
+    width: 26px;
+    height: 26px;
+}
+/*banner*/
+.banner img{
+    width:100%;
+}
+
+.sec1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec1>div{
+    width:49.5%;
+}
+
+
+/*sec6*/
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sec2 a,.sec3 a{
+    width: 49.5%;
+    display: inline-block;
+}
+.sec2 img,.sec3 img{
+    width: 100%;
+    height: 187.5px;
+}
+.sec2>div,.sec3>div{
+    width: 100%;
+    
+}
+.sec2>div img,.sec3>div img{
+    width: 100%;
+    height: 43px;
+}
+.sec2 a:nth-of-type(1),.sec2 a:nth-of-type(6)
+,.sec3 a:nth-of-type(1)
+,.sec3 a:nth-of-type(6){
+    width: 100%;
+}
+.sec3 a:nth-of-type(2),.sec3 a:nth-of-type(5),
+.sec5 a:nth-of-type(3)
+{
+    width: 66.3%;
+}
+.sec3 a:nth-of-type(3),.sec3 a:nth-of-type(4),
+.sec5 a:nth-of-type(4)
+{
+    width: 33.3%;
+}
+.sec4 a:nth-of-type(4),.sec4 a:nth-of-type(5),.sec4 a:nth-of-type(6),
+.sec4 a:nth-of-type(7),.sec4 a:nth-of-type(8),.sec4 a:nth-of-type(9){
+    width: 33%;
+}
+.sec4 a:nth-of-type(4) img,.sec4 a:nth-of-type(5) img,.sec4 a:nth-of-type(6) img,
+.sec4 a:nth-of-type(7) img,.sec4 a:nth-of-type(8) img,.sec4 a:nth-of-type(9) img{
+    height: 125px;
+}
+
+.sec5 a:nth-of-type(1){
+    width: 49.5%;
+}
+
+.sec-div{
+    padding: 10px;    
+    box-sizing: border-box;
+}
+.sec-div>div{
+    height: 20px;
+}
+.sec-div .price{
+    margin: 0;
+}
+.price span{
+    font-size: 12px;
+}
+.black{
+    font-size: 15px;
+    color: #000;
+}
+.brief{
+    margin-top: 3px;
+}
+.price:before{
+    content:"￥";
+}
+.price{
+    color: #ff680e;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+/*new*/
+.position{
+    position: relative;
+}
+body section .new{
+    width: 41px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*top*/
+.top{
+    display:inline-block;
+    width: 36px;
+    height: 36px;
+    position: fixed;
+    bottom: 73px;
+    right: 14px;
+}
+.top img{
+    width: 100%;
+    height: 100%;
+}

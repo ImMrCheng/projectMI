@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    color: #333;
+    
+}
+h2,ul,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+}
+span{
+    display: inline-block;
+}
+.fir{
+    background-color: #f2f2f2;
+    height: 44px;
+    padding: 0 11px;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fir a:nth-of-type(1){
+    height: 23px;
+}
+.fir img{
+    width: 1.44rem;
+    height: 1.44rem;
+}
+.fir a:nth-of-type(2){
+    width: 1.44rem;
+    height: 1.44rem;
+    background: url('../img/search.png') no-repeat;
+}
+#banner>img{
+    width: 100%;
+}
+.bd{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.four{
+    height: 40px;
+    font-size: 16px;
+    color: #444;
+    display: flex;
+    align-items: center;
+    padding: 10.4px;
+}
+.five-1::after,.five-2::after{
+    content:'';
+    background-image: url('../img/arrow_3c64abd.png');
+    background-repeat: no-repeat;
+    background-size: 7px 12px;
+    width: 7px;
+    height: 12px;
+    display: inline-block;
+    position: absolute;
+    top: 33%;
+    right: 5px;
+}
+.five-1{
+    border-bottom: 1px solid #f2f2f2;
+    position: relative;
+}
+.five-2{
+    position: relative;
+    border-bottom: 1px solid #f2f2f2;
+}
+.five-3{
+    border: none;
+}
+.line{
+    height: 10px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.kf{
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    padding: 15.6px 0;
+}
+footer{
+    height: 47px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #e0e0e0;
+}
+footer ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+footer ul li{
+    width: 25%;
+    height: 100%;
+    /*border: 1px solid #000;*/
+}
+footer ul li a{
+    width: 100%;
+    height: 100%;
+    padding: 6px 0;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+.spr{
+    margin: 0 auto;
+    width: 21px;
+    height: 21px;
+    background: url('../img/spr1_5b2e09c.png') no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 -147px;
+}
+.spr-1{
+    background-position: 0 -21px;
+}
+.spr-2{
+    background-position: 0 -63px;
+}
+.spr-3{
+    background-position: 0 -84px;
+}

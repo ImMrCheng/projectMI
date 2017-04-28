@@ -1,0 +1,2022 @@
+   body {
+            margin: 0;
+            padding: 0;
+            width: 375px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .zhengti {
+            width: 375px;
+            /*height: 667px;*/
+            border: 1px solid lightgrey;
+            padding-bottom: 50px;
+        }
+        
+        nav {
+            width: 375px;
+            height: 43px;
+            padding: 8px 0;
+            /*background-color: rgba(229.231, 53, 0);*/
+            box-sizing: border-box;
+            /*background-color: #e2e2e2;*/
+            display: flex;
+            position: fixed;
+            z-index: 100;
+        }
+        
+        .toubu1 {
+            width: 26px;
+            height: 16px;
+            margin: 0 13px;
+        }
+        
+        .toubu1>img {
+            width: 100%;
+            vertical-align: middle;
+        }
+        
+        .toubu2 {
+            width: 270px;
+            height: 27px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        .toubu2>img{
+            width: 15px;
+            height: 15px;
+            margin:6px 6px; 
+        }
+        .toubu2>a {
+            width: 270px;
+            height: 29px;
+            /*border: 1px solid #000;*/
+            display: inline-block;
+            padding: 6px 31px 5px 31px;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 12px;
+            color: lightgrey;
+        }
+        
+        .toubu3 {
+            display: inline-block;
+            width: 80px;
+            height: 15px;
+        }
+        
+        .toubu4 {
+            width: 52px;
+            height: 19px;
+            /*border: 1px solid #000;*/
+            box-sizing: border-box;
+            font-size: 13px;
+            margin-top: 3px;
+        }
+        
+        .toubu4>span {
+            display: inline-block;
+            width: 28px;
+            height: 19px;
+            margin: 0 12px;
+            color: white;
+        }
+        
+        #carousel-example-generic {
+            width: 375px;
+            height: 266px;
+            /*border: 1px solid #000;*/
+            /*margin-top: -43px;*/
+            background-color: gray;
+        }
+        
+        .carousel-inner img {
+            width: 100%;
+        }
+        
+        .shengti1 {
+            width: 375px;
+            height: 42px;
+            border: 1px solid lightgray;
+            background-color: #ffffff;
+            display: flex;
+        }
+        
+        .shengti2 {
+            width: 78px;
+            height: 39px;
+        }
+        
+        .shengti2 img {
+            width: 100%;
+            /*vertical-align: middle;*/
+        }
+        
+        .shengti3 {
+            width: 223px;
+            height: 14px;
+            margin: 12px 0 12px 10px;
+            padding-left: 10px;
+            border-left: 1px solid gray;
+            font-size: 13px;
+        }
+        
+        .tupain {
+            width: 375px;
+            /*height: 410px;*/
+            border: 1px solid lightgrey;
+            box-sizing: border-box;
+            overflow: hidden;
+            /*display: flex;*/
+        }
+        
+        .tupian2>a>img {
+            width: 186px;
+            height: 264px;
+            float: left;
+        }
+        
+        .tupian3>a>img {
+            width: 186px;
+            height: 131px;
+            margin-bottom: 1px;
+        }
+        
+        .tupian4>a>img {
+            width: 186px;
+            height: 131px;
+        }
+        
+        .tupian5>a>img {
+            width: 375px;
+            height: 145px;
+        }
+        
+        .tupian6>a>img {
+            width: 375px;
+            height: 229px;
+        }
+        
+        .tupian7 {
+            width: 375px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian7>.left {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian7>.left>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian7>.right {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian7>.right>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian7>.left>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian7>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian7>.right>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian7>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian8 {
+            width: 375px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian8>.left {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian8>.left>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian8>.right {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian8>.right>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian8>.left>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian8>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian8>.right>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian8>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian9 {
+            width: 375px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian9>.left {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian9>.left>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian9>.right {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian9>.right>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian9>.left>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian9>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian9>.right>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian9>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian10>a>img {
+            width: 375px;
+            height: 145px;
+        }
+        
+        .tupian11>a>img {
+            width: 375px;
+            height: 229px;
+        }
+        
+        .tupian12 {
+            width: 375px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian12>.left {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian12>.left>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian12>.right {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian12>.right>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian12>.left>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian12>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian12>.right>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian12>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian13 {
+            width: 375px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian13>.left {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian13>.left>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian13>.right {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian13>.right>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian13>.left>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian13>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian13>.right>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian13>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian14 {
+            width: 375px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian14>.left {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian14>.left>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian14>.right {
+            width: 182px;
+            height: 257px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian14>.right>a>img {
+            width: 182px;
+            height: 179px;
+        }
+        
+        .tupian14>.left>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian14>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian14>.right>.bottom {
+            width: 182px;
+            height: 78px;
+            padding: 10px 14px;
+        }
+        
+        .tupian14>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian15 {
+            width: 375px;
+            height: 52px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian15>p {
+            margin: 15px auto;
+            text-align: center;
+        }
+        
+        .tupian16 {
+            width: 375px;
+            height: 145px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian16>a>img {
+            width: 375px;
+            height: 145px;
+        }
+        .tupian17>a>img{
+            width: 375px;
+            height: 230px;
+        }
+        .tupian18{
+            width: 375px;
+            height: 187px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        .tupian18>.left>a>img{
+            width: 187px;
+            height: 187px;
+        }
+        .tupian18>.right{
+            width: 187px;
+            height: 187px;
+            /*border: 1px solid #000;*/
+        }
+        .tupian18>.right>.bottom{
+             width: 187px;
+            height: 187px;
+            padding: 33px 6px 0 16px;
+        }
+        .tupian18>.right>.bottom>p{
+             margin: 0;
+        }
+        .tupian19{
+            width: 375px;
+            height: 187px;
+            display: flex;
+        }
+        .tupian19>.left{
+            width: 187px;
+            height: 187px;
+            /*border: 1px solid #000;*/
+        }
+          .tupian19>.left>.bottom{
+             width: 187px;
+            height: 187px;
+            padding: 33px 6px 0 16px;
+        }
+        .tupian19>.left>.bottom>p{
+             margin: 0;
+        }
+        .tupian19>.right>a>img{
+            width: 187px;
+            height: 187px;
+        }
+         .tupian20 {
+            width: 375px;
+            height: 52px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian20>p {
+            margin: 15px auto;
+            text-align: center;
+        }
+        .tupian21{
+            width: 375px;
+            height: 750px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+       .tupian21>.left{
+            width: 187px;
+            height: 750px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+          }
+        .tupian21>.left>.left1>a>img{
+             width: 187px;
+            height: 250px;
+        }
+         .tupian21>.left>.left2>a>img{
+             width: 187px;
+            height: 250px;
+        }
+         .tupian21>.left>.left3>a>img{
+             width: 187px;
+            height: 250px;
+        }
+        .tupian21>.right{
+            width: 187px;
+            height: 750px;
+            /*border: 1px solid #000;*/
+          }
+        .tupian21>.right>.right1>a>img{
+             width: 187px;
+            height: 250px;
+        }
+         .tupian21>.right>.right2>a>img{
+             width: 187px;
+            height: 250px;
+        }
+         .tupian21>.right>.right3>a>img{
+             width: 187px;
+            height: 250px;
+        }
+        .tupian22>a>img{
+          width: 375px;
+          height: 63px;
+        }
+        .tupian23>a>img{
+            width: 375px;
+            height: 42px;
+        }
+        .tupian24{
+            width: 375px;
+            height: 189px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        .tupian24>.left{
+            width: 250px;
+            height: 189px;
+        }
+        .tupian24>.right{
+            width: 125px;
+            height: 189px;
+        }
+        .tupian24>.left>a>img{
+            width: 250px;
+            height: 125px;
+        }
+        .tupian24>.right>a>img{
+            width: 125px;
+            height: 125px;
+        }
+        .tupian24>.left>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+         .tupian24>.right>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian24>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian24>.right>.bottom>p{
+              margin: 0;
+        }
+    
+         .tupian25{
+            width: 375px;
+            height: 189px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        tupian25>.left{
+            width: 125px;
+            height: 189px;
+        }
+         .tupian25>.right{
+            width: 250px;
+            height: 189px;
+        }
+         .tupian25>.left>a>img{
+            width: 125px;
+            height: 125px;
+            background-image: url(../img/包邮.webp);
+        }
+         .tupian25>.left>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian25>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian25>.right>a>img{
+            width: 250px;
+            height: 125px;
+        }
+        .tupian25>.right>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+          .tupian25>.right>.bottom>p{
+              margin: 0;
+        }
+        .tupian26>a>img{
+            width: 375px;
+            height: 375px;
+        }
+         .tupian27{
+            width: 375px;
+            height: 59px;
+            padding: 10px 14px;
+         }
+         .tupian27>.top{
+             display: flex;
+             width: 345px;
+             height: 20px;
+             justify-content: space-between;
+         }
+         .tupian27>.bottom{
+             width: 345px;
+             height: 16px;
+         }
+         .tupian27>.bottom{
+             margin-top: 3px;
+         }
+         .xuxian{
+             width: 100%;
+             height: 0;
+             border: 4px solid #f5f5f5;
+         }
+         .tupian28>a>img{
+             width: 375px;
+             height: 41px;
+         }
+         .tupian29{
+             width: 375px;
+             height: 189px;
+             /*border: 1px solid #000;*/
+             display: flex;
+         }
+          .tupian29>.left{
+            width: 250px;
+            height: 189px;
+        }
+        .tupian29>.right{
+            width: 125px;
+            height: 189px;
+        }
+        .tupian29>.left>a>img{
+            width: 250px;
+            height: 125px;
+        }
+        .tupian29>.right>a>img{
+            width: 125px;
+            height: 125px;
+        }
+        .tupian29>.left>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+         .tupian29>.right>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian29>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian29>.right>.bottom>p{
+              margin: 0;
+        }
+        .tupian30{
+            width: 375px;
+            height: 189px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+         tupian30>.left{
+            width: 125px;
+            height: 189px;
+        }
+         .tupian30>.right{
+            width: 250px;
+            height: 189px;
+        }
+         .tupian30>.left>a>img{
+            width: 125px;
+            height: 125px;
+            background-image: url(../img/包邮.webp);
+        }
+         .tupian30>.left>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian30>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian30>.right>a>img{
+            width: 250px;
+            height: 125px;
+        }
+        .tupian30>.right>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+          .tupian30>.right>.bottom>p{
+              margin: 0;
+        }
+        .tupian31>a>img{
+           width: 375px;
+           height: 375px;
+        }
+         .tupian32{
+            width: 375px;
+            height: 59px;
+            padding: 10px 14px;
+         }
+         .tupian32>.top{
+             display: flex;
+             width: 345px;
+             height: 20px;
+             justify-content: space-between;
+         }
+         .tupian32>.bottom{
+             width: 345px;
+             height: 16px;
+         }
+         .tupian32>.bottom{
+             margin-top: 3px;
+         }
+         .tupian33>a>img{
+             width: 375px;
+             height: 41px;
+         }
+        .tupian34>a>img{
+            width: 375px;
+            height: 188px;
+        }
+         .tupian35{
+            width: 375px;
+            height: 59px;
+            padding: 10px 14px;
+         }
+         .tupian35>.top{
+             display: flex;
+             width: 345px;
+             height: 20px;
+             justify-content: space-between;
+         }
+         .tupian35>.bottom{
+             width: 345px;
+             height: 16px;
+         }
+         .tupian35>.bottom{
+             margin-top: 3px;
+         }
+         .tupian36 {
+            width: 375px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian36>.left {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian36>.left>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian36>.right {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian36>.right>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian36>.left>.bottom {
+            width: 187px;
+            height: 83px;
+            padding: 10px 14px;
+        }
+        
+        .tupian36>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian36>.right>.bottom {
+            width: 187px;
+            height: 82px;
+            padding: 10px 14px;
+        }
+        
+        .tupian36>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+         .tupian37 {
+            width: 375px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian37>.left {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian37>.left>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian37>.right {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian37>.right>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian37>.left>.bottom {
+            width: 187px;
+            height: 83px;
+            padding: 10px 14px;
+        }
+        
+        .tupian37>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian37>.right>.bottom {
+            width: 187px;
+            height: 82px;
+            padding: 10px 14px;
+        }
+        
+        .tupian37>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+        .tupian38>a>img{
+         width: 375px;
+         height: 41px;
+        }
+        .tupian39 {
+            width: 375px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian39>.left {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian39>.left>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian39>.right {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian39>.right>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian39>.left>.bottom {
+            width: 187px;
+            height: 83px;
+            padding: 10px 14px;
+        }
+        
+        .tupian39>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian39>.right>.bottom {
+            width: 187px;
+            height: 82px;
+            padding: 10px 14px;
+        }
+        
+        .tupian39>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+         .tupian40 {
+            width: 375px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian40>.left {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian40>.left>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian40>.right {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian40>.right>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian40>.left>.bottom {
+            width: 187px;
+            height: 83px;
+            padding: 10px 14px;
+        }
+        
+        .tupian40>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian40>.right>.bottom {
+            width: 187px;
+            height: 82px;
+            padding: 10px 14px;
+        }
+        
+        .tupian40>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+        .tupian41 {
+            width: 375px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian41>.left {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian41>.left>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian41>.right {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian41>.right>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian41>.left>.bottom {
+            width: 187px;
+            height: 83px;
+            padding: 10px 14px;
+        }
+        
+        .tupian41>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian41>.right>.bottom {
+            width: 187px;
+            height: 82px;
+            padding: 10px 14px;
+        }
+        
+        .tupian41>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+        .tupian42>a>img{
+            width: 375px;
+            height: 41px;
+        }
+        .tupian43>a>img{
+            width: 375px;
+            height: 375px;
+        }
+         .tupian44{
+            width: 375px;
+            height: 59px;
+            padding: 10px 14px;
+         }
+         .tupian44>.top{
+             display: flex;
+             width: 345px;
+             height: 20px;
+             justify-content: space-between;
+         }
+         .tupian44>.bottom{
+             width: 345px;
+             height: 16px;
+         }
+         .tupian44>.bottom{
+             margin-top: 3px;
+         }
+          .tupian45{
+            width: 375px;
+            height: 230px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+         tupian45>.left{
+            width: 125px;
+            height: 230px;
+        }
+         .tupian45>.right{
+            width: 250px;
+            height: 230px;
+        }
+         .tupian45>.left>a>img{
+            width: 125px;
+            height: 166px;
+            background-image: url(../img/包邮.webp);
+        }
+         .tupian45>.left>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian45>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian45>.right>a>img{
+            width: 250px;
+            height: 166px;
+        }
+        .tupian45>.right>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+          .tupian45>.right>.bottom>p{
+              margin: 0;
+        }
+          .tupian46{
+             width: 375px;
+             height: 230px;
+             /*border: 1px solid #000;*/
+             display: flex;
+         }
+          .tupian46>.left{
+            width: 250px;
+            height: 230px;
+        }
+        .tupian46>.right{
+            width: 125px;
+            height: 230px;
+        }
+        .tupian46>.left>a>img{
+            width: 250px;
+            height: 166px;
+        }
+        .tupian46>.right>a>img{
+            width: 125px;
+            height: 166px;
+        }
+        .tupian46>.left>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+         .tupian46>.right>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian46>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian46>.right>.bottom>p{
+              margin: 0;
+        }
+        .tupian47>a>img{
+            width: 375px;
+            height: 41px;
+        }
+         .tupian48{
+             width: 375px;
+             height: 230px;
+             /*border: 1px solid #000;*/
+             display: flex;
+         }
+          .tupian48>.left{
+            width: 250px;
+            height: 230px;
+        }
+        .tupian48>.right{
+            width: 125px;
+            height: 230px;
+        }
+        .tupian48>.left>a>img{
+            width: 250px;
+            height: 166px;
+        }
+        .tupian48>.right>a>img{
+            width: 125px;
+            height: 166px;
+        }
+        .tupian48>.left>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+         .tupian48>.right>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian48>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian48>.right>.bottom>p{
+              margin: 0;
+        }
+           .tupian49{
+            width: 375px;
+            height: 230px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+         tupian49>.left{
+            width: 125px;
+            height: 230px;
+        }
+         .tupian49>.right{
+            width: 250px;
+            height: 230px;
+        }
+         .tupian49>.left>a>img{
+            width: 125px;
+            height: 166px;
+            background-image: url(../img/包邮.webp);
+        }
+         .tupian49>.left>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian49>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian49>.right>a>img{
+            width: 250px;
+            height: 166px;
+        }
+        .tupian49>.right>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+          .tupian49>.right>.bottom>p{
+              margin: 0;
+        }
+        .tupian50>a>img{
+            width: 375px;
+            height: 41px;
+        }
+        .tupian51>a>img{
+            width: 375px;
+            height: 250px;
+        }
+         .tupian52{
+            width: 375px;
+            height: 59px;
+            padding: 10px 14px;
+         }
+         .tupian52>.top{
+             display: flex;
+             width: 345px;
+             height: 20px;
+             justify-content: space-between;
+         }
+         .tupian52>.bottom{
+             width: 345px;
+             height: 16px;
+         }
+         .tupian52>.bottom{
+             margin-top: 3px;
+         }
+          .tupian53{
+             width: 375px;
+             height: 189px;
+             /*border: 1px solid #000;*/
+             display: flex;
+         }
+          .tupian53>.left{
+            width: 250px;
+            height: 189px;
+        }
+        .tupian53>.right{
+            width: 125px;
+            height: 189px;
+        }
+        .tupian53>.left>a>img{
+            width: 250px;
+            height: 125px;
+        }
+        .tupian53>.right>a>img{
+            width: 125px;
+            height: 125px;
+        }
+        .tupian53>.left>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+         .tupian53>.right>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian53>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian53>.right>.bottom>p{
+              margin: 0;
+        }
+          .tupian54{
+             width: 375px;
+             height: 189px;
+             /*border: 1px solid #000;*/
+             display: flex;
+         }
+          .tupian54>.left{
+            width: 250px;
+            height: 189px;
+        }
+        .tupian54>.right{
+            width: 125px;
+            height: 189px;
+        }
+        .tupian54>.left>a>img{
+            width: 250px;
+            height: 125px;
+        }
+        .tupian54>.right>a>img{
+            width: 125px;
+            height: 125px;
+        }
+        .tupian54>.left>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+         .tupian54>.right>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian54>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian54>.right>.bottom>p{
+              margin: 0;
+        }
+         .tupian55>a>img{
+            width: 375px;
+            height: 41px;
+        }
+         .tupian56 {
+            width: 375px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian56>.left {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian56>.left>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian56>.right {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian56>.right>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian56>.left>.bottom {
+            width: 187px;
+            height: 83px;
+            padding: 10px 14px;
+        }
+        
+        .tupian56>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian56>.right>.bottom {
+            width: 187px;
+            height: 82px;
+            padding: 10px 14px;
+        }
+        
+        .tupian56>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+         .tupian57 {
+            width: 375px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian57>.left {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian57>.left>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian57>.right {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian57>.right>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian57>.left>.bottom {
+            width: 187px;
+            height: 83px;
+            padding: 10px 14px;
+        }
+        
+        .tupian57>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian57>.right>.bottom {
+            width: 187px;
+            height: 82px;
+            padding: 10px 14px;
+        }
+        
+        .tupian57>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+        .tupian58>a>img{
+             width: 375px;
+             height: 250px;
+        }
+         .tupian59{
+            width: 375px;
+            height: 59px;
+            padding: 10px 14px;
+         }
+         .tupian59>.top{
+             display: flex;
+             width: 345px;
+             height: 20px;
+             justify-content: space-between;
+         }
+         .tupian59>.bottom{
+             width: 345px;
+             height: 16px;
+         }
+         .tupian59>.bottom{
+             margin-top: 3px;
+         }
+          .tupian60>a>img{
+            width: 375px;
+            height: 41px;
+        }
+         .tupian61{
+            width: 375px;
+            height: 189px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+         tupian61>.left{
+            width: 125px;
+            height: 189px;
+        }
+         .tupian61>.right{
+            width: 250px;
+            height: 189px;
+        }
+         .tupian61>.left>a>img{
+            width: 125px;
+            height: 125px;
+            background-image: url(../img/包邮.webp);
+        }
+         .tupian61>.left>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian61>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian61>.right>a>img{
+            width: 250px;
+            height: 125px;
+        }
+        .tupian61>.right>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+          .tupian61>.right>.bottom>p{
+              margin: 0;
+        }
+         .tupian62{
+             width: 375px;
+             height: 189px;
+             /*border: 1px solid #000;*/
+             display: flex;
+         }
+          .tupian62>.left{
+            width: 250px;
+            height: 189px;
+        }
+        .tupian62>.right{
+            width: 125px;
+            height: 189px;
+        }
+        .tupian62>.left>a>img{
+            width: 250px;
+            height: 125px;
+        }
+        .tupian62>.right>a>img{
+            width: 125px;
+            height: 125px;
+        }
+        .tupian62>.left>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+         .tupian62>.right>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian62>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian62>.right>.bottom>p{
+              margin: 0;
+        }
+        .tupian63>a>img{
+            width: 375px;
+            height: 375px;
+        }
+         .tupian64{
+            width: 375px;
+            height: 59px;
+            padding: 10px 14px;
+         }
+         .tupian64>.top{
+             display: flex;
+             width: 345px;
+             height: 20px;
+             justify-content: space-between;
+         }
+         .tupian64>.bottom{
+             width: 345px;
+             height: 16px;
+         }
+         .tupian64>.bottom{
+             margin-top: 3px;
+         }
+        .tupian65>a>img{
+            width: 375px;
+            height: 41px;
+        }
+          .tupian66{
+            width: 375px;
+            height: 230px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+         tupian66>.left{
+            width: 125px;
+            height: 230px;
+        }
+         .tupian66>.right{
+            width: 250px;
+            height: 230px;
+        }
+         .tupian66>.left>a>img{
+            width: 125px;
+            height: 166px;
+            background-image: url(../img/包邮.webp);
+        }
+         .tupian66>.left>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian66>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian66>.right>a>img{
+            width: 250px;
+            height: 166px;
+        }
+        .tupian66>.right>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+          .tupian66>.right>.bottom>p{
+              margin: 0;
+        }
+        .tupian67>a>img{
+            width: 375px;
+            height: 250px;
+        }
+         .tupian68{
+            width: 375px;
+            height: 59px;
+            padding: 10px 14px;
+         }
+         .tupian68>.top{
+             display: flex;
+             width: 345px;
+             height: 20px;
+             justify-content: space-between;
+         }
+         .tupian68>.bottom{
+             width: 345px;
+             height: 16px;
+         }
+         .tupian68>.bottom{
+             margin-top: 3px;
+         }
+             .tupian69{
+             width: 375px;
+             height: 230px;
+             /*border: 1px solid #000;*/
+             display: flex;
+         }
+          .tupian69>.left{
+            width: 250px;
+            height: 230px;
+        }
+        .tupian69>.right{
+            width: 125px;
+            height: 230px;
+        }
+        .tupian69>.left>a>img{
+            width: 250px;
+            height: 166px;
+        }
+        .tupian69>.right>a>img{
+            width: 125px;
+            height: 166px;
+        }
+        .tupian69>.left>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+         .tupian69>.right>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian69>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian69>.right>.bottom>p{
+              margin: 0;
+        }
+          .tupian70>a>img{
+            width: 375px;
+            height: 41px;
+        }
+            .tupian71>a>img{
+            width: 375px;
+            height: 375px;
+        }
+         .tupian72{
+            width: 375px;
+            height: 59px;
+            padding: 10px 14px;
+         }
+         .tupian72>.top{
+             display: flex;
+             width: 345px;
+             height: 20px;
+             justify-content: space-between;
+         }
+         .tupian72>.bottom{
+             width: 345px;
+             height: 16px;
+         }
+         .tupian72>.bottom{
+             margin-top: 3px;
+         }
+           .tupian73 {
+            width: 375px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian73>.left {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian73>.left>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian73>.right {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian73>.right>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian73>.left>.bottom {
+            width: 187px;
+            height: 83px;
+            padding: 10px 14px;
+        }
+        
+        .tupian73>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian73>.right>.bottom {
+            width: 187px;
+            height: 82px;
+            padding: 10px 14px;
+        }
+        
+        .tupian73>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+        .tupian74>a>img{
+            width: 375px;
+            height: 41px;
+        }
+        .tupian75>a>img{
+            width: 375px;
+            height: 375px;
+        }
+         .tupian76{
+            width: 375px;
+            height: 59px;
+            padding: 10px 14px;
+         }
+         .tupian76>.top{
+             display: flex;
+             width: 345px;
+             height: 20px;
+             justify-content: space-between;
+         }
+         .tupian76>.bottom{
+             width: 345px;
+             height: 16px;
+         }
+         .tupian76>.bottom{
+             margin-top: 3px;
+         }
+           .tupian77{
+             width: 375px;
+             height: 189px;
+             /*border: 1px solid #000;*/
+             display: flex;
+         }
+           .tupian77>.left{
+            width: 250px;
+            height: 189px;
+        }
+        .tupian77>.right{
+            width: 125px;
+            height: 189px;
+        }
+        .tupian77>.left>a>img{
+            width: 250px;
+            height: 125px;
+        }
+        .tupian77>.right>a>img{
+            width: 125px;
+            height: 125px;
+        }
+        .tupian77>.left>.bottom{
+            width: 250px;
+            height: 64px;
+            padding: 10px 14px;
+            /*border: 1px solid #000;*/
+        }
+         .tupian77>.right>.bottom{
+            width:125px;
+            height: 64px;
+             padding: 10px 14px;
+              /*border: 1px solid #000;*/
+        }
+        .tupian77>.left>.bottom>p{
+              margin: 0;
+        }
+        .tupian77>.right>.bottom>p{
+              margin: 0;
+        }
+        .tupian78>a>img{
+            width: 375px;
+            height: 41px;
+        }
+          .tupian79 {
+            width: 375px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian79>.left {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian79>.left>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian79>.right {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian79>.right>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian79>.left>.bottom {
+            width: 187px;
+            height: 83px;
+            padding: 10px 14px;
+        }
+        
+        .tupian79>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian79>.right>.bottom {
+            width: 187px;
+            height: 82px;
+            padding: 10px 14px;
+        }
+        
+        .tupian79>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+          .tupian799 {
+            width: 375px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            display: flex;
+        }
+        
+        .tupian799>.left {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+            margin-right: 1px;
+        }
+        
+        .tupian799>.left>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian799>.right {
+            width: 187px;
+            height: 270px;
+            /*border: 1px solid #000;*/
+        }
+        
+        .tupian799>.right>a>img {
+            width: 187px;
+            height: 187px;
+        }
+        
+        .tupian799>.left>.bottom {
+            width: 187px;
+            height: 83px;
+            padding: 10px 14px;
+        }
+        
+        .tupian799>.left>.bottom>p {
+            margin-bottom: 0px;
+        }
+        
+        .tupian799>.right>.bottom {
+            width: 187px;
+            height: 82px;
+            padding: 10px 14px;
+        }
+        
+        .tupian799>.right>.bottom>p {
+            margin-bottom: 0px;
+        }
+ footer{
+    width: 375px;
+    height: 47px;
+    border: 1px solid lightgray;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    
+}
+footer ul{
+    width: 318px;
+    height: 47px;
+    /*border: 1px solid #000;*/
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a{
+    color: black;
+}
+footer ul li{
+list-style: none;
+}
+footer ul li>a>div{
+    width: 20px;
+    height: 20px;
+    /*border: 1px solid #000;*/
+    margin: 0 6px 0px 4px;
+   
+}
+.yi{
+ background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0 -120px;
+}
+.er{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 1px -20px;
+}
+.san{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0px -60px;
+}
+.si{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0px -100px;
+}
