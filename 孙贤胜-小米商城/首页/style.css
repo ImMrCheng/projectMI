@@ -549,6 +549,9 @@ footer>div:nth-child(1) a div{
     background-size: 100%;
     background-position: 0 -120px;
 }
+footer>div:nth-child(1) a p{
+    color: #ff6d15;
+}
 footer>div:nth-child(2) a:hover div{
     background-image: url(小米图片/jinglingtu.png);
     width: 20px;

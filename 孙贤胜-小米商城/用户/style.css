@@ -225,6 +225,9 @@ footer>div:nth-child(4) a div{
     background-size: 100%;
     background-position: 0 -80px;
 }
+footer>div:nth-child(4) a p{
+    color: #ff6d15;
+}
 footer>div:nth-child(3) a div{
     background-image: url(小米图片/jinglingtu.png);
     width: 20px;
