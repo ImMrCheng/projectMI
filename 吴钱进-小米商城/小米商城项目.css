@@ -12,6 +12,7 @@
             width: 375px;
             /*height: 667px;*/
             border: 1px solid lightgrey;
+            padding-bottom: 50px;
         }
         
         nav {
@@ -40,10 +41,14 @@
         .toubu2 {
             width: 270px;
             height: 27px;
-            background-image: url(../img/search_bfba941.png);
             background-color: #fff;
+            border-radius: 5px;
         }
-        
+        .toubu2>img{
+            width: 15px;
+            height: 15px;
+            margin:6px 6px; 
+        }
         .toubu2>a {
             width: 270px;
             height: 29px;
@@ -1963,64 +1968,55 @@
         .tupian799>.right>.bottom>p {
             margin-bottom: 0px;
         }
-        footer {
-            width: 375px;
-            height: 46px;
-            margin: 0;
-            position: fixed;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: white;
-        }
-        
-        ul {
-            width: 375px;
-            height: 46px;
-            /*border: 1px solid #000;*/
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        
-        ul>li {
-            list-style: none;
-            width: 93.75px;
-            height: 46px;
-            float: left;
-            line-height: 46px;
-            text-align: center;
-           font-size: 11px;
-        }
-        
-        ul>li>a {
-            width: 93.75px;
-            height: 46px;
-            padding: 6px 0;
-        }
-        /*ul>li>a>div{
-            width: 93.75px;
-            height: 34px;
-        }*/
-         /*ul>li>a>div>section{
-             width: 20px;
-             height: 20px;
-             margin: 0 36.875px
-         }*/
-   /*ul>li>a>div>p{
-       width: 93.75px;
-       height: 9px;
-       margin: 0;
-   }*/
-        footer>ul>li>a{
-            color: #999999;
-            text-decoration: none;
-        }
-        
-        .yejiao1>section {
-            background-color: #f66a00;
-        }
-        
-        .yejiao1>a {
-            color: #f66a00;
-        }
+ footer{
+    width: 375px;
+    height: 47px;
+    border: 1px solid lightgray;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    
+}
+footer ul{
+    width: 318px;
+    height: 47px;
+    /*border: 1px solid #000;*/
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a{
+    color: black;
+}
+footer ul li{
+list-style: none;
+}
+footer ul li>a>div{
+    width: 20px;
+    height: 20px;
+    /*border: 1px solid #000;*/
+    margin: 0 6px 0px 4px;
+   
+}
+.yi{
+ background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0 -120px;
+}
+.er{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 1px -20px;
+}
+.san{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0px -60px;
+}
+.si{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0px -100px;
+}

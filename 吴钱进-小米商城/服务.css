@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+.zhengti{
+     width: 375px;
+     height: 667px;
+     border: 1px solid lightgray;
+}
+.header{
+    width: 375px;
+    height: 44px;
+    padding: 0 10px;
+    /*border: 1px solid #000;*/
+    display: flex;
+    background-color: #f2f2f2;
+   text-align: center;
+   line-height: 44px;
+}
+.header>.left>a>img{
+    width: 23px;
+    height: 23px;
+}
+.header>.center{
+    width: 375px;
+    height: 44px;
+    margin: 0;
+    color: #868686;
+}
+.header>.right{
+    width: 22px;
+    height: 23px;
+   
+}
+.header>.right>a>img{
+    width: 22px;
+    height: 23px;
+}
+.tupian>a>img{
+    width: 375px;
+    height: 105px;
+}
+.lb{
+    width: 375px;
+    height: 42px;
+    border-bottom: 1px solid #f6f6f6;
+    padding: 10px 10px;
+   display: flex;
+   justify-content: space-between
+}
+.lb img{
+    width: 12px;
+    height: 12px;
+    margin-right: 2px;
+}
+.xx{
+      width: 375px;
+      border: 4px solid #f6f6f6;
+}
+.kd{
+    width: 375px;
+    height: 220px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+footer{
+    width: 375px;
+    height: 47px;
+    border: 1px solid lightgray;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    
+}
+footer ul{
+    width: 318px;
+    height: 47px;
+    /*border: 1px solid #000;*/
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a{
+    color: black;
+}
+footer ul li{
+list-style: none;
+}
+footer ul li>a>div{
+    width: 20px;
+    height: 20px;
+    /*border: 1px solid #000;*/
+    margin: 0 6px 0px 4px;
+   
+}
+.yi{
+ background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0 -140px;
+}
+.er{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 1px -20px;
+}
+.san{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0px -60px;
+}
+.si{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0px -80px;
+}

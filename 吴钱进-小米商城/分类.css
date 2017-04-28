@@ -4,6 +4,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 .zhengti{
     width: 375px;
@@ -41,11 +42,11 @@ a{
     width: 22px;
     height: 23px;
 }
-.er{
+/*.er{
     width: 375px;
     height: 39px;
-    /*border-bottom: 7px solid darkgray;*/
-}
+
+}*/
 .er>ul{
     float: left;
      width: 375px;
@@ -190,51 +191,53 @@ text-align: center;
    /*border: 1px solid #000;*/
 }
 footer{
-    position: fixed;
-background-color: #fff;
-bottom: 0;
-
-}
-footer>ul{
     width: 375px;
     height: 47px;
-    border: 1px solid #000;
-    padding: 0;
-    margin: 0;
-    float: left;
+    border: 1px solid lightgray;
+   position: fixed;
+   bottom: 0;
+   background-color: #fff;
 }
-footer>ul>li{
-    float: left;
-    width: 93px;
+footer ul{
+    width: 318px;
     height: 47px;
+    /*border: 1px solid #000;*/
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul li{
 list-style: none;
 }
-footer>ul>li>a{
-    text-decoration: none;
-    text-align: center;
-  display: flex;
-  color: darkgray;
+footer a{
+    color: black;
 }
-footer>ul>li>a>.yejiao{
-    width: 93px;
-    height: 33px;
-    /*border: 1px solid #000;*/
-    margin: 7px 0;
-   
-  
-}
-footer>ul>li>a>.yejiao>div{
+footer ul li>a>div{
     width: 20px;
     height: 20px;
-    border: 1px solid #000;
-    margin: 0 36.5px 0px 36.5px;
-     background-image: url(../img/spr1_5b2e09c.png);
-    background-size:100% 800% ;
-    background-position: 100% -100%;
+    /*border: 1px solid #000;*/
+    margin: 0 6px 0px 4px;
+   
 }
-footer>ul>li>a>.yejiao>p{
-    margin: 0;
-    display: inline-block;
-    height: 9px;
-    width: 93px;
+.yi{
+ background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0 -140px;
+}
+.er{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 1px -20px;
+}
+.san{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0px -60px;
+}
+.si{
+    background-image: url(img/spr1_5b2e09c.png);
+    background-size:100% 800% ;
+    background-position: 0px -80px;
 }
