@@ -2,6 +2,7 @@
 body{
     margin: 0;
     background-color: #f2f2f2;
+    position: relative;
 }
 ul,li,p{
     margin: 0;
@@ -148,4 +149,7 @@ aside{
 }
 aside img{
     width: 100%;
+
 }
+
+    

@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    
 }
 body{
     margin: 0;
@@ -97,16 +96,15 @@ main{
     background:url('../img/arrow_3c64abd.png') no-repeat;
     background-size: 100%;
     position: absolute;
-    bottom:-10px;
-    right: 0px;
+    bottom:40%;
+    right: 5px;
     display: inline-block;
 }
 .aft-1::after{
-    top: 0%;
+   
 }
 .aft-2::after{
-    bottom: 0;
-    right: -20px;
+    right: 0px;
 }
 .xia>div{
     color: #757575;
@@ -290,7 +288,7 @@ main{
     padding-left: 3px;
 }
 footer{
-    width: 100%;
+    width: 100vw;
     height: 48px;
     display: flex;
     background-color: #efeff0;
